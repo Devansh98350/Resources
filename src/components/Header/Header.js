@@ -109,6 +109,7 @@ const Header = (props) => {
                     className="nav-item"
                     style={{
                       marginRight: "25px",
+                      marginLeft: "25px",
                     }}
                   >
                     <NavLink
@@ -128,7 +129,7 @@ const Header = (props) => {
                       data-bs-toggle="dropdown"
                       style={{
                         border: "none",
-                        marginLeft: "25px",
+                        marginLeft: "33px",
                         marginRight: "25px",
                         color: "White",
                       }}
