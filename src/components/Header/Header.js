@@ -135,31 +135,249 @@ const Header = (props) => {
                       }}
                       aria-expanded="false"
                     >
-                      About
+                      Previous Year Question
                     </NavLink>
                     <ul className="dropdown-menu">
                       <li>
                         <NavLink
-                          to="/about-iit-academy"
+                          to="/pyq-jee-main-iit-academy"
                           className="dropdown-item"
                         >
                           <i
                             className="fas fa-angle-double-right"
                             style={{ color: "#f39c12", marginRight: "5px" }}
                           ></i>
-                          IIT Academy
+                          JEE-Main
                         </NavLink>
                       </li>
                       <li>
                         <NavLink
-                          to="/director-message-iit-academy"
+                          to="/pyq-jee-advanced-iit-academy"
                           className="dropdown-item"
                         >
                           <i
                             className="fas fa-angle-double-right"
                             style={{ color: "#f39c12", marginRight: "5px" }}
                           ></i>
-                          Welcome Message
+                          JEE_Advanced
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/pyq-neet-iit-academy"
+                          className="dropdown-item"
+                        >
+                          <i
+                            className="fas fa-angle-double-right"
+                            style={{ color: "#f39c12", marginRight: "5px" }}
+                          ></i>
+                          NEET
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/pyq-cbse-boards-iit-academy"
+                          className="dropdown-item"
+                        >
+                          <i
+                            className="fas fa-angle-double-right"
+                            style={{ color: "#f39c12", marginRight: "5px" }}
+                          ></i>
+                          CBSE Boards
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/pyq-ntse-iit-academy"
+                          className="dropdown-item"
+                        >
+                          <i
+                            className="fas fa-angle-double-right"
+                            style={{ color: "#f39c12", marginRight: "5px" }}
+                          ></i>
+                          NTSE
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/pyq-kvpy-iit-academy"
+                          className="dropdown-item"
+                        >
+                          <i
+                            className="fas fa-angle-double-right"
+                            style={{ color: "#f39c12", marginRight: "5px" }}
+                          ></i>
+                          KVPY
+                        </NavLink>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="nav-item dropdown hover">
+                    <NavLink
+                      className="nav-link dropdown-toggle"
+                      href=""
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      style={{
+                        border: "none",
+                        marginLeft: "33px",
+                        marginRight: "25px",
+                        color: "White",
+                      }}
+                      aria-expanded="false"
+                    >
+                      Exams
+                    </NavLink>
+                    <ul className="dropdown-menu">
+                      <li>
+                        <NavLink
+                          to="/exam-jee-main-iit-academy"
+                          className="dropdown-item"
+                        >
+                          <i
+                            className="fas fa-angle-double-right"
+                            style={{ color: "#f39c12", marginRight: "5px" }}
+                          ></i>
+                          JEE-Main
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/exam-jee-advanced-iit-academy"
+                          className="dropdown-item"
+                        >
+                          <i
+                            className="fas fa-angle-double-right"
+                            style={{ color: "#f39c12", marginRight: "5px" }}
+                          ></i>
+                          JEE_Advanced
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/exam-neet-iit-academy"
+                          className="dropdown-item"
+                        >
+                          <i
+                            className="fas fa-angle-double-right"
+                            style={{ color: "#f39c12", marginRight: "5px" }}
+                          ></i>
+                          NEET
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/exam-ntse-iit-academy"
+                          className="dropdown-item"
+                        >
+                          <i
+                            className="fas fa-angle-double-right"
+                            style={{ color: "#f39c12", marginRight: "5px" }}
+                          ></i>
+                          NTSE
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/exam-kvpy-iit-academy"
+                          className="dropdown-item"
+                        >
+                          <i
+                            className="fas fa-angle-double-right"
+                            style={{ color: "#f39c12", marginRight: "5px" }}
+                          ></i>
+                          KVPY
+                        </NavLink>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="nav-item dropdown hover">
+                    <NavLink
+                      className="nav-link dropdown-toggle"
+                      href=""
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      style={{
+                        border: "none",
+                        marginLeft: "33px",
+                        marginRight: "25px",
+                        color: "White",
+                      }}
+                      aria-expanded="false"
+                    >
+                      Syllabus
+                    </NavLink>
+                    <ul className="dropdown-menu">
+                      <li>
+                        <NavLink
+                          to="/syllabus-jee-main-iit-academy"
+                          className="dropdown-item"
+                        >
+                          <i
+                            className="fas fa-angle-double-right"
+                            style={{ color: "#f39c12", marginRight: "5px" }}
+                          ></i>
+                          JEE-Main
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/syllabus-jee-advanced-iit-academy"
+                          className="dropdown-item"
+                        >
+                          <i
+                            className="fas fa-angle-double-right"
+                            style={{ color: "#f39c12", marginRight: "5px" }}
+                          ></i>
+                          JEE_Advanced
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/syllabus-neet-iit-academy"
+                          className="dropdown-item"
+                        >
+                          <i
+                            className="fas fa-angle-double-right"
+                            style={{ color: "#f39c12", marginRight: "5px" }}
+                          ></i>
+                          NEET
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/syllabus-cbse-boards-iit-academy"
+                          className="dropdown-item"
+                        >
+                          <i
+                            className="fas fa-angle-double-right"
+                            style={{ color: "#f39c12", marginRight: "5px" }}
+                          ></i>
+                          CBSE Boards
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/syllabus-ntse-iit-academy"
+                          className="dropdown-item"
+                        >
+                          <i
+                            className="fas fa-angle-double-right"
+                            style={{ color: "#f39c12", marginRight: "5px" }}
+                          ></i>
+                          NTSE
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/syllabus-kvpy-iit-academy"
+                          className="dropdown-item"
+                        >
+                          <i
+                            className="fas fa-angle-double-right"
+                            style={{ color: "#f39c12", marginRight: "5px" }}
+                          ></i>
+                          KVPY
                         </NavLink>
                       </li>
                     </ul>
@@ -200,88 +418,6 @@ const Header = (props) => {
                           ></i>
                           Privacy policy
                         </NavLink>
-                      </li>
-                    </ul>
-                  </li>
-                  <li
-                    className="nav-item dropdown hover"
-                    style={{
-                      marginLeft: "25px",
-                      marginRight: "25px",
-                      color: "white",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    <NavLink
-                      className="nav-link dropdown-toggle"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      style={{ border: "none", color: "White" }}
-                      aria-expanded="false"
-                    >
-                      Login Section
-                    </NavLink>
-                    <ul className="dropdown-menu">
-                      <li>
-                        <NavLink
-                          to="/students-login-iit-academy"
-                          className="dropdown-item"
-                        >
-                          <i
-                            className="fas fa-angle-double-right"
-                            style={{ color: "#f39c12", marginRight: "5px" }}
-                          ></i>
-                          Students
-                        </NavLink>
-                      </li>
-                      <li>
-                        <NavLink
-                          to="/faculty-login-iit-academy"
-                          className="dropdown-item"
-                        >
-                          <i
-                            className="fas fa-angle-double-right"
-                            style={{ color: "#f39c12", marginRight: "5px" }}
-                          ></i>
-                          Faculty
-                        </NavLink>
-                      </li>
-                    </ul>
-                  </li>
-                  <li
-                    className="nav-item dropdown hover"
-                    style={{ marginLeft: "25px", marginRight: "25px" }}
-                  >
-                    <NavLink
-                      className="nav-link dropdown-toggle"
-                      href="#"
-                      role="button"
-                      data-bs-toggle="dropdown"
-                      style={{ border: "none", color: "White" }}
-                      aria-expanded="false"
-                    >
-                      Result
-                    </NavLink>
-                    <ul className="dropdown-menu">
-                      <li>
-                        <div className="dropdown-item">
-                          <i
-                            className="fas fa-angle-double-right"
-                            style={{ color: "#f39c12", marginRight: "5px" }}
-                          ></i>
-                          JEE-Mains
-                        </div>
-                      </li>
-
-                      {/* NavLink to="/" */}
-                      <li>
-                        <div className="dropdown-item">
-                          <i
-                            className="fas fa-angle-double-right"
-                            style={{ color: "#f39c12", marginRight: "5px" }}
-                          ></i>
-                          KVPY
-                        </div>
                       </li>
                     </ul>
                   </li>
