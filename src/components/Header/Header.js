@@ -394,29 +394,44 @@ const Header = (props) => {
                       style={{ border: "none", color: "White" }}
                       aria-expanded="false"
                     >
-                      Admission
+                      Books
                     </NavLink>
                     <ul className="dropdown-menu">
                       <li>
-                        <NavLink to="/fees-structure" className="dropdown-item">
-                          <i
-                            className="fas fa-angle-double-right"
-                            style={{ color: "#f39c12", marginRight: "5px" }}
-                          ></i>
-                          Fee Structure
-                        </NavLink>
-                      </li>
-
-                      <li>
                         <NavLink
-                          to="/our-policy-iit-academy"
+                          to="/ncert-books-iit-academy"
                           className="dropdown-item"
                         >
                           <i
                             className="fas fa-angle-double-right"
                             style={{ color: "#f39c12", marginRight: "5px" }}
                           ></i>
-                          Privacy policy
+                          NCERT
+                        </NavLink>
+                      </li>
+
+                      <li>
+                        <NavLink
+                          to="/jee(mains+advanced)-books-iit-academy"
+                          className="dropdown-item"
+                        >
+                          <i
+                            className="fas fa-angle-double-right"
+                            style={{ color: "#f39c12", marginRight: "5px" }}
+                          ></i>
+                          Jee(Mains+Advanced)
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/neet-books-iit-academy"
+                          className="dropdown-item"
+                        >
+                          <i
+                            className="fas fa-angle-double-right"
+                            style={{ color: "#f39c12", marginRight: "5px" }}
+                          ></i>
+                          NEET
                         </NavLink>
                       </li>
                     </ul>

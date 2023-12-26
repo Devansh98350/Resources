@@ -53,7 +53,7 @@ function Advanced() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/advcontent");
+              navigate("/pyq-2017-jee-advanced-iit-academy");
               activeTab(1);
             }}
           >
@@ -64,7 +64,7 @@ function Advanced() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/advcontent");
+              navigate("/pyq-2018-jee-advanced-iit-academy");
               activeTab(2);
             }}
           >
@@ -75,7 +75,7 @@ function Advanced() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/advcontent");
+              navigate("/pyq-2019-jee-advanced-iit-academy");
               activeTab(3);
             }}
           >
@@ -86,7 +86,7 @@ function Advanced() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/advcontent");
+              navigate("/pyq-2020-jee-advanced-iit-academy");
               activeTab(4);
             }}
           >
@@ -97,7 +97,7 @@ function Advanced() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/advcontent");
+              navigate("/pyq-2021-jee-advanced-iit-academy");
               activeTab(5);
             }}
           >
@@ -108,7 +108,7 @@ function Advanced() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/advcontent");
+              navigate("/pyq-2022-jee-advanced-iit-academy");
               activeTab(6);
             }}
           >
@@ -119,7 +119,7 @@ function Advanced() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/advcontent");
+              navigate("/pyq-2023-jee-advanced-iit-academy");
               activeTab(1);
             }}
           >
