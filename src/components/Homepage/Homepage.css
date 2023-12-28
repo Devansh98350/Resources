@@ -23,3 +23,12 @@
 .resources-card:hover {
   box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1);
 }
+@media (max-width: 768px) {
+  .resources-container {
+    display: block;
+  }
+  .resources-card {
+    width: 95%;
+    margin-left: 0px;
+  }
+}

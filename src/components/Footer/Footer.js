@@ -69,7 +69,7 @@ const Footer = () => {
                     />
                   </a>{" "}
                   <a
-                    href="mailto:admin@iitacademy.in"
+                    href="mailto:info@iitacademy.in"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

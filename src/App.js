@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import i18n from "./i18n";
+import { I18nextProvider } from "react-i18next";
 
 import Homepage from "./components/Homepage/Homepage";
 // About
@@ -67,131 +69,149 @@ import Ncert12 from "./components/Books/NCERT/NcertContent/Ncert12";
 import JeeB from "./components/Books/IIT/Jee";
 import NeetB from "./components/Books/NEET/Neet";
 // import Contact from "./components/Contact_Us/Contact";
-
+import SharePopup from "./components/Layout/ShareOptions";
 import PagenotFound from "./components/PagenotFound";
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path=" " element={<Homepage />} />
-        <Route path="/" element={<Homepage />} />
-        {/* EXAM */}
-        <Route path="/exam-jee-main-iit-academy" element={<Amain />} />
-        <Route path="/exam-jee-advanced-iit-academy" element={<Aadvanced />} />
-        <Route path="/exam-neet-iit-academy" element={<Aneet />} />
-        <Route path="/exam-kvpy-iit-academy" element={<Akvpy />} />
-        <Route path="/exam-ntse-iit-academy" element={<Antse />} />
-        {/* PYQ */}
-        <Route path="/pyq-jee-main-iit-academy" element={<PYmain />} />
-        <Route path="/pyq-jee-advanced-iit-academy" element={<PYadvanced />} />
-        <Route path="/pyq-neet-iit-academy" element={<PYneet />} />
-        <Route path="/pyq-cbse-boards-iit-academy" element={<PYcbse />} />
-        <Route path="/pyq-kvpy-iit-academy" element={<PYkvpy />} />
-        <Route path="/pyq-ntse-iit-academy" element={<PYntse />} />
-        {/* SYLLABUS */}
-        <Route path="/syllabus-jee-main-iit-academy" element={<Smain />} />
-        <Route
-          path="/syllabus-jee-advanced-iit-academy"
-          element={<Sadvanced />}
-        />
-        <Route path="/syllabus-neet-iit-academy" element={<Sneet />} />
-        <Route path="/syllabus-cbse-boards-iit-academy" element={<Scbse />} />
-        <Route path="/syllabus-kvpy-iit-academy" element={<Skvpy />} />
-        <Route path="/syllabus-ntse-iit-academy" element={<Sntse />} />
-        {/* NCERT Books Page */}
-        <Route path="/ncert-books-iit-academy" element={<Ncert />} />
-        <Route path="/ncert-class-6-books-iit-academy" element={<Ncert6 />} />
-        <Route path="/ncert-class-7-books-iit-academy" element={<Ncert7 />} />
-        <Route path="/ncert-class-8-books-iit-academy" element={<Ncert8 />} />
-        <Route path="/ncert-class-9-books-iit-academy" element={<Ncert9 />} />
-        <Route path="/ncert-class-10-books-iit-academy" element={<Ncert10 />} />
-        <Route path="/ncert-class-11-books-iit-academy" element={<Ncert11 />} />
-        <Route path="/ncert-class-12-books-iit-academy" element={<Ncert12 />} />
-        {/* Other Books Pages */}
-        <Route
-          path="/jee(mains+advanced)-books-iit-academy"
-          element={<JeeB />}
-        />
-        <Route path="/neet-books-iit-academy" element={<NeetB />} />
-        {/* Mains Year Wise Pages */}
-        <Route path="/pyq-2017-jee-main-iit-academy" element={<Main2017 />} />
-        <Route path="/pyq-2018-jee-main-iit-academy" element={<Main2018 />} />
-        <Route path="/pyq-2019-jee-main-iit-academy" element={<Main2019 />} />
-        <Route path="/pyq-2020-jee-main-iit-academy" element={<Main2020 />} />
-        <Route path="/pyq-2021-jee-main-iit-academy" element={<Main2021 />} />
-        <Route path="/pyq-2022-jee-main-iit-academy" element={<Main2022 />} />
-        <Route path="/pyq-2023-jee-main-iit-academy" element={<Main2023 />} />
-        {/* Advance Year Wise Pages */}
-        <Route
-          path="/pyq-2017-jee-advanced-iit-academy"
-          element={<Adv2017 />}
-        />
-        <Route
-          path="/pyq-2018-jee-advanced-iit-academy"
-          element={<Adv2018 />}
-        />
-        <Route
-          path="/pyq-2019-jee-advanced-iit-academy"
-          element={<Adv2019 />}
-        />
-        <Route
-          path="/pyq-2020-jee-advanced-iit-academy"
-          element={<Adv2020 />}
-        />
-        <Route
-          path="/pyq-2021-jee-advanced-iit-academy"
-          element={<Adv2021 />}
-        />
-        <Route
-          path="/pyq-2022-jee-advanced-iit-academy"
-          element={<Adv2022 />}
-        />
-        <Route
-          path="/pyq-2023-jee-advanced-iit-academy"
-          element={<Adv2023 />}
-        />
-        {/* Neet Year Wise Pages */}
-        <Route path="/pyq-2017-neet-iit-academy" element={<Neet2017 />} />
-        <Route path="/pyq-2018-neet-iit-academy" element={<Neet2018 />} />
-        <Route path="/pyq-2019-neet-iit-academy" element={<Neet2019 />} />
-        <Route path="/pyq-2020-neet-iit-academy" element={<Neet2020 />} />
-        <Route path="/pyq-2021-neet-iit-academy" element={<Neet2021 />} />
-        <Route path="/pyq-2022-neet-iit-academy" element={<Neet2022 />} />
-        <Route path="/pyq-2023-neet-iit-academy" element={<Neet2023 />} />
-        {/* CBSE Year Wise Pages */}
-        <Route
-          path="/pyq-2017-cbse-boards-iit-academy"
-          element={<Cbse2017 />}
-        />
-        <Route
-          path="/pyq-2018-cbse-boards-iit-academy"
-          element={<Cbse2018 />}
-        />
-        <Route
-          path="/pyq-2019-cbse-boards-iit-academy"
-          element={<Cbse2019 />}
-        />
-        <Route
-          path="/pyq-2020-cbse-boards-iit-academy"
-          element={<Cbse2020 />}
-        />
-        <Route
-          path="/pyq-2021-cbse-boards-iit-academy"
-          element={<Cbse2021 />}
-        />
-        <Route
-          path="/pyq-2022-cbse-boards-iit-academy"
-          element={<Cbse2022 />}
-        />
-        <Route
-          path="/pyq-2023-cbse-boards-iit-academy"
-          element={<Cbse2023 />}
-        />
-        {/* Others */}
-        {/* <Route path="/contact-us-iit-academy" element={<Contact />} /> */}
-        <Route path="*" element={<PagenotFound />} />
-      </Routes>
-    </Router>
+    <I18nextProvider i18n={i18n}>
+      <Router>
+        <Routes>
+          <Route path=" " element={<Homepage />} />
+          <Route path="/" element={<Homepage />} />
+          {/* EXAM */}
+          <Route path="/exam-jee-main-iit-academy" element={<Amain />} />
+          <Route
+            path="/exam-jee-advanced-iit-academy"
+            element={<Aadvanced />}
+          />
+          <Route path="/exam-neet-iit-academy" element={<Aneet />} />
+          <Route path="/exam-kvpy-iit-academy" element={<Akvpy />} />
+          <Route path="/exam-ntse-iit-academy" element={<Antse />} />
+          {/* PYQ */}
+          <Route path="/pyq-jee-main-iit-academy" element={<PYmain />} />
+          <Route
+            path="/pyq-jee-advanced-iit-academy"
+            element={<PYadvanced />}
+          />
+          <Route path="/pyq-neet-iit-academy" element={<PYneet />} />
+          <Route path="/pyq-cbse-boards-iit-academy" element={<PYcbse />} />
+          <Route path="/pyq-kvpy-iit-academy" element={<PYkvpy />} />
+          <Route path="/pyq-ntse-iit-academy" element={<PYntse />} />
+          {/* SYLLABUS */}
+          <Route path="/syllabus-jee-main-iit-academy" element={<Smain />} />
+          <Route
+            path="/syllabus-jee-advanced-iit-academy"
+            element={<Sadvanced />}
+          />
+          <Route path="/syllabus-neet-iit-academy" element={<Sneet />} />
+          <Route path="/syllabus-cbse-boards-iit-academy" element={<Scbse />} />
+          <Route path="/syllabus-kvpy-iit-academy" element={<Skvpy />} />
+          <Route path="/syllabus-ntse-iit-academy" element={<Sntse />} />
+          {/* NCERT Books Page */}
+          <Route path="/ncert-books-iit-academy" element={<Ncert />} />
+          <Route path="/ncert-class-6-books-iit-academy" element={<Ncert6 />} />
+          <Route path="/ncert-class-7-books-iit-academy" element={<Ncert7 />} />
+          <Route path="/ncert-class-8-books-iit-academy" element={<Ncert8 />} />
+          <Route path="/ncert-class-9-books-iit-academy" element={<Ncert9 />} />
+          <Route
+            path="/ncert-class-10-books-iit-academy"
+            element={<Ncert10 />}
+          />
+          <Route
+            path="/ncert-class-11-books-iit-academy"
+            element={<Ncert11 />}
+          />
+          <Route
+            path="/ncert-class-12-books-iit-academy"
+            element={<Ncert12 />}
+          />
+          {/* Other Books Pages */}
+          <Route
+            path="/jee(mains+advanced)-books-iit-academy"
+            element={<JeeB />}
+          />
+          <Route path="/neet-books-iit-academy" element={<NeetB />} />
+          {/* Mains Year Wise Pages */}
+          <Route path="/pyq-2017-jee-main-iit-academy" element={<Main2017 />} />
+          <Route path="/pyq-2018-jee-main-iit-academy" element={<Main2018 />} />
+          <Route path="/pyq-2019-jee-main-iit-academy" element={<Main2019 />} />
+          <Route path="/pyq-2020-jee-main-iit-academy" element={<Main2020 />} />
+          <Route path="/pyq-2021-jee-main-iit-academy" element={<Main2021 />} />
+          <Route path="/pyq-2022-jee-main-iit-academy" element={<Main2022 />} />
+          <Route path="/pyq-2023-jee-main-iit-academy" element={<Main2023 />} />
+          {/* Advance Year Wise Pages */}
+          <Route
+            path="/pyq-2017-jee-advanced-iit-academy"
+            element={<Adv2017 />}
+          />
+          <Route
+            path="/pyq-2018-jee-advanced-iit-academy"
+            element={<Adv2018 />}
+          />
+          <Route
+            path="/pyq-2019-jee-advanced-iit-academy"
+            element={<Adv2019 />}
+          />
+          <Route
+            path="/pyq-2020-jee-advanced-iit-academy"
+            element={<Adv2020 />}
+          />
+          <Route
+            path="/pyq-2021-jee-advanced-iit-academy"
+            element={<Adv2021 />}
+          />
+          <Route
+            path="/pyq-2022-jee-advanced-iit-academy"
+            element={<Adv2022 />}
+          />
+          <Route
+            path="/pyq-2023-jee-advanced-iit-academy"
+            element={<Adv2023 />}
+          />
+          {/* Neet Year Wise Pages */}
+          <Route path="/pyq-2017-neet-iit-academy" element={<Neet2017 />} />
+          <Route path="/pyq-2018-neet-iit-academy" element={<Neet2018 />} />
+          <Route path="/pyq-2019-neet-iit-academy" element={<Neet2019 />} />
+          <Route path="/pyq-2020-neet-iit-academy" element={<Neet2020 />} />
+          <Route path="/pyq-2021-neet-iit-academy" element={<Neet2021 />} />
+          <Route path="/pyq-2022-neet-iit-academy" element={<Neet2022 />} />
+          <Route path="/pyq-2023-neet-iit-academy" element={<Neet2023 />} />
+          {/* CBSE Year Wise Pages */}
+          <Route
+            path="/pyq-2017-cbse-boards-iit-academy"
+            element={<Cbse2017 />}
+          />
+          <Route
+            path="/pyq-2018-cbse-boards-iit-academy"
+            element={<Cbse2018 />}
+          />
+          <Route
+            path="/pyq-2019-cbse-boards-iit-academy"
+            element={<Cbse2019 />}
+          />
+          <Route
+            path="/pyq-2020-cbse-boards-iit-academy"
+            element={<Cbse2020 />}
+          />
+          <Route
+            path="/pyq-2021-cbse-boards-iit-academy"
+            element={<Cbse2021 />}
+          />
+          <Route
+            path="/pyq-2022-cbse-boards-iit-academy"
+            element={<Cbse2022 />}
+          />
+          <Route
+            path="/pyq-2023-cbse-boards-iit-academy"
+            element={<Cbse2023 />}
+          />
+          {/* Others */}
+          {/* <Route path="/contact-us-iit-academy" element={<Contact />} /> */}
+          <Route path="*" element={<PagenotFound />} />
+          <Route path="/share" element={<SharePopup />} />
+        </Routes>
+      </Router>
+    </I18nextProvider>
   );
 }
 

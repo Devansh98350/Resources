@@ -1,0 +1,111 @@
+h1 {
+  color: green;
+}
+
+/* styling sidebar */
+.leftsidehoverbar a {
+  background-color: green;
+  position: fixed;
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  align-items: center;
+  border-radius: 0px 25px 25px 0px;
+  width: 140px;
+  left: -103px;
+  transition: 0.1s;
+  opacity: 1;
+}
+
+/* Hover effect on sidebar */
+.leftsidehoverbar a:hover {
+  left: 0px;
+  opacity: 1;
+  /* background-color: #4caf50; */
+  background-color: orange;
+}
+
+/* float icons*/
+.leftsidehoverbar i {
+  float: right;
+  transition: float 0.01s ease;
+}
+
+.leftsidehoverbar i:hover {
+  float: left;
+}
+
+.img {
+}
+
+.leftside-icon {
+  width: 30px;
+  height: 30px;
+  float: right;
+  align-items: center;
+}
+/* defining position of each nav bar */
+.article {
+  top: 270px;
+  width: 210px;
+  height: 40px;
+}
+
+.Interview {
+  top: 330px;
+  width: 210px;
+  height: 40px;
+}
+
+.Scripter {
+  top: 390px;
+  width: 210px;
+  height: 40px;
+}
+
+.Suggested {
+  top: 450px;
+  width: 210px;
+  height: 40px;
+}
+
+.Practice {
+  top: 510px;
+  width: 210px;
+  height: 40px;
+}
+
+/* content margin */
+.hoverable-topic {
+  margin-left: 55px;
+}
+
+/* .share-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-popup {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+} */
+.share-popup {
+  position: fixed;
+  top: 100px;
+  left: 1000px;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}

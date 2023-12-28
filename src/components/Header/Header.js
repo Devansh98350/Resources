@@ -5,9 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./Header.css";
 import mainlogo from "../../assests/home_page/mainlogo.jpg";
-import whatsapp from "../../assests/home_page/chatus.gif";
-import call from "../../assests/home_page/cu4.gif";
-import admission from "../../assests/home_page/adm.gif";
+// import call from "../../assests/home_page/cu4.gif";
+import LanguageDropdown from "../Layout/Dropdown";
 
 const Header = (props) => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -18,63 +17,44 @@ const Header = (props) => {
   const windowWidth = window.innerWidth;
   const topview = () => {
     if (windowWidth >= 768) {
+      return <LanguageDropdown />;
+    }
+    return null;
+  };
+  const topview1 = () => {
+    if (windowWidth >= 768) {
       return (
-        <div className="header-col2">
-          <div className="header-col3">
-            {/* <a
-              className="header-col12"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSdhyUZrK-2UP8DbWgEn3M4bcYCtXG5tSyNUrbFYiDgRaAX2XQ/viewform?usp=sf_link"
-            >
-              <img src={admission} alt="" />
-            </a> */}
-            <li>
-              <NavLink
-                to="/Admission-form-iit-academy"
-                className="header-col12"
-              >
-                <img src={admission} alt="" />
-              </NavLink>
-            </li>
-          </div>
-          <div className="header-col21">
-            <a
-              href="https://wa.me/918453307045?text=Chat With IIT Academy&utm_medium=&utm_campaign=&utm_term=&utm_content=&lang=en"
-              className="navbar-brand"
-            >
-              <img src={whatsapp} alt="" />
-            </a>
-          </div>
-          <div className="header-col22">
-            <a href="tel:8453307045" className="navbar-brand">
-              <img src={call} alt="" />
-            </a>
-          </div>
+        <div className="header-col1">
+          <a className="navbar-brand" href="/" onClick={toggleMobileMenu}>
+            <img src={mainlogo} alt="" />
+          </a>
         </div>
       );
     }
-    // Return null if the screen width is less than 768 pixels (mobile view)
     return null;
   };
   return (
     <>
       <div className="header" style={{ backgroundColor: "white" }}>
-        <div className="row1">
-          <div className="container-fluid">
-            <div className="header-col1">
-              <a className="navbar-brand" href="/" onClick={toggleMobileMenu}>
-                <img src={mainlogo} alt="" />
-              </a>
+        {windowWidth < 768 && (
+          <div className="row1">
+            <div className="container-fluid">
+              <div className="header-col1">
+                <a className="navbar-brand" href="/" onClick={toggleMobileMenu}>
+                  <img src={mainlogo} alt="" />
+                </a>
+              </div>
             </div>
-
-            {topview()}
           </div>
-        </div>
-
+        )}
         <div className="row2">
           <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div
               className="container-fluid"
-              style={{ backgroundColor: "#F39C12 " }}
+              style={{
+                backgroundColor: "white ",
+                borderBottom: "3px solid orange",
+              }}
             >
               <button
                 className="navbar-toggler"
@@ -85,11 +65,11 @@ const Header = (props) => {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
                 onClick={toggleMobileMenu}
-                style={{ color: "white", justifyContent: "center" }}
+                style={{ color: "orange", justifyContent: "center" }}
               >
                 <span className="navbar-toggler-icon" />
                 Menu
-              </button>
+              </button>{" "}
               <div
                 className={`collapse navbar-collapse ${
                   isMobileMenuOpen ? "show" : ""
@@ -105,6 +85,7 @@ const Header = (props) => {
                     fontWeight: "bold",
                   }}
                 >
+                  {topview1()}
                   <li
                     className="nav-item"
                     style={{
@@ -436,21 +417,7 @@ const Header = (props) => {
                       </li>
                     </ul>
                   </li>
-                  <li
-                    className="nav-item"
-                    style={{
-                      marginLeft: "25px",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    <div
-                      className="nav-link"
-                      activeclassname="active"
-                      style={{ color: "White" }}
-                    >
-                      Contact Us
-                    </div>
-                  </li>
+                  {topview()}
                 </ul>
               </div>
             </div>

@@ -9,9 +9,6 @@
   justify-content: space-between;
 }
 
-.header {
-  margin-top: 0px;
-}
 .header-col1,
 .header-col2,
 .header-col3 {
@@ -61,6 +58,11 @@
 
 /* For Row 2 */
 
+.row2 {
+  height: 72px;
+  position: fixed;
+  width: 100%;
+}
 .navbar {
   padding: 0px;
 }
@@ -80,8 +82,9 @@
 }
 
 .nav-link {
-  color: white !important;
+  color: blue !important;
   margin-right: 25px;
+  margin-top: 20px;
 }
 
 /* Active Link Styling */
@@ -122,10 +125,13 @@
   .row1 {
     height: 80px;
   }
+  .row2 {
+    position: static;
+  }
 
   .header-col1 img {
     margin-top: 5px;
-    margin-left: auto;
+    margin-left: 16%;
   }
 
   .navbar-nav {
