@@ -60,7 +60,7 @@
 
 .row2 {
   height: 72px;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
 }
 .navbar {

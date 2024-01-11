@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 import {
   FacebookShareButton,
@@ -14,70 +14,93 @@ import {
   EmailIcon,
   TelegramIcon,
 } from "react-share";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCopy } from "@fortawesome/free-solid-svg-icons";
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import "./Left.css";
 // export default class App extends Component {
 //   render() {
-const SharePopup = ({ onClose, width, height, duration }) => {
+const SharePopup = ({ onClose }) => {
   const shareUrl = "https://www.resources.iitacademy.in/";
-  const quotes = "Best Website for all types of Educational resources.";
+  const quotes =
+    "Check out this awesome website for all types of Educational Resources!";
   const hshs = "#iitacademy";
-  const [elapsedTime, setElapsedTime] = useState(0);
+  const EmailBody =
+    "Check out this awesome website for all types of Educational Resources!";
 
-  // Close the popup after the specified duration
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setElapsedTime((prevTime) => prevTime + 1);
-    }, 1);
-
-    return () => clearInterval(timer);
-  }, []);
-
-  // Close the popup when the duration is reached
-  useEffect(() => {
-    if (elapsedTime >= duration) {
-      onClose();
-    }
-  }, [elapsedTime, duration, onClose]);
+  const handleCopyLink = () => {
+    navigator.clipboard.writeText(shareUrl);
+    // You may want to provide some feedback to the user that the link is copied
+    alert("Link copied to clipboard!");
+  };
   return (
-    // <div className="share-popup-overlay">
+    <div className="share-popup">
+      <div className="modal-content">
+        <div className="column1">
+          <h1 style={{ color: "orange", textSize: "15px" }}>
+            Share our page on:
+          </h1>
 
-    <div
-      className="share-popup"
-      style={{
-        background: "#0000",
-        height: "100vh",
-        width: "100%",
-      }}
-    >
-      <h1>Share our page on:</h1>
+          <div className="share-icons-container">
+            <FacebookShareButton
+              url={shareUrl}
+              subject={EmailBody}
+              quote={quotes}
+              hashtag={hshs}
+            >
+              <FacebookIcon size={40} round={true} />
+            </FacebookShareButton>
 
-      <FacebookShareButton url={shareUrl} quote={quotes} hashtag={hshs}>
-        <FacebookIcon size={40} round={true} />
-      </FacebookShareButton>
+            <WhatsappShareButton url={shareUrl} quote={quotes} hashtag={hshs}>
+              <WhatsappIcon size={40} round={true} />
+            </WhatsappShareButton>
 
-      <WhatsappShareButton url={shareUrl} quote={quotes} hashtag={hshs}>
-        <WhatsappIcon size={40} round={true} />
-      </WhatsappShareButton>
+            <TwitterShareButton url={shareUrl} quote={quotes} hashtag={hshs}>
+              <TwitterIcon size={40} round={true} />
+            </TwitterShareButton>
 
-      <TwitterShareButton url={shareUrl} quote={quotes} hashtag={hshs}>
-        <TwitterIcon size={40} round={true} />
-      </TwitterShareButton>
+            <LinkedinShareButton
+              url={shareUrl}
+              title="Resources - IIT Academy"
+              summary={EmailBody}
+              source="IIT Academy"
+              quote={quotes}
+              hashtag={hshs}
+            >
+              <LinkedinIcon size={40} round={true} />
+            </LinkedinShareButton>
 
-      <LinkedinShareButton url={shareUrl} quote={quotes} hashtag={hshs}>
-        <LinkedinIcon size={40} round={true} />
-      </LinkedinShareButton>
+            <EmailShareButton url={shareUrl} subject={EmailBody}>
+              <EmailIcon size={40} round={true} />
+            </EmailShareButton>
 
-      <EmailShareButton url={shareUrl} quote={quotes} hashtag={hshs}>
-        <EmailIcon size={40} round={true} />
-      </EmailShareButton>
+            <TelegramShareButton
+              url={shareUrl}
+              title={EmailBody}
+              hashtag={hshs}
+            >
+              <TelegramIcon size={40} round={true} />
+            </TelegramShareButton>
 
-      <TelegramShareButton url={shareUrl} quote={quotes} hashtag={hshs}>
-        <TelegramIcon size={40} round={true} />
-      </TelegramShareButton>
-      <button onClick={onClose}>Close</button>
+            <div className="copy-link-icon" onClick={handleCopyLink}>
+              <FontAwesomeIcon
+                icon={faCopy}
+                style={{
+                  fontSize: "35px",
+                  borderRadius: "15px",
+                  color: "#0D6AF9",
+                }}
+              />
+            </div>
+          </div>
+        </div>
+        <div className="column2">
+          <button className="close" onClick={onClose}>
+            <FontAwesomeIcon icon={faTimes} />
+          </button>
+        </div>
+      </div>
     </div>
-    // </div>
   );
 };
 
