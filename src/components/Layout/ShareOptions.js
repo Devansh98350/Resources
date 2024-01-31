@@ -1,5 +1,4 @@
 import React from "react";
-
 import {
   FacebookShareButton,
   WhatsappShareButton,
@@ -37,8 +36,10 @@ const SharePopup = ({ onClose }) => {
     <div className="share-popup">
       <div className="modal-content">
         <div className="column1">
-          <h1 style={{ color: "orange", textSize: "15px" }}>
-            Share our page on:
+          <h1
+            style={{ color: "black", fontSize: "30px", marginBottom: "15px" }}
+          >
+            Share our page on :-
           </h1>
 
           <div className="share-icons-container">

@@ -54,7 +54,7 @@ function Main() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2017-jee-main-iit-academy");
+              navigate("/pyq-2017-jee-main");
               activeTab(1);
             }}
           >
@@ -65,7 +65,7 @@ function Main() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2018-jee-main-iit-academy");
+              navigate("/pyq-2018-jee-main");
               activeTab(2);
             }}
           >
@@ -76,7 +76,7 @@ function Main() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2019-jee-main-iit-academy");
+              navigate("/pyq-2019-jee-main");
               activeTab(3);
             }}
           >
@@ -87,7 +87,7 @@ function Main() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2020-jee-main-iit-academy");
+              navigate("/pyq-2020-jee-main");
               activeTab(4);
             }}
           >
@@ -98,7 +98,7 @@ function Main() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2021-jee-main-iit-academy");
+              navigate("/pyq-2021-jee-main");
               activeTab(5);
             }}
           >
@@ -109,7 +109,7 @@ function Main() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2022-jee-main-iit-academy");
+              navigate("/pyq-2022-jee-main");
               activeTab(6);
             }}
           >
@@ -120,7 +120,7 @@ function Main() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2023-jee-main-iit-academy");
+              navigate("/pyq-2023-jee-main");
               activeTab(1);
             }}
           >

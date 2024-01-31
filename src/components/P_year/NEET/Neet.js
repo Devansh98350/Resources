@@ -53,7 +53,7 @@ function Neet() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2017-neet-iit-academy");
+              navigate("/pyq-2017-neet");
               activeTab(1);
             }}
           >
@@ -64,7 +64,7 @@ function Neet() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2018-neet-iit-academy");
+              navigate("/pyq-2018-neet");
               activeTab(2);
             }}
           >
@@ -75,7 +75,7 @@ function Neet() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2019-neet-iit-academy");
+              navigate("/pyq-2019-neet");
               activeTab(3);
             }}
           >
@@ -86,7 +86,7 @@ function Neet() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2020-neet-iit-academy");
+              navigate("/pyq-2020-neet");
               activeTab(4);
             }}
           >
@@ -97,7 +97,7 @@ function Neet() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2021-neet-iit-academy");
+              navigate("/pyq-2021-neet");
               activeTab(5);
             }}
           >
@@ -108,7 +108,7 @@ function Neet() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2022-neet-iit-academy");
+              navigate("/pyq-2022-neet");
               activeTab(6);
             }}
           >
@@ -119,7 +119,7 @@ function Neet() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2023-neet-iit-academy");
+              navigate("/pyq-2023-neet");
               activeTab(1);
             }}
           >

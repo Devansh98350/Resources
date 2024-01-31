@@ -54,7 +54,7 @@ function Ncert() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/ncert-class-6-books-iit-academy");
+              navigate("/ncert-class-6-books");
               activeTab(1);
             }}
           >
@@ -65,7 +65,7 @@ function Ncert() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/ncert-class-7-books-iit-academy");
+              navigate("/ncert-class-7-books");
               activeTab(2);
             }}
           >
@@ -76,7 +76,7 @@ function Ncert() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/ncert-class-8-books-iit-academy");
+              navigate("/ncert-class-8-books");
               activeTab(3);
             }}
           >
@@ -87,7 +87,7 @@ function Ncert() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/ncert-class-9-books-iit-academy");
+              navigate("/ncert-class-9-books");
               activeTab(4);
             }}
           >
@@ -98,7 +98,7 @@ function Ncert() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/ncert-class-10-books-iit-academy");
+              navigate("/ncert-class-10-books");
               activeTab(5);
             }}
           >
@@ -109,7 +109,7 @@ function Ncert() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/ncert-class-11-books-iit-academy");
+              navigate("/ncert-class-11-books");
               activeTab(6);
             }}
           >
@@ -120,7 +120,7 @@ function Ncert() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/ncert-class-12-books-iit-academy");
+              navigate("/ncert-class-12-books");
               activeTab(1);
             }}
           >

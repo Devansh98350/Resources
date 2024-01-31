@@ -53,7 +53,7 @@ function Cbse() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2017-cbse-boards-iit-academy");
+              navigate("/pyq-2017-cbse-boards");
               activeTab(1);
             }}
           >
@@ -64,7 +64,7 @@ function Cbse() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2018-cbse-boards-iit-academy");
+              navigate("/pyq-2018-cbse-boards");
               activeTab(2);
             }}
           >
@@ -75,7 +75,7 @@ function Cbse() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2019-cbse-boards-iit-academy");
+              navigate("/pyq-2019-cbse-boards");
               activeTab(3);
             }}
           >
@@ -86,7 +86,7 @@ function Cbse() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2020-cbse-boards-iit-academy");
+              navigate("/pyq-2020-cbse-boards");
               activeTab(4);
             }}
           >
@@ -97,7 +97,7 @@ function Cbse() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2021-cbse-boards-iit-academy");
+              navigate("/pyq-2021-cbse-boards");
               activeTab(5);
             }}
           >
@@ -108,7 +108,7 @@ function Cbse() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2022-cbse-boards-iit-academy");
+              navigate("/pyq-2022-cbse-boards");
               activeTab(6);
             }}
           >
@@ -119,7 +119,7 @@ function Cbse() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2023-cbse-boards-iit-academy");
+              navigate("/pyq-2023-cbse-boards");
               activeTab(1);
             }}
           >

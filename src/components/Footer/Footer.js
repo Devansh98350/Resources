@@ -89,38 +89,60 @@ const Footer = () => {
               </div>
             </div>
             <div className="footer-col">
-              <h2>Resources</h2>
-
-              {/* <p>
-                <Link to="/about-iit-academy">IIT Academy</Link>
-              </p> */}
-              <p>JEE-Main 2023 Question Paper</p>
-              <p>JEE-Advanced 2023 Question Paper</p>
-              <p>NEET 2023 Question Paper</p>
-              <p>KVPY 2023 Question Paper</p>
-              <p>NTSE 2023 Question Paper</p>
-              <p>Boards 2023 Question Paper</p>
-              <p>NCERT Solutions</p>
-            </div>
-            <div className="footer-col">
-              <h2>Quick Links</h2>
+              <h2 style={{ textAlign: "center" }}>Main Website</h2>
               <p>
-                <Link to="/fees-structure">Fee Structure</Link>
-              </p>
-              <p>Pay Fees Online</p>
-              <p>
-                <Link to="/why-iit-academy">Why IIT Academy</Link>
+                <Link to="https://www.iitacademy.in/#/Admission-form">
+                  Apply Online
+                </Link>
               </p>
               <p>
-                <Link to="/admission-process-iit-academy">
+                <Link to="https://www.iitacademy.in/#/fees-structure">
+                  Fee Structure
+                </Link>
+              </p>
+              <p>
+                <Link to="https://www.iitacademy.in/#/admission-process">
                   Admission Process
                 </Link>
               </p>
               <p>
-                <Link to="/our-policy-iit-academy">Privacy & Policy</Link>
+                <Link to="https://www.iitacademy.in/#/why-us">
+                  Why IIT Academy
+                </Link>
               </p>
-              <p>Articles & Blogs</p>
-              <p>Resources</p>
+              <p>
+                <Link to="https://www.iitacademy.in/#/our-policy">
+                  Privacy & Policy
+                </Link>
+              </p>
+              <p>
+                <Link to="#">Contact US</Link>
+              </p>
+              <p>
+                <Link to="https://www.iitacademy.in/#/careers">Careers</Link>
+              </p>
+            </div>
+            <div className="footer-col">
+              <h2 style={{ textAlign: "center" }}>Quick Links</h2>
+              <p>
+                <Link to="/pyq-neet">NEET PYQ</Link>
+              </p>
+              <p>
+                <Link to="/neet-books">NEET Books</Link>
+              </p>
+              <p>
+                <Link to="/pyq-jee-main">JEE Mains PYQ</Link>
+              </p>
+              <p>
+                <Link to="/jee(mains+advanced)-books">
+                  JEE (Mains+Adv.) Books
+                </Link>
+              </p>
+              <p>
+                <Link to="/pyq-jee-advanced">JEE Advanced PYQ</Link>
+              </p>
+              <p>Internships</p>
+              <p>Counseling</p>
             </div>
           </div>
           <div
