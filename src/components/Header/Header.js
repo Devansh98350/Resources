@@ -2,112 +2,94 @@ import React, { useState, Fragment } from "react";
 import "@fortawesome/fontawesome-free/css/all.css";
 import mainlogo from "../../assests/home_page/mainlogo.jpg";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
-import {
-  ArrowPathIcon,
-  Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/20/solid";
 const pyq = [
   {
     name: "JEE-Main",
     href: "/pyq-jee-main",
-    icon: ChartPieIcon,
   },
   {
     name: "JEE-Advanced",
     href: "/pyq-jee-advanced",
-    icon: CursorArrowRaysIcon,
   },
   {
     name: "NEET",
     href: "/pyq-neet",
-    icon: FingerPrintIcon,
   },
   {
     name: "CBSE Boards",
     href: "/pyq-cbse-boards",
-    icon: SquaresPlusIcon,
   },
   {
     name: "NTSE",
     href: "/pyq-ntse",
-    icon: ArrowPathIcon,
   },
   {
     name: "KVPY",
     href: "/pyq-kvpy",
-    icon: ArrowPathIcon,
   },
 ];
 const exams = [
   {
+    name: "Exam Schedule 2024",
+    href: "/exam-schedule-2024",
+  },
+  {
     name: "JEE-Main",
     href: "/exam-jee-main",
-    icon: ChartPieIcon,
   },
   {
     name: "JEE-Advanced",
     href: "/exam-jee-advanced",
-    icon: CursorArrowRaysIcon,
   },
   {
     name: "NEET",
     href: "/exam-neet",
-    icon: FingerPrintIcon,
   },
   {
     name: "NTSE",
     href: "/exam-ntse",
-    icon: ArrowPathIcon,
   },
 ];
 const syllabus = [
   {
     name: "JEE-Main",
     href: "/syllabus-jee-main",
-    icon: ChartPieIcon,
   },
   {
     name: "JEE-Advanced",
     href: "/syllabus-jee-advanced",
-    icon: CursorArrowRaysIcon,
   },
   {
     name: "NEET",
     href: "/syllabus-neet",
-    icon: FingerPrintIcon,
   },
   {
     name: " CBSE Boards",
     href: "/syllabus-cbse-boards",
-    icon: SquaresPlusIcon,
   },
   {
     name: "NTSE",
     href: "/syllabus-ntse",
-    icon: ArrowPathIcon,
   },
 ];
 const books = [
   {
     name: "NCERT",
     href: "/ncert-books",
-    icon: ChartPieIcon,
   },
   {
     name: "JEE(Main+Advanced)",
     href: "/jee(mains+advanced)-books",
-    icon: CursorArrowRaysIcon,
   },
   {
     name: "NEET",
     href: "/neet-books",
-    icon: FingerPrintIcon,
+  },
+  {
+    name: "CBSE Sample Paper 2024",
+    href: "/cbse-sample-2024",
   },
 ];
 function classNames(...classes) {
