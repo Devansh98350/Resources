@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
@@ -7,12 +7,12 @@ import "./i18n";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  // <React.StrictMode>
-  //   <App />
-  // </React.StrictMode>
-  <Suspense fallback="loading">
+  <React.StrictMode>
     <App />
-  </Suspense>
+  </React.StrictMode>
+  // <Suspense fallback="loading">
+  //   <App />
+  // </Suspense>
 );
 
 // If you want to start measuring performance in your app, pass a function
