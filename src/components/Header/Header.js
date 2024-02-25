@@ -1,4 +1,5 @@
 import React, { useState, Fragment } from "react";
+import { Link } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.css";
 import mainlogo from "../../assests/home_page/mainlogo.jpg";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
@@ -109,10 +110,10 @@ export default function Header() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="/" className="-m-1.5 p-1.5">
+          <Link to="/" className="-m-1.5 p-1.5">
             <span className="sr-only">IIT Academy</span>
             <img className="h-20 w-auto" src={mainlogo} alt="" />
-          </a>
+          </Link>
         </div>
         <div className="flex lg:hidden">
           <button
@@ -125,12 +126,12 @@ export default function Header() {
           </button>
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-x-12 mr-40">
-          <a
-            href="/"
+          <Link
+            to="/"
             className="text-lg font-semibold leading-6 text-gray-900 mt-1"
           >
             Home
-          </a>
+          </Link>
           {/*dkfhj*/}
           <Popover className="relative">
             <Popover.Button
@@ -178,13 +179,13 @@ export default function Header() {
                         ></i>
                       </div>
                       <div className="flex-auto">
-                        <a
-                          href={item.href}
+                        <Link
+                          to={item.href}
                           className="block font-semibold text-lg text-gray-900"
                         >
                           {item.name}
                           <span className="absolute inset-0" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   ))}
@@ -238,13 +239,13 @@ export default function Header() {
                         ></i>
                       </div>
                       <div className="flex-auto">
-                        <a
-                          href={item.href}
+                        <Link
+                          to={item.href}
                           className="block font-semibold text-lg text-gray-900"
                         >
                           {item.name}
                           <span className="absolute inset-0" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   ))}
@@ -298,13 +299,13 @@ export default function Header() {
                         ></i>
                       </div>
                       <div className="flex-auto">
-                        <a
-                          href={item.href}
+                        <Link
+                          to={item.href}
                           className="block font-semibold text-lg text-gray-900"
                         >
                           {item.name}
                           <span className="absolute inset-0" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   ))}
@@ -358,13 +359,13 @@ export default function Header() {
                         ></i>
                       </div>
                       <div className="flex-auto">
-                        <a
-                          href={item.href}
+                        <Link
+                          to={item.href}
                           className="block font-semibold text-lg text-gray-900"
                         >
                           {item.name}
                           <span className="absolute inset-0" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   ))}
@@ -372,12 +373,14 @@ export default function Header() {
               </Popover.Panel>
             </Transition>
           </Popover>
-          <a
-            href="/contact-us"
-            className="text-lg font-semibold leading-6 text-gray-900 mt-1"
-          >
-            Contact Us
-          </a>
+          <p className="text-lg font-semibold leading-6 text-gray-900 mt-1">
+            <Link
+              to="/contact-us"
+              className="text-lg font-semibold leading-6 text-gray-900 mt-1"
+            >
+              Contact Us
+            </Link>
+          </p>
         </Popover.Group>
       </nav>
       <Dialog
@@ -389,10 +392,10 @@ export default function Header() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="/" className=" -m-2 p-0">
+            <Link to="/" className=" -m-2 p-0">
               <span className="sr-only">IIT Academy</span>
               <img className="h-20 w-auto" src={mainlogo} alt="" />
-            </a>
+            </Link>
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-900 text-20xl"
@@ -405,12 +408,12 @@ export default function Header() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="-space-y-1 py-6">
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-orange-200"
                 >
                   Home
-                </a>
+                </Link>
                 <Disclosure as="div" className="-mx-3">
                   {({ open }) => (
                     <>
@@ -426,9 +429,8 @@ export default function Header() {
                       </Disclosure.Button>
                       <Disclosure.Panel className="mt-2 space-y-2 border-2 border-orange-500">
                         {[...pyq].map((item) => (
-                          <Disclosure.Button
+                          <a
                             key={item.name}
-                            as="a"
                             href={item.href}
                             className="block rounded-lg py-0 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-orange-200"
                           >
@@ -442,7 +444,7 @@ export default function Header() {
                               }}
                             ></i>
                             {item.name}
-                          </Disclosure.Button>
+                          </a>
                         ))}
                       </Disclosure.Panel>
                     </>
@@ -465,8 +467,8 @@ export default function Header() {
                         {[...exams].map((item) => (
                           <Disclosure.Button
                             key={item.name}
-                            as="a"
-                            href={item.href}
+                            as={Link}
+                            to={item.href}
                             className="block rounded-lg py-0 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-orange-200"
                           >
                             <i
@@ -502,8 +504,8 @@ export default function Header() {
                         {[...syllabus].map((item) => (
                           <Disclosure.Button
                             key={item.name}
-                            as="a"
-                            href={item.href}
+                            as={Link}
+                            to={item.href}
                             className="block rounded-lg py-0 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-orange-200"
                           >
                             <i
@@ -539,8 +541,8 @@ export default function Header() {
                         {[...books].map((item) => (
                           <Disclosure.Button
                             key={item.name}
-                            as="a"
-                            href={item.href}
+                            as={Link}
+                            to={item.href}
                             className="block rounded-lg py-0 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-orange-200"
                           >
                             <i
@@ -559,12 +561,12 @@ export default function Header() {
                     </>
                   )}
                 </Disclosure>
-                <a
-                  href="/contact-us"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900  hover:bg-orange-200"
+                <Link
+                  to="/contact-us"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-orange-200"
                 >
                   Contact Us
-                </a>
+                </Link>
               </div>
             </div>
           </div>
