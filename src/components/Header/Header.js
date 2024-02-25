@@ -7,7 +7,7 @@ import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/20/solid";
 const pyq = [
   {
     name: "JEE-Main",
-    href: "/pyq-jee-main",
+    // href: "/pyq-jee-main",
   },
   {
     name: "JEE-Advanced",
@@ -19,7 +19,7 @@ const pyq = [
   },
   {
     name: "CBSE Boards",
-    href: "/pyq-cbse-boards",
+    // href: "/pyq-cbse-boards",
   },
   {
     name: "NTSE",
@@ -33,7 +33,7 @@ const pyq = [
 const exams = [
   {
     name: "Exam Schedule 2024",
-    href: "/exam-schedule-2024",
+    // href: "/exam-schedule-2024",
   },
   {
     name: "JEE-Main",
@@ -67,7 +67,7 @@ const syllabus = [
   },
   {
     name: " CBSE Boards",
-    href: "/syllabus-cbse-boards",
+    // href: "/syllabus-cbse-boards",
   },
   {
     name: "NTSE",
@@ -77,19 +77,19 @@ const syllabus = [
 const books = [
   {
     name: "NCERT",
-    href: "/ncert-books",
+    // href: "/ncert-books",
   },
   {
     name: "JEE(Main+Advanced)",
-    href: "/jee(mains+advanced)-books",
+    // href: "/jee(mains+advanced)-books",
   },
   {
     name: "NEET",
-    href: "/neet-books",
+    // href: "/neet-books",
   },
   {
     name: "CBSE Sample Paper 2024",
-    href: "/cbse-sample-2024",
+    // href: "/cbse-sample-2024",
   },
 ];
 function classNames(...classes) {

@@ -1,0 +1,90 @@
+.container21 {
+  max-width: 900px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  align-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: aqua;
+}
+
+h203 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form1-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.input-half {
+  flex: 0.48;
+}
+
+select {
+  flex: 0.48;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input,
+select {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.agreeMsg {
+  width: 100%;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  font-size: 10px;
+  color: #666;
+  display: block;
+}
+
+#agree {
+  margin: 10px;
+  width: auto;
+}
+.call1 {
+  margin-left: 40%;
+  margin-top: 5px;
+}
+
+.call1:hover {
+  color: white;
+  background-color: blue;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin-left: 10px;
+    padding: 10px;
+  }
+  .call1 {
+    margin-left: 20%;
+    font-size: 5px;
+  }
+
+  .input-half {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+}

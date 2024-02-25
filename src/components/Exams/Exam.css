@@ -1,0 +1,214 @@
+.center-h1 {
+  text-align: center;
+}
+
+h1,
+h3,
+h4 {
+  font-family: inherit;
+  margin: 1.1rem 0;
+}
+
+h1 {
+  color: rgb(255, 0, 0);
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  word-wrap: break-word;
+}
+
+.container {
+  width: 100%;
+  max-width: 90vw;
+  word-wrap: break-word;
+}
+
+p {
+  margin: 1rem 0;
+  line-height: 1.5;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+li {
+  line-height: 1.7;
+  word-wrap: break-word;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.tabledata {
+  max-width: 100%;
+}
+
+th,
+td {
+  border: 2px solid rgb(224, 224, 224);
+  text-align: center;
+  padding: 0.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: medium;
+  }
+
+  .container {
+    max-width: 97vw;
+    padding: 0 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+  .tabledata {
+    width: 97vw;
+    overflow-x: auto;
+  }
+}
+
+/*Accordian CSS*/
+
+.container-accordian {
+  padding: 20px;
+  max-width: 90%; /* Adjust the max width as per your design */
+  margin: 0 auto; /* Center the content */
+  background-color: white;
+  cursor: pointer; /* A light background color */
+}
+
+.open {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  /* border: none; */
+  border-radius: 5px;
+}
+/* Heading Styles */
+h1 {
+  text-align: center;
+  color: blue; /* Dark text color for better readability */
+  font-weight: bold;
+  margin: 0.5rem 0.9rem; /* Slightly reduce the margin */
+}
+
+/* Question Title Styles */
+.container-accordian h2 {
+  text-align: justify;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 7px 0 0 0;
+  color: #333; /* Dark text color */
+  cursor: pointer;
+}
+
+.accordion-para {
+  width: 95%;
+  font-weight: normal;
+  text-align: justify;
+  font-size: 16px;
+}
+
+/* Button Styles */
+.btns {
+  background-color: #f5f5f5;
+  color: black; /* White text for better contrast */
+  font-weight: bold;
+  border: none; /* Remove border */
+  border-radius: 5px;
+  font-size: 30px;
+  height: 35px;
+  width: 35px;
+  padding: -100px 0 10px 0;
+  margin: 2px;
+  cursor: pointer; /* Show a pointer cursor on hover */
+  transition: background-color 0.3s ease;
+
+  /* &:hover {
+    background-color: #e0e0e0; /* Lighten the background on hover */
+}
+
+/* Accordion Container Styles */
+#accordion-two {
+  background-color: #f5f5f5; /* Use the same background color as the container */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px; /* Add more padding for better spacing */
+  border: 1px solid #ccc; /* Add a subtle border */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a slight box-shadow for depth */
+  transition: background-color 0.3s; /* Smooth transition for background color change */
+
+  &:hover {
+    background-color: #f5f5f5; /* Lighten the background on hover */
+  }
+}
+
+/* Closed Accordion Styles */
+.accordion > div.closed {
+  margin-bottom: 20px;
+}
+
+/* Media Query for Responsive Design (adjust breakpoints as needed) */
+@media (max-width: 768px) {
+  .container-accordian {
+    padding: 0px; /* Reduce padding for smaller screens */
+  }
+
+  h1 {
+    font-size: 24px; /* Reduce the font size for smaller screens */
+  }
+
+  .container-accordian h2 {
+    font-size: 12px; /* Reduce font size for question titles */
+    font-weight: bold;
+    margin-left: -10px;
+  }
+  .accordion-para {
+    font-size: 15px;
+    font-weight: normal;
+  }
+  .btns {
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+    margin-right: -10px;
+    margin-left: 10px;
+    /* padding: -1000px 0 0 0;
+    margin: 2px; */
+  }
+}

@@ -17,3 +17,8 @@
 .jeeContent-card:hover {
   box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1);
 }
+
+.listdata {
+  margin-left: 1%;
+  margin-right: 1%;
+}

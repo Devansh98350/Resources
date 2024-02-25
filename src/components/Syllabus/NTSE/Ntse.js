@@ -14,88 +14,65 @@ const Ntse = () => {
         <h2>Syllabus for NTSE</h2>
         <p>
           <strong>MATHEMATICS:</strong> <br />
-          Algebraic Expressions, Arithmetic Arithmetic, Progressions Basic
-          Geometry Circles & Triangles Coordinate Geometry Direct & Inverse
-          Variations Exponent Linear Equation Mensuration Number System
-          Percentage & Its Application Playing with Number Probability Quadratic
-          Equations Rational Numbers Simple & Compound Interest Square & Cube
-          Roots Statistics Surface Areas and Volume Trigonometry
+          Arithmetic Progressions, Number Systems, Polynomials, Real Numbers,
+          Quadratic Equations, Percentage, Square Roots and Cube Roots, Direct
+          and Inverse Variation, Mensuration, Rational Numbers, Circles,
+          Trigonometry, Surface Areas and Volumes, Simple and Compound Interest,
+          Triangles, Arithmetic Progression, Coordinate Geometry, Statistics and
+          Probability, Introduction to Euclid’s Geometry, Linear Equations in
+          Two Variables, Quadrilateral, and Parallelogram.
         </p>
         <p>
           <strong>PHYSICS:</strong> <br />
-          Light and Sound, Magnetism and Electricity, Measurements, Motion and
-          Force, Source of Energy, The Universe, Work and Energy
+          Magnetism and Electricity, Motion and Force, Measurements, Work and
+          Energy, The Universe, Light and Sound, and Source of Energy.
         </p>
         <p>
           <strong>CHEMISTRY:</strong> <br />
-          Matrices, algebra of matrices, type of matrices, determinants, and
-          matrices of order two and three, evaluation of determinants, area of
-          triangles using determinants, Adjoint, and evaluation of inverse of a
-          square matrix using determinants and, Test of consistency and solution
-          of simultaneous linear equations in two or three variables using
-          matrices.
+          Acid, Bases, Salt, Metals and Non-metals, Periodic Classification of
+          Elements, Structure of Atom, Carbon and its Compounds, Physical and
+          Chemical, Changes Fibres and Plastics.
         </p>
         <p>
           <strong>BIOLOGY:</strong> <br />
-          The fundamental principle of counting, permutation as an arrangement
-          and combination as section, Meaning of P (n,r) and C (n,r), simple
-          applications.
+          Air, Soil, Water, Micro-organisms, Life Processes, Reproduction,
+          Heredity and Evolution, Food Production and Management, Plant and
+          Animal, Nutrition, Diversity in Living Organisms, Cellular Level of
+          Organisation, Human Body, Some Common Diseases, and Our Environment.
         </p>
         <p>
-          <strong>UNIT 5: BINOMIAL THEOREM AND ITS SIMPLE APPLICATIONS:</strong>{" "}
-          <br /> Binomial theorem for a positive integral index, general term
-          and middle term, and simple applications.
+          <strong>HISTORY:</strong> <br /> French Revolution, Industrial
+          Revolution, Mughal Empire, British Raj, Maurya Empire, Indian Freedom
+          Struggle, Medieval Architecture and Culture, Early Medieval Period,
+          Early States, Indus Valley Civilization, Conquerors from Distant
+          Lands, Jainism and Buddhism Popular Movements and Social Reforms,
+          Nationalism in Various Countries, Introduction and Sources of Ancient
+          Indian History, World War I and II, Vedic Period, New Empires and
+          Kingdoms, World History, and UN and International Agencies.
         </p>
         <p>
-          <strong>UNIT 6: SEQUENCE AND SERIES:</strong> <br />
-          Arithmetic and Geometric progressions, insertion of arithmetic,
-          geometric means between two given numbers, Relation between A.M and
-          G.M.
+          <strong>GEOGRAPHY:</strong> <br />
+          Biosphere, Water Resources, Atmosphere, Agriculture, Diversity and
+          Livelihood, Resources and Development, Internal Structure of the Earth
+          and Rocks, Maps and Globe, Natural Vegetation, Our Country – India,
+          Motion of the Earth India and its Neighbors, Climate – India and
+          World, Indian Physiographic Division, Drainage in India, Solar System
+          ,Major Domains and landforms, and Population.
         </p>
         <p>
-          <strong>UNIT 7: LIMIT, CONTINUITY, AND DIFFERENTIABILITY:</strong>{" "}
-          <br /> Real–valued functions, algebra of functions, polynomials,
-          rational, trigonometric, logarithmic, and exponential functions,
-          inverse function. Graphs of simple functions. Limits, continuity, and
-          differentiability. Differentiation of the sum, difference, product,
-          and quotient of two functions. Differentiation of trigonometric,
-          inverse trigonometric, logarithmic, exponential, composite, and
-          implicit functions; derivatives of order up to two, Applications of
-          derivatives: Rate of change of quantities, monotonic-Increasing and
-          decreasing functions, Maxima and minima of functions of one variable.
+          <strong>CIVICS:</strong> <br />
+          Indian Constitution, Local and State Government, Indian Government,
+          and Judiciary.
         </p>
         <p>
-          <strong>UNIT 8: INTEGRAL CALCULAS:</strong>
-          <br /> Integral as an anti-derivative, Fundamental integral involving
-          algebraic, trigonometric, exponential, and logarithmic functions.
-          Integrations by substitution, by parts, and by partial functions.
-          Integration using trigonometric identities. Evaluation of simple
-          integrals, The fundamental theorem of calculus, properties of definite
-          integrals. Evaluation of definite integrals, determining areas of the
-          regions bounded by simple curves in standard form.
-        </p>
-        <p>
-          <strong>UNIT 9: DIFFRENTIAL EQUATIONS</strong> <br />
-          Ordinary differential equations, their order, and degree, the solution
-          of differential equation by the method of separation of variables,
-          solution of a homogeneous and linear differential equation of the type
-          𝑑𝑦/𝑑𝑥 + 𝑝(𝑥)𝑦 = 𝑞(𝑥)
-        </p>
-        <p>
-          <strong>UNIT 10: CO-ORDINATE GEOMETRY:</strong> <br />
-          Cartesian system of rectangular coordinates in a plane, distance
-          formula, sections formula, locus, and its equation, the slope of a
-          line, parallel and perpendicular lines, intercepts of a line on the
-          co-ordinate axis. Straight line Various forms of equations of a line,
-          intersection of lines, angles between two lines, conditions for
-          concurrence of three lines, the distance of a point form a line,
-          co-ordinate of the centroid, orthocentre, and circumcentre of a
-          triangle, Circle, conic sections A standard form of equations of a
-          circle, the general form of the equation of a circle, its radius and
-          central, equation of a circle when the endpoints of a diameter are
-          given, points of intersection of a line and a circle with the centre
-          at the origin and sections of conics, equations of conic sections
-          (parabola, ellipse, and hyperbola) in standard forms,
+          <strong>REASONING:</strong>
+          <br />
+          Verbal and Non Verbal Analogy, Verbal and Non-Verbal Series,
+          Classification, Coding-Decoding, Alphabet and Number Test, Blood
+          Relations, Distance and Direction, Paper Cutting and Folding, Venn
+          Diagrams, Mathematical Operations, Calendar, Time and Clock, Missing
+          Characters, Embedded Figures, Ranking and Arrangements, Word Problems,
+          Cube and Dice, Water and Mirror Images.
         </p>
       </div>
     </Layout>

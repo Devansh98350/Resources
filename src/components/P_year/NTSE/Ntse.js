@@ -45,6 +45,53 @@ const Ntse = () => {
       : null;
   return (
     <Layout title="NTSE-PYQ-IIT-Academy">
+      <div className="content">
+        <p
+          style={{
+            textAlign: "center",
+            color: "blue",
+            fontWeight: "bold",
+            fontSize: "25px",
+          }}
+        >
+          Advantages of solving NTSE PYQ questions
+        </p>
+        <p>
+          Solving NTSE question papers is one of the best ways to practice and
+          prepare effectively for the National Talent Search Examination (NTSE)
+          exam. It is a prestigious examination conducted by NCERT across India
+          to provide scholarships to successful candidates. The NTSE Exam is
+          conducted in two phases i.e. Phase 1 and Phase 2. Only those students
+          who qualify for the Stage 1 examination will be allowed to appear for
+          the Stage 2 examination. So students must prepare effectively with
+          dedication if they want to crack the examination. The NTSE exam
+          question papers will further help students to get familiar with the
+          type and difficulty level of questions as well as the pattern of the
+          exam.
+        </p>
+        <p>
+          Students planning to appear for the NTSE exam are advised to solve
+          previous years NTSE question papers as part of their study exercise on
+          a regular basis. This will also help candidates to develop their speed
+          and accuracy as well as better time management skills.
+        </p>
+        <p>
+          <b>Some advantages of solving the NTSE Question Paper are:</b>
+        </p>
+        <div className="listdata">
+          <ol>
+            <li>● A better understanding of theories and principals.</li>
+            <li>● Helps candidates develop better time management skills.</li>
+            <li>● Helps in a revision of the concepts.</li>
+            <li>● Improves general knowledge.</li>
+            <li>● Strengthens the basic and fundamental knowledge.</li>
+            <li>
+              ● Facilitates the development of stronger reasoning and critical
+              thinking skills
+            </li>
+          </ol>
+        </div>
+      </div>
       <div className="jee-main">
         <div>
           <button

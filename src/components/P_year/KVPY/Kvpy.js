@@ -45,6 +45,32 @@ const Kvpy = () => {
       : null;
   return (
     <Layout title="KVPY-PYQ-IIT-Academy">
+      <div className="content">
+        <p
+          style={{
+            textAlign: "center",
+            color: "blue",
+            fontWeight: "bold",
+            fontSize: "25px",
+          }}
+        >
+          KVPY Previous Year questions
+        </p>
+        <p>
+          KVPY or Kishore Vaigyanik Protsahan Yojana is a national level
+          scholarship exam. The KVPY scholarship exam was started by the (DST)
+          Department of Science and Technology to encourage and attract
+          exceptionally motivated students to pursue a career in basic science
+          and research-related fields. Before jumping onto the other vital
+          details of the scholarship program, let us know what exactly a KVPY
+          scholarship is. Indian Institute of Science gives KVPY scholarships to
+          Class 11 and 12 science students and 1st-year undergraduate students
+          in the primary science stream. The candidates or students must pass
+          the two stages of KVPY exam to be eligible for KVPY scholarship. The
+          first is the aptitude test, and the second is the interview round; the
+          selected students are given scholarships up to the pre-Ph.D level.
+        </p>
+      </div>
       <div className="jee-main">
         <div>
           <button

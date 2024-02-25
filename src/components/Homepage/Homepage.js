@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Layout from "./../Layout";
 import "./Homepage.css";
+import { Query } from "../Forms/Query_Form/Query";
 import jeeMain from "../../assests/Pages/jeeMain.png";
 import jeeAdv from "../../assests/Pages/jeeAdv.png";
 import neet from "../../assests/Pages/neet.png";
@@ -9,18 +10,14 @@ import boards from "../../assests/Pages/boards.png";
 import ncert from "../../assests/Pages/ncert.png";
 import kvpy from "../../assests/Pages/kvpy.png";
 import others from "../../assests/Pages/others.png";
-import { useTranslation } from "react-i18next";
 
 const Homepage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const { t } = useTranslation();
   const navigate = useNavigate();
   return (
     <Layout title="Resources - IIT Academy">
-      <h></h>
-      <h1>{t("greeting")}</h1>
       <div className="resources-container">
         <div>
           <button
@@ -85,6 +82,7 @@ const Homepage = () => {
           </button>
         </div>
       </div>
+      <Query />
     </Layout>
   );
 };

@@ -14,6 +14,53 @@ function AdvContent2020() {
   }, []);
   return (
     <Layout title="JEE-Advanced-PYQ-2020-IIT-Academy">
+      <div className="content">
+        <p
+          style={{
+            color: "blue",
+            fontWeight: "bold",
+            fontSize: "25px",
+            textAlign: "center",
+          }}
+        >
+          Paper Analysis
+        </p>
+        <p>
+          Paper 2 pattern was a little different from the last year and was
+          difficult and calculative due to pattern change as compared to the
+          last year.
+        </p>
+        <h4>
+          <strong>Physics</strong>
+        </h4>
+        <p>
+          Paper 1 was little difficult and almost all questions from within the
+          syllabus, though a little calculative. Paper was calculative and
+          lengthy but covered most of syllabus as expected. Class XI & XII
+          syllabus almost equal in the overall paper. Electromagnetism, heat and
+          thermodynamics and mechanics covering a major portion.
+        </p>
+        <h4>
+          <strong> Chemistry</strong>
+        </h4>
+        <p>
+          Paper 1 was easy to moderate and questions asked were within syllabus.
+          Physical chemistry had little higher percentage of questions as
+          compared to Organic and Inorganic chemistry. The questions were based
+          on NCERT text books. Paper II was easy to moderate but calculative.
+          Physical and Organic chemistry portion was higher.
+        </p>
+        <h4>
+          <strong>Maths</strong>
+        </h4>
+        <p>
+          Paper 1 was little calculative and lengthy, and the Algebra and
+          Calculus portions were higher, similar to last year. Paper 2 was
+          Moderate to difficult and calculative as expected. Paper had questions
+          from the syllabus and multicorrect type of questions consumed time due
+          to calculations.
+        </p>
+      </div>
       <div className="jeeContent-container">
         <div>
           <button className="jeeContent-card">
