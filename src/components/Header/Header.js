@@ -125,7 +125,7 @@ export default function Header() {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <Popover.Group className="hidden lg:flex lg:gap-x-12 mr-40">
+        <Popover.Group className="hidden lg:flex lg:gap-12 mr-40">
           <Link
             to="/"
             className="text-lg font-semibold leading-6 text-gray-900 mt-1"
@@ -136,9 +136,10 @@ export default function Header() {
           <Popover className="relative">
             <Popover.Button
               className="flex items-center gap-x-1 text-lg font-semibold leading-6 text-gray-900 focus:outline-none"
+              style={{ whiteSpace: "nowrap" }}
               onClick={() => setIsOpen(!isOpen)}
             >
-              Previous Year Question
+              Previous Year Questions
               {isOpen ? (
                 <ChevronUpIcon
                   className="h-7 w-7 flex-none text-gray-900 -ml-1 mt-1"
