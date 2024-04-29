@@ -50,30 +50,35 @@ h1 {
   top: 270px;
   width: 210px;
   height: 40px;
+  z-index: 10;
 }
 
 .Interview {
   top: 330px;
   width: 210px;
   height: 40px;
+  z-index: 10;
 }
 
 .Scripter {
   top: 390px;
   width: 210px;
   height: 40px;
+  z-index: 10;
 }
 
 .Suggested {
   top: 450px;
   width: 210px;
   height: 40px;
+  z-index: 10;
 }
 
 .Practice {
   top: 510px;
   width: 210px;
   height: 40px;
+  z-index: 10;
 }
 
 .hoverable-topic {
@@ -106,6 +111,7 @@ h1 {
   width: 30%;
   height: 50%;
   flex-direction: row;
+  z-index: 100;
 }
 
 .modal-content {

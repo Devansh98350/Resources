@@ -64,7 +64,7 @@ const LeftSide = () => {
           <FontAwesomeIcon icon={faFacebook} className="leftside-icon" />
         </a>
         <a
-          href="https://wa.me/918453307045?text=Chat With IIT Academy&utm_medium=&utm_campaign=&utm_term=&utm_content=&lang=en"
+          href="https://wa.me/919205704041?text=Chat With IIT Academy&utm_medium=&utm_campaign=&utm_term=&utm_content=&lang=en"
           className="Practice"
         >
           Whatsapp

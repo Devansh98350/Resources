@@ -51,7 +51,7 @@ const RightSide = () => {
           <FontAwesomeIcon icon={faCircleQuestion} className="rightside-icon" />
         </a>
 
-        <a href="tel:7366831500" className="Suggested1">
+        <a href="tel:9205704041" className="Suggested1">
           Call Us
           <FontAwesomeIcon icon={faPhone} className="rightside-icon" />
         </a>

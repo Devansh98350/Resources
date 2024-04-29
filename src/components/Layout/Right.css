@@ -48,30 +48,35 @@ h1 {
   top: 270px;
   width: 210px;
   height: 40px;
+  z-index: 10;
 }
 
 .Interview1 {
   top: 330px;
   width: 210px;
   height: 40px;
+  z-index: 10;
 }
 
 .Scripter1 {
   top: 390px;
   width: 210px;
   height: 40px;
+  z-index: 10;
 }
 
 .Suggested1 {
   top: 450px;
   width: 210px;
   height: 40px;
+  z-index: 10;
 }
 
 .Practice1 {
   top: 510px;
   width: 210px;
   height: 40px;
+  z-index: 10;
 }
 
 /* content margin */
