@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import Layout from "./../Layout";
 import "./Homepage.css";
-import { Query } from "../Forms/Query_Form/Query";
+import { Query } from "../Forms/Query_Form/Query.js";
 import dev1 from "../../assests/home_page/dev1.png";
 import dev2 from "../../assests/home_page/dev2.png";
 import dev3 from "../../assests/home_page/dev3.png";
@@ -94,7 +94,7 @@ const Homepage = () => {
             />
             <div className="horizontal-scroll-container" ref={scrollRef}>
               <div className="imagescontainer">
-                <img src={dsa1} alt="" className="dsa-image" />
+                <img src={dsa1} alt="JEE Mains" className="dsa-image" />
                 <div className="text-overlay image1">JEE Mains</div>
                 <img src={dsa2} alt="" className="dsa-image" />
                 <div className="text-overlay image2">JEE Advanced</div>
@@ -142,11 +142,28 @@ const Homepage = () => {
                 transform: "translateY(-50%)",
               }}
             />
-            <div className="horizontal-scroll-container" ref={scrollRef1}>
+            {/*<div className="horizontal-scroll-container" ref={scrollRef1}>
               <div className="imagescontainer">
                 <img src={dev1} alt="" className="webdev-image" />
                 <div className="text-overlay image1">JEE Mains</div>
+                <img src={dev2} alt="" class="webdev-image" />
+                <div className="text-overlay image2">JEE Advanced</div>
+                <img src={dev3} alt="" className="webdev-image" />
+                <div className="text-overlay image3">NEET</div>
+                <img src={dev4} alt="" className="webdev-image" />
+                <div className="text-overlay image4">CBSE Board</div>
+                <img src={dev1} alt="" className="webdev-image" />
+                <div className="text-overlay image5">KVPY</div>
                 <img src={dev2} alt="" className="webdev-image" />
+                <div className="text-overlay image6">NTSE</div>
+              </div>
+            </div> */}
+            <div className="horizontal-scroll-container" ref={scrollRef1}>
+              <div className="imagescontainer">
+                <img src={dev1} alt="JEE Mains" className="webdev-image" />
+                <div className="text-overlay image1">JEE Mains</div>
+
+                <img src={dev2} alt="" class="webdev-image" />
                 <div className="text-overlay image2">JEE Advanced</div>
                 <img src={dev3} alt="" className="webdev-image" />
                 <div className="text-overlay image3">NEET</div>

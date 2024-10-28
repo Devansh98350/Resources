@@ -217,7 +217,7 @@ const Sidebar = () => {
               <Image src={mainlogo} alt="" />
             </Details>
 
-            <StyledNavLink to="/" exact>
+            <StyledNavLink to=" " exact>
               Home
             </StyledNavLink>
             <DropdownToggle
@@ -244,7 +244,8 @@ const Sidebar = () => {
                 </DropdownItem>
                 <DropdownItem>
                   <StyledNavLink
-                    to="/pyq-jee-advanced"
+                    // to="/pyq-jee-advanced"
+                    to=" "
                     className="dropdown-item"
                   >
                     <i
@@ -255,7 +256,11 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink to="/pyq-neet" className="dropdown-item">
+                  <StyledNavLink
+                    // to="/pyq-neet"
+                    to=" "
+                    className="dropdown-item"
+                  >
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
@@ -273,7 +278,11 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink to="/pyq-ntse" className="dropdown-item">
+                  <StyledNavLink
+                    // to="/pyq-ntse"
+                    to=" "
+                    className="dropdown-item"
+                  >
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
@@ -282,7 +291,11 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink to="/pyq-kvpy" className="dropdown-item">
+                  <StyledNavLink
+                    // to="/pyq-kvpy"
+                    to=" "
+                    className="dropdown-item"
+                  >
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
@@ -316,7 +329,8 @@ const Sidebar = () => {
                 </DropdownItem>
                 <DropdownItem>
                   <StyledNavLink
-                    to="/exam-jee-advanced"
+                    // to="/exam-jee-advanced"
+                    to=" "
                     className="dropdown-item"
                   >
                     <i
@@ -327,7 +341,11 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink to="/exam-neet" className="dropdown-item">
+                  <StyledNavLink
+                    // to="/exam-neet"
+                    to=" "
+                    className="dropdown-item"
+                  >
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
@@ -336,7 +354,11 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink to="/exam-ntse" className="dropdown-item">
+                  <StyledNavLink
+                    // to="/exam-ntse"
+                    to=" "
+                    className="dropdown-item"
+                  >
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}

@@ -12,11 +12,11 @@ const pyq = [
   },
   {
     name: "JEE-Advanced",
-    href: "/pyq-jee-advanced",
+    // href: "/pyq-jee-advanced",
   },
   {
     name: "NEET",
-    href: "/pyq-neet",
+    // href: "/pyq-neet",
   },
   {
     name: "CBSE Boards",
@@ -24,11 +24,11 @@ const pyq = [
   },
   {
     name: "NTSE",
-    href: "/pyq-ntse",
+    // href: "/pyq-ntse",
   },
   {
     name: "KVPY",
-    href: "/pyq-kvpy",
+    // href: "/pyq-kvpy",
   },
 ];
 const exams = [
@@ -106,7 +106,7 @@ export default function Header() {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <Link to="/" className="-m-1.5 p-1.5">
+          <Link to=" " className="-m-1.5 p-1.5">
             <span className="sr-only">IIT Academy</span>
             <img className="h-20 w-auto" src={mainlogo} alt="" />
           </Link>
@@ -122,7 +122,7 @@ export default function Header() {
         </div>
         <Popover.Group className="hidden lg:flex lg:gap-12 mr-40">
           <Link
-            to="/"
+            to=" "
             className="text-lg font-semibold leading-6 text-gray-900 mt-1"
           >
             Home

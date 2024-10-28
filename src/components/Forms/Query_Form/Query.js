@@ -927,7 +927,9 @@ export const Query = () => {
   return (
     <>
       <div className="container21">
-        <h2>Talk to Our Expert</h2>
+        <h2 style={{ fontSize: "35px", textAlign: "center" }}>
+          Talk to Our Expert
+        </h2>
         <button
           type="button"
           id="callbtn"
@@ -943,7 +945,7 @@ export const Query = () => {
           }}
         >
           <a
-            href="tel:7366831500"
+            href="tel:9205704041"
             style={{
               color: "black",
               fontWeight: "bold",
@@ -956,7 +958,9 @@ export const Query = () => {
 
         <h1>or</h1>
 
-        <h2>Request call back</h2>
+        <h2 style={{ fontSize: "32px", textAlign: "center" }}>
+          Request call back
+        </h2>
         <form
           method="post"
           onSubmit={handleSubmit}

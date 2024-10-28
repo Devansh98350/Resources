@@ -36,7 +36,7 @@ const RightSide = () => {
         </a>
 
         <a
-          href="https://www.iitacademy.in/#/Admission-form"
+          href="https://www.iitacademy.in/Admission-form"
           className="Interview1"
         >
           Apply Online
@@ -44,7 +44,7 @@ const RightSide = () => {
         </a>
 
         <a
-          href="https://www.iitacademy.in/#/fees-structure"
+          href="https://www.iitacademy.in/fees-structure"
           className="Scripter1"
         >
           Fee Structure

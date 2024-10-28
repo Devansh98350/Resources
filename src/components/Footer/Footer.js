@@ -5,6 +5,7 @@ import {
   faLinkedin,
   faFacebook,
   faInstagram,
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import "./Footer.css";
@@ -33,7 +34,7 @@ const Footer = () => {
                 </p>
                 <p>
                   Ph:-
-                  <a href="tel:7366831500">+91-7366831500</a>
+                  <a href="tel:9205704041">+91-9205704041</a>
                 </p>
               </div>
               <div className="footer-row">
@@ -79,39 +80,49 @@ const Footer = () => {
                     />
                   </a>{" "}
                   <a
-                    href="tel:7366831500"
+                    href="tel:9205704041"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <FontAwesomeIcon icon={faPhone} className="linkedin-icon" />
                   </a>{" "}
+                  <a
+                    href="YOUR_WHATSAPP_PROFILE_LINK"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon
+                      icon={faWhatsapp}
+                      className="whatsapp-icon"
+                    />
+                  </a>
                 </p>
               </div>
             </div>
             <div className="footer-col">
               <h2 style={{ textAlign: "center" }}>Main Website</h2>
               <p>
-                <Link to="https://www.iitacademy.in/#/Admission-form">
+                <Link to="https://www.iitacademy.in/Admission-form">
                   Apply Online
                 </Link>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/#/fees-structure">
+                <Link to="https://www.iitacademy.in/fees-structure">
                   Fee Structure
                 </Link>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/#/admission-process">
+                <Link to="https://www.iitacademy.in/admission-process">
                   Admission Process
                 </Link>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/#/why-us">
+                <Link to="https://www.iitacademy.in/why-us">
                   Why IIT Academy
                 </Link>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/#/our-policy">
+                <Link to="https://www.iitacademy.in/our-policy">
                   Privacy & Policy
                 </Link>
               </p>
@@ -119,30 +130,40 @@ const Footer = () => {
                 <Link to="#">Contact US</Link>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/#/careers">Careers</Link>
+                <Link to="https://www.iitacademy.in/careers">Careers</Link>
               </p>
             </div>
             <div className="footer-col">
               <h2 style={{ textAlign: "center" }}>Quick Links</h2>
-              <p>
+              {/*<p>
                 <Link to="/pyq-neet">NEET PYQ</Link>
               </p>
               <p>
-                <Link to="/neet-books">NEET Books</Link>
+                <Link to=" ">NEET Books</Link>
               </p>
               <p>
-                <Link to="/pyq-jee-main">JEE Mains PYQ</Link>
+                <Link to=" ">JEE Mains PYQ</Link>
               </p>
               <p>
-                <Link to="/jee(mains+advanced)-books">
-                  JEE (Mains+Adv.) Books
-                </Link>
+                <Link to=" ">JEE (Mains+Adv.) Books</Link>
               </p>
               <p>
                 <Link to="/pyq-jee-advanced">JEE Advanced PYQ</Link>
               </p>
+              */}
+              <p>NEET PYQ</p>
+              <p>NEET Books</p>
+              <p>JEE Mains PYQ</p>
+              <p>JEE (Mains+Adv.) Books</p>
+              <p>JEE Advanced PYQ</p>
               <p>Internships</p>
               <p>Counseling</p>
+              {/* <p>
+                <Link to="https://www.counselling.iitacademy.in/">
+                  Counseling
+                </Link>
+              </p>
+              */}
             </div>
           </div>
           <div
@@ -154,7 +175,7 @@ const Footer = () => {
               marginTop: "5px",
             }}
           >
-            All Rights Reserved @ IIT Academy
+            All Rights Reserved @ IIT Academy 2024
           </div>
         </div>
       </div>

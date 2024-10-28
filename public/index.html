@@ -413,5 +413,37 @@
 
       gtag("config", "G-M2ZZD07FFG");
     </script>
+    <!-- Chatbot -->
+    <script src="https://cdn.botpress.cloud/webchat/v2/inject.js"></script>
+    <script src="https://mediafiles.botpress.cloud/8df6e066-237b-4b45-9e0f-c04980dbe761/webchat/v2/config.js"></script>
+    <script>
+      // Prevent right-clicking on the entire document
+      document.addEventListener("contextmenu", function (event) {
+        event.preventDefault();
+      });
+      document.addEventListener("copy", function (event) {
+        event.preventDefault();
+      });
+      // Disable text selection
+      document.addEventListener("selectstart", function (event) {
+        event.preventDefault();
+      });
+      document.addEventListener("contextmenu", function (e) {
+        if (e.target.nodeName === "IMG") {
+          e.preventDefault();
+        }
+      });
+      document.addEventListener("keydown", function (event) {
+        if (event.ctrlKey && event.key === "u") {
+          event.preventDefault();
+        }
+      });
+      document.addEventListener("keydown", function (event) {
+        if (event.ctrlKey && event.shiftKey && event.key === "i") {
+          event.preventDefault();
+          // Add your custom logic here if needed
+        }
+      });
+    </script>
   </body>
 </html>
