@@ -146,7 +146,11 @@ const Advanced = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <Layout title="JEE-Advanced-Exam-IIT-Academy">
+    <Layout
+      title="JEE Advanced Exam - IIT Academy"
+      description="Prepare for the JEE Advanced 2025 with IIT Academy, your trusted partner for success in engineering entrance exams. Our comprehensive resources include detailed syllabi, expert tips, and tailored study plans to help you excel. Explore our coaching programs, access previous year papers, and stay updated on exam patterns and important dates. Join IIT Academy today to maximize your potential and secure your future in top engineering institutes!"
+      keywords="JEE Advanced, JEE Advanced 2025, JEE Advanced exam, JEE Advanced syllabus, JEE Advanced preparation, JEE Advanced eligibility, JEE Advanced results, JEE Advanced cut-off, JEE Advanced admit card, JEE Advanced coaching, How to prepare for JEE Advanced, Best books for JEE Advanced preparation, JEE Advanced study plan, JEE Advanced previous year papers, JEE Advanced online courses, Tips for JEE Advanced success, JEE Advanced important topics, JEE Advanced vs JEE Main, JEE Advanced exam pattern, JEE Advanced score calculation, IIT entrance exam, Engineering entrance exams in India, JEE Advanced registration process, JEE Advanced exam dates, JEE Advanced mock tests, JEE Advanced FAQs, JEE Advanced rank predictor, JEE Advanced preparation strategy, JEE Advanced subject-wise weightage, Common mistakes in JEE Advanced, JEE Advanced coaching, Best JEE Advanced institutes, JEE Advanced preparation workshops"
+    >
       <div className="main">
         <div className="container">
           <h1>What Is JEE ADVANCED?</h1>

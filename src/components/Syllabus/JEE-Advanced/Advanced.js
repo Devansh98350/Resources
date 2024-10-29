@@ -6,7 +6,11 @@ const Advanced = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <Layout title="JEE-Advanced-Syllabus-IIT-Academy">
+    <Layout
+      title="JEE Advanced Syllabus - IIT Academy"
+      description="At IIT Academy, we provide an in-depth overview of the JEE Advanced syllabus for 2025, covering essential topics in physics, chemistry, and mathematics. Our detailed syllabus includes important subjects, exam patterns, and preparation tips tailored to help students excel in their JEE journey. Access downloadable PDFs, explore crucial topics, and discover effective study strategies to maximize your performance. Join us at IIT Academy and take the first step towards achieving your dream of entering India’s prestigious IITs!"
+      keywords="JEE Advanced syllabus, JEE Advanced 2025 syllabus, JEE Advanced subject syllabus, JEE syllabus PDF, JEE Advanced topics, JEE Advanced exam pattern, JEE syllabus for physics/chemistry/mathematics, JEE Advanced preparation tips, JEE Advanced important topics, JEE Advanced marking scheme, Complete JEE Advanced syllabus 2025 PDF, JEE Advanced syllabus for physics 2025, JEE Advanced syllabus overview, How to study JEE Advanced syllabus, JEE Advanced syllabus changes, IIT JEE syllabus, JEE Mains vs JEE Advanced syllabus, JEE Advanced previous year syllabus, JEE Advanced study materials"
+    >
       <div
         className="jee-advance-syllabus"
         style={{ marginLeft: "5%", marginRight: "5%", textAlign: "justify" }}

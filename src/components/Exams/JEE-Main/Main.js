@@ -122,7 +122,11 @@ export default function Main() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <Layout title="JEE-Mains-Exam-IIT-Academy">
+    <Layout
+      title="JEE Mains Exam - IIT Academy"
+      description="Prepare for JEE Main 2025 with IIT Academy, your ultimate destination for comprehensive coaching and resources. Our expert faculty offers personalized guidance, covering essential topics such as the JEE Main syllabus, exam pattern, and eligibility criteria. Access previous year question papers, mock tests, and the best preparation tips to enhance your performance. Join our online coaching sessions and benefit from a structured study schedule tailored to your needs. Whether you’re looking for study materials or workshops anywhere, IIT Academy is committed to helping you succeed in your JEE Main journey. Register now and take the first step towards achieving your engineering dreams!"
+      keywords="JEE Main 2025, JEE Main exam, JEE Main syllabus, JEE Main eligibility criteria, JEE Main preparation tips, JEE Main previous year question papers, JEE Main online coaching, JEE Main exam pattern, JEE Main cutoff marks, JEE Main result date, JEE Main answer key, JEE Main mock tests, JEE Main best books, JEE Main subject-wise preparation, JEE Main FAQs, How to prepare for JEE Main 2025, Best strategies for JEE Main exam, JEE Main important topics, JEE Main preparation schedule, JEE Main study materials and resources, JEE Main coaching, JEE Main workshops near me, JEE Main study centers, Register for JEE Main 2025, Download JEE Main syllabus, Apply for JEE Main 2025"
+    >
       <div className="main">
         <div className="container">
           <h1>WHAT IS JEE MAIN ?</h1>

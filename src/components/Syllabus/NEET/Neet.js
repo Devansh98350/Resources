@@ -6,7 +6,11 @@ const Neet = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <Layout title="NEET-Syllabus-IIT-Academy">
+    <Layout
+      title="NEET Syllabus - IIT Academy"
+      description="Explore the comprehensive NEET syllabus for 2025 with IIT Academy. Our expertly curated resources cover all essential subjects, including Biology, Physics, and Chemistry, ensuring you have a solid foundation for your NEET preparation. Get access to detailed study plans, important topics, and effective preparation tips tailored for aspiring medical students. Whether you need NEET syllabus PDFs, coaching classes, or online resources, IIT Academy is your go-to destination for achieving success in the NEET exam. Prepare confidently with our expert guidance and boost your chances of acing the NEET 2025."
+      keywords="NEET syllabus, NEET 2025 syllabus, NEET exam syllabus, NEET syllabus PDF, NEET subjects, NEET syllabus for biology, NEET syllabus for physics, NEET syllabus for chemistry, NEET preparation tips, NEET study plan, NEET important topics, NEET exam pattern, NEET marking scheme, NEET previous year syllabus, NEET syllabus vs JEE syllabus, NEET 2025 exam date, complete NEET syllabus for 2025, NEET syllabus for class 11 and 12, how to prepare for NEET syllabus, NEET 2025 syllabus and exam pattern, NEET syllabus for medical aspirants, best books for NEET syllabus, NEET coaching, NEET mock tests, NEET online resources, NEET preparation strategies, NEET eligibility criteria, NEET exam centers, NEET coaching centers, NEET preparation classes near me."
+    >
       <div
         className="jee-main-syllabus"
         style={{ marginLeft: "5%", marginRight: "5%", textAlign: "justify" }}

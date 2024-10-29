@@ -102,7 +102,11 @@ const Neet = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <Layout title="NEET-Exam-IIT-Academy">
+    <Layout
+      title="NEET Exam - IIT Academy"
+      description="Prepare for NEET 2025 with comprehensive guidance from IIT Academy. Our expert faculty provides in-depth study materials, personalized coaching, and the latest updates on NEET eligibility, exam patterns, and application procedures. Explore our extensive resources, including previous year question papers and exam tips, to maximize your chances of success. Whether you're looking for the best books for NEET preparation or need advice on choosing the right coaching, IIT Academy is your trusted partner in achieving your medical dreams. Join us and take the first step towards a successful career in medical!"
+      keywords="NEET 2025, NEET exam, NEET preparation, NEET eligibility criteria, NEET syllabus, NEET application form, NEET exam pattern, NEET coaching, NEET study materials, NEET results, How to prepare for NEET 2025, NEET exam dates and schedule, Best books for NEET preparation, NEET previous year question papers, NEET exam tips and strategies, NEET coaching institutes in [your location], NEET eligibility requirements for 2025, NEET exam pattern explained, How to fill NEET application form, NEET result announcement date, Medical entrance exams, NEET vs JEE, NEET cutoff marks, NEET 2025 notification, NEET score vs rank, NEET mock tests, NEET FAQs, NEET important topics, NEET for foreign medical students, NEET counseling process, NEET coaching classes, NEET exam centers in India, guides on NEET preparation strategies, updates on NEET exam notifications, blog posts on success stories of NEET toppers, comparison of different coaching options for NEET"
+    >
       <div className="main">
         <div className="container">
           <p>

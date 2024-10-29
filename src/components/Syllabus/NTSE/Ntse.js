@@ -6,7 +6,11 @@ const Ntse = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <Layout title="NTSE-Syllabus-IIT-Academy">
+    <Layout
+      title="NTSE Syllabus - IIT Academy"
+      description="Discover the NTSE Syllabus at IIT Academy! Our comprehensive guide covers the complete NTSE 2025 syllabus for Class 10, including exam patterns, important topics across subjects like Mathematics, Science, and Social Science. Prepare effectively with our expert tips, best study materials, and access to previous year papers and sample questions. Whether you're looking for coaching classes or online resources, IIT Academy provides all the tools you need to excel in the NTSE exam. Start your journey to success today!"
+      keywords="NTSE Syllabus, NTSE 2025 Syllabus, NTSE Exam Pattern, NTSE Class 10 Syllabus, NTSE Subject Topics, NTSE Study Material, NTSE Preparation Tips, NTSE Eligibility Criteria, NTSE Previous Year Papers, NTSE Sample Papers, NTSE Marks Distribution, NTSE Important Topics, NTSE Mathematics Syllabus, NTSE Science Syllabus, NTSE Social Science Syllabus, NTSE Language Proficiency Test, NTSE Exam Dates, How to Prepare for NTSE Exam, NTSE Syllabus for Class 10 Science, NTSE Syllabus and Exam Pattern for 2025, NTSE Preparation Guide for Students, Best Books for NTSE Preparation, NTSE Coaching Classes Near Me, NTSE Exam Tips and Strategies, NTSE Syllabus for Social Science, NTSE Eligibility for Class 10, NTSE 2025 Exam Date, NTSE Scholarship Exam, NTSE Study Plan, NTSE Online Resources, NTSE Coaching Institutes"
+    >
       <div
         className="jee-main-syllabus"
         style={{ marginLeft: "5%", marginRight: "5%", textAlign: "justify" }}
