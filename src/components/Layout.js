@@ -28,10 +28,10 @@ const Layout = ({ children, title, description, keywords, author }) => {
 };
 
 Layout.defaultProps = {
-  title: "IIT Academy",
-  description: "Best Institute for JEE and NEET",
-  keywords: "mern,react,node,mongodb",
-  author: "Devanshu Kumar",
+  title: "Resources - IIT Academy",
+  description: "Best Institute for JEE, NEET and Other competitive exams",
+  keywords: "",
+  author: "IIT Academy",
 };
 
 export default Layout;

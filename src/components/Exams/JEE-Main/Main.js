@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Layout from "../../Layout";
 import { CaretDown, CaretUp } from "phosphor-react";
+import { FaRegKeyboard } from "react-icons/fa6";
+import { FaHeadphones } from "react-icons/fa";
 import "../Exam.css";
 
 const Question = ({ question }) => {
@@ -42,14 +44,14 @@ const AccordionComponent = () => {
     },
     {
       id: 2,
-      title: "Q2. What are the new exam dates for JEE Main 2024 sessions?",
-      content: `The JEE Main 2024 exam would be conducted in two sessions. The first section session is on date 24th January To 1st February 2024 while the second session is on date 1st April, 2024 To 15th April, 2024.`,
+      title: "Q2. What are the new exam dates for JEE Main 2025 sessions?",
+      content: `The JEE Main 2025 exam would be conducted in two sessions. The first section session is on date 24th January To 1st February 2025 while the second session is on date 1st April, 2025 To 15th April, 2025.`,
     },
     {
       id: 3,
       title:
-        "Q3. When will NTA release JEE Main 2024 Admit Card for the upcoming session?",
-      content: `After the applications are completed the NTA would be releasing the JEE Main admit card for 2024 on the official website. The candidates who have registered successfully can download JEE Main admit card from nta.ac.in or jeemain.nta.nic.in. on the specified dates.`,
+        "Q3. When will NTA release JEE Main 2025 Admit Card for the upcoming session?",
+      content: `After the applications are completed the NTA would be releasing the JEE Main admit card for 2025 on the official website. The candidates who have registered successfully can download JEE Main admit card from nta.ac.in or jeemain.nta.nic.in. on the specified dates.`,
     },
     {
       id: 4,
@@ -64,7 +66,7 @@ const AccordionComponent = () => {
     {
       id: 6,
       title: " Q6. How many attempts are granted for the JEE Main?",
-      content: ` The JEE Main 2024 will be conducted in two sessions it is entirely the choice of the student whether he or she is willing to appear only in one session or both sessions.`,
+      content: ` The JEE Main 2025 will be conducted in two sessions it is entirely the choice of the student whether he or she is willing to appear only in one session or both sessions.`,
     },
     {
       id: 7,
@@ -73,7 +75,7 @@ const AccordionComponent = () => {
     },
     {
       id: 8,
-      title: "Q8. Can I apply for two sessions together in JEE Main 2024?",
+      title: "Q8. Can I apply for two sessions together in JEE Main 2025?",
       content: `No, the JEE would open the application window before both sessions and the student can apply .`,
     },
     {
@@ -134,7 +136,7 @@ export default function Main() {
             JEE Main is the first step towards the ladder of the top engineering
             colleges in the country. The National Testing Agency is responsible
             for conducting the computer-based online test for JEE Main. The JEE
-            Main 2024 exam would be conducted to assist aspiring students to
+            Main 2025 exam would be conducted to assist aspiring students to
             pursue undergraduate courses in the top engineering institutes-IITs,
             NITs, etc. The JEE exam is divided into two papers first JEE Main
             and second JEE Advanced. Only those students who are able to clear
@@ -145,11 +147,11 @@ export default function Main() {
             Advanced.
           </p>
           <p>
-            The tentative dates for both JEE Main 2024 are given on this page.
-            You can obtain all the information about IIT JEE 2024 and draft a
+            The tentative dates for both JEE Main 2025 are given on this page.
+            You can obtain all the information about IIT JEE 2025 and draft a
             detailed study plan for your exam to secure a good rank.
           </p>
-          <h1>Overview- JEE Main 2024</h1>
+          <h1>Overview- JEE Main 2025</h1>
           <div className="tabledata">
             <table>
               <thead>
@@ -168,7 +170,7 @@ export default function Main() {
                   <td>300 Marks</td>
                 </tr>
                 <tr>
-                  <td>Total Sessions in 2024</td>
+                  <td>Total Sessions in 2025</td>
                   <td>Two Sessions</td>
                 </tr>
                 <tr>
@@ -207,7 +209,7 @@ export default function Main() {
               </tbody>
             </table>
           </div>
-          <h1>About JEE Main 2024</h1>
+          <h1>About JEE Main 2025</h1>
           <p>
             JEE Main is an All-India level entrance exam conducted in different
             states to offer admission to some of the best engineering and
@@ -215,7 +217,7 @@ export default function Main() {
             privately hold. The exam is conducted by the NTA. It is an
             undergraduate-level exam.
           </p>
-          <p>JEE Main 2024 would be conducted for three groups of aspirants:</p>
+          <p>JEE Main 2025 would be conducted for three groups of aspirants:</p>
           <div className="listdata">
             <ul>
               <li>
@@ -241,13 +243,13 @@ export default function Main() {
           <p>
             Get the complete JEE study plan by visiting the link given below:
           </p>
-          <h1>JEE Main 2024 Exam Schedule</h1>
+          <h1>JEE Main 2025 Exam Schedule</h1>
           <p>
-            The exam schedule for JEE Main 2024 will be released by NTA. JEE
-            Main 2024 dates are not officially announced yet on the website. To
+            The exam schedule for JEE Main 2025 will be released by NTA. JEE
+            Main 2025 dates are not officially announced yet on the website. To
             help the students we have provided tentative exam dates for both
-            sessions of JEE Main 2024. You can check the exam schedule for JEE
-            Main 2024 and kick-start your examination preparation.
+            sessions of JEE Main 2025. You can check the exam schedule for JEE
+            Main 2025 and kick-start your examination preparation.
           </p>
           <div className="tabledata">
             <table>
@@ -255,8 +257,8 @@ export default function Main() {
                 <tr>
                   <td>Date Of Examination </td>
                   <th>
-                    <p>(Session 1): 24th January To 1st February 2024</p>
-                    <p>(Session 2): 1st April, 2024 To 15th April, 2024</p>
+                    <p>(Session 1): 24th January To 1st February 2025</p>
+                    <p>(Session 2): 1st April, 2025 To 15th April, 2025</p>
                   </th>
                 </tr>
               </thead>
@@ -277,19 +279,19 @@ export default function Main() {
                 <tr>
                   <td>Declaration of Result on the NTA Website </td>
                   <th>
-                    <p>(Session 1): 12 February 2024</p>
+                    <p>(Session 1): 12 February 2025</p>
                     <p>(Session 2): To be announced</p>
                   </th>
                 </tr>
               </tbody>
             </table>
           </div>
-          <h1>JEE Main 2024 Eligibility Criteria</h1>
+          <h1>JEE Main 2025 Eligibility Criteria</h1>
           <p>
             The students should go through the JEE Main eligibility criteria for
-            2024 properly to avoid rejection in later stages. Aspirants should
+            2025 properly to avoid rejection in later stages. Aspirants should
             satisfy all the terms and conditions that are mentioned in JEE Main
-            eligibility criteria for 2024. There are some points that are to be
+            eligibility criteria for 2025. There are some points that are to be
             taken into consideration before registering for the exam:
           </p>
           <p>
@@ -313,7 +315,7 @@ export default function Main() {
           <p>
             <b>Year:</b> Candidates who have passed their class 12 or equivalent
             examination in 2022 and 2023 or those who are appearing for the same
-            in the year 2024 are eligible for JEE Main 2024.
+            in the year 2025 are eligible for JEE Main 2025.
           </p>
           <p>
             <b>Number of Attempts:</b> Students aspiring to appear for JEE Main
@@ -384,7 +386,7 @@ export default function Main() {
               </tbody>
             </table>
           </div>
-          <h1>Eligibility Criteria for JEE Main 2024 Paper 2 and 3</h1>
+          <h1>Eligibility Criteria for JEE Main 2025 Paper 2 and 3</h1>
           <p>
             The candidate can appear for JEE Main for three consecutive years:
           </p>
@@ -394,14 +396,14 @@ export default function Main() {
             students appearing for B. Arch B.Planning courses should have
             Mathematics as their compulsory subject.
           </p>
-          <h1>JEE Main 2024 Reservation Criteria</h1>
+          <h1>JEE Main 2025 Reservation Criteria</h1>
           <p>
             The National Testing Agency follows the reservation criterion that
             is laid by the government of India for granting admissions to the
             candidate. All India ranks are allotted to the candidate based on
             the category reservation policy. Let's have a look at the
             reservation percentage of categories for admission through JEE Main
-            2024
+            2025
           </p>
           <div className="listdata">
             <ul>
@@ -413,10 +415,10 @@ export default function Main() {
               <li>Women candidates: 5% reservation</li>
             </ul>
           </div>
-          <h1>JEE Main 2024 Exam Pattern</h1>
+          <h1>JEE Main 2025 Exam Pattern</h1>
           <p>
             The students are advised to have complete knowledge regarding the
-            JEE Main exam pattern for 2024. Understanding the exam pattern
+            JEE Main exam pattern for 2025. Understanding the exam pattern
             assists the students in drafting their study plan properly, not only
             this the students are able to have a clear idea of the marking
             scheme, sectional weightage, exam duration, and distribution of
@@ -795,7 +797,7 @@ export default function Main() {
             Main scorecard and hence the students are required to apply
             separately.
           </p>
-          <h1>How to Prepare for JEE Main 2024?</h1>
+          <h1>How to Prepare for JEE Main 2025?</h1>
           <p>
             The competition is tough but if the candidate is rigid towards the
             desire of reaching the list of the toppers then nothing can stop
@@ -807,7 +809,7 @@ export default function Main() {
             it the syllabus, the right study materials, solving sample question
             papers, and previous years’ question papers.
           </p>
-          <h1>JEE Main 2024 Preparation Tips</h1>
+          <h1>JEE Main 2025 Preparation Tips</h1>
           <p>
             <b>Beginning:</b> The candidate should have a rigid understanding of
             the basics of all the subjects, once the basics are clear then
@@ -835,7 +837,7 @@ export default function Main() {
             learning the topics, and keep revising them so that everything stays
             intact in the brain.
           </p>
-          <h1>Importance of NCERT Books for JEE Main 2024</h1>
+          <h1>Importance of NCERT Books for JEE Main 2025</h1>
           <p>
             There are students who don't prefer investing time in the NCERT book
             for JEE Main preparation. NCERT is indeed essential for cracking JEE
@@ -873,10 +875,73 @@ export default function Main() {
             important questions, exam pattern, application form, etc. keep
             visiting the IIT Academy website.
           </p>
-          <h1>FAQ For JEE Main 2024</h1>
+          <h1>FAQ For JEE Main 2025</h1>
         </div>
       </div>
       <AccordionComponent />
+      <div className="container-fluid fullBlog-third">
+        <h3>What to do next? Ask Our experts in a Free Counselling</h3>
+        <p>
+          Years of Trusted Excellence in Classes for IIT-JEE | Medical |
+          Foundation, Now learn from the best teachers of India
+        </p>
+        <div className="button-container">
+          <a
+            href="https://www.iitacademy.in/Admission-form"
+            rel="noopener noreferrer"
+          >
+            <button className="btn">
+              <FaRegKeyboard className="icon" />
+              Enroll Now
+            </button>
+          </a>
+          <a href="tel:9205704041">
+            <button className="btn">
+              <FaHeadphones className="icon" />
+              Contact Us
+            </button>
+          </a>
+        </div>
+      </div>
+      <div className="aders">
+        <p>
+          <i
+            className="fas fa-angle-double-right"
+            style={{
+              color: "#f39c12",
+              marginRight: "5px",
+            }}
+          ></i>{" "}
+          Explore More about different batches offered by IIT Academy.
+        </p>
+        <div className="all_batches">
+          {" "}
+          <a
+            href="https://www.iitacademy.in/engineering-courses"
+            rel="noopener noreferrer"
+          >
+            <button className="details4-btn">Engineering Batches</button>
+          </a>
+          <a
+            href="https://www.iitacademy.in/medical-courses"
+            rel="noopener noreferrer"
+          >
+            <button className="details4-btn">Medical Batches</button>
+          </a>
+          <a
+            href="https://www.iitacademy.in/foundation-courses"
+            rel="noopener noreferrer"
+          >
+            <button className="details4-btn">Foundation Batches</button>
+          </a>
+          <a
+            href="https://www.iitacademy.in/board-courses"
+            rel="noopener noreferrer"
+          >
+            <button className="details4-btn">Boards Batches</button>
+          </a>
+        </div>
+      </div>
     </Layout>
   );
 }

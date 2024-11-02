@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Layout from "../../Layout";
 import { CaretDown, CaretUp } from "phosphor-react";
+import { FaRegKeyboard } from "react-icons/fa6";
+import { FaHeadphones } from "react-icons/fa";
 import "../Exam.css";
 
 const Question = ({ question }) => {
@@ -37,8 +39,8 @@ const AccordionComponent = () => {
   const questions = [
     {
       id: 1,
-      title: "Q1. When is NEET 2024?",
-      content: ` Considering the previous years’ schedule trend, it is possible that the NEET 2024 exam would be conducted on date 5th May 2024.`,
+      title: "Q1. When is NEET 2025?",
+      content: ` Considering the previous years’ schedule trend, it is possible that the NEET 2025 exam would be conducted on date 5th May 2025.`,
     },
     {
       id: 2,
@@ -52,7 +54,7 @@ const AccordionComponent = () => {
     },
     {
       id: 4,
-      title: "Q4. Is qualifying class 12th enough to appear for NEET 2024?",
+      title: "Q4. Is qualifying class 12th enough to appear for NEET 2025?",
       content: `To appear for the NEET exam, it is mandatory for the candidate to qualify class 12th exam. Candidate should be appearing for the board exam the same year or might have given the class 12th examination in the previous year.`,
     },
     {
@@ -62,28 +64,28 @@ const AccordionComponent = () => {
     },
     {
       id: 6,
-      title: "Q6. When do the NEET 2024 Registrations start?",
-      content: `The official authority has not declared NEET 2024 registration dates yet. The candidate can check this section in regard to when the NEET 2024 exam dates would be released.`,
+      title: "Q6. When do the NEET 2025 Registrations start?",
+      content: `The official authority has not declared NEET 2025 registration dates yet. The candidate can check this section in regard to when the NEET 2025 exam dates would be released.`,
     },
     {
       id: 7,
-      title: "Q7. Will NEET be held twice in 2024?",
-      content: `The NTA has made no official statement regarding the conduction of NEET 2024 twice. Keep visiting this section to have updates on the same.`,
+      title: "Q7. Will NEET be held twice in 2025?",
+      content: `The NTA has made no official statement regarding the conduction of NEET 2025 twice. Keep visiting this section to have updates on the same.`,
     },
     {
       id: 8,
-      title: "Q8. When will the NEET 2024 form date be announced?",
-      content: `Though the release date for NEET 2024 exam forms is not announced, as per the previous years' trends it can be expected that the forms would be released in the month of April 2024.`,
+      title: "Q8. When will the NEET 2025 form date be announced?",
+      content: `Though the release date for NEET 2025 exam forms is not announced, as per the previous years' trends it can be expected that the forms would be released in the month of April 2025.`,
     },
     {
       id: 9,
-      title: "Q9. Will NEET be held in 2024?",
-      content: `For young graduates seeking to pursue a career in the field of medicine NEET 2024 medical entrance test would be conducted. The NEET 2024 would be conducted at several centers in India and even abroad. And, as the competition is high and the syllabus is vast, the students are suggested to have a proper preparation strategy to score well.`,
+      title: "Q9. Will NEET be held in 2025?",
+      content: `For young graduates seeking to pursue a career in the field of medicine NEET 2025 medical entrance test would be conducted. The NEET 2025 would be conducted at several centers in India and even abroad. And, as the competition is high and the syllabus is vast, the students are suggested to have a proper preparation strategy to score well.`,
     },
     {
       id: 10,
-      title: "Q10. Is there any change in the NEET 2024 syllabus?",
-      content: `India will be conducting NEET 2024 examination on the basis of the NEET syllabus as specified by the officials. The complete syllabus of NEET 2024 is provided in detail here. In case of any changes, the same will be updated on this page.`,
+      title: "Q10. Is there any change in the NEET 2025 syllabus?",
+      content: `India will be conducting NEET 2025 examination on the basis of the NEET syllabus as specified by the officials. The complete syllabus of NEET 2025 is provided in detail here. In case of any changes, the same will be updated on this page.`,
     },
   ];
   return (
@@ -119,10 +121,10 @@ const Neet = () => {
             medical institutes across the country.
           </p>
           <p>
-            Before the student starts preparing for NEET 2024, he/she should be
-            aware of the basic details of the exam, i.e. NEET 2024 paper
-            pattern, NEET 2024 registration form date, NEET 2024 exam syllabus,
-            NEET 2024 eligibility criteria, NEET 2024 expected exam date. This
+            Before the student starts preparing for NEET 2025, he/she should be
+            aware of the basic details of the exam, i.e. NEET 2025 paper
+            pattern, NEET 2025 registration form date, NEET 2025 exam syllabus,
+            NEET 2025 eligibility criteria, NEET 2025 expected exam date. This
             page consists of all the information that is required prior to
             preparation.
           </p>
@@ -135,10 +137,10 @@ const Neet = () => {
             entrance test ending all the state-level and national-level entrance
             tests.
           </p>
-          <h1>What is the NEET 2024?</h1>
+          <h1>What is the NEET 2025?</h1>
           <p>
             In order for the students to pursue medicine in India as well as
-            overseas, it is mandatory for the students to clear NEET 2024 exam.
+            overseas, it is mandatory for the students to clear NEET 2025 exam.
           </p>
           <p>
             It is an offline test conducted covering the syllabus of classes
@@ -149,19 +151,19 @@ const Neet = () => {
             12 from a recognised board, with Physics, Biology/Biotechnology,
             Chemistry, and English as core subjects.
           </p>
-          <h1>NEET 2023 Synopsis</h1>
+          <h1>NEET 2024 Synopsis</h1>
           <p>
-            In the year 2023, NEET was conducted on 07th May 2023 for medical
-            aspirants in 497 Indian cities and a total of 14 cities outside
-            India, for which the registration process began on 16th April 2023,
-            & the application forms were available on the official website of
+            In the year 2024, NEET was conducted on 05th May 2024 for medical
+            aspirants in 500 Indian cities and a total of 16 cities outside
+            India, for which the registration process began on 9th Feb 2024, &
+            the application forms were available on the official website of
             NEET. As per the official announcement the last date for submission
-            of the online form for NEET 2023 was 20th May 2023. A total of 18.7
-            Lakh registrations were witnessed for NEET 2023 recording the
+            of the online form for NEET 2024 was 10th April 2024. A total of 24
+            Lakh registrations were witnessed for NEET 2024 recording the
             highest number so far. The results of the same were announced on
-            13th June 2023.
+            20th July 2024.
           </p>
-          <h1>NEET 2024 Examination Highlights</h1>
+          <h1>NEET 2025 Examination Highlights</h1>
           <div className="tabledata">
             <table>
               <thead>
@@ -189,7 +191,7 @@ const Neet = () => {
                 </tr>
                 <tr>
                   <td>Number of Registrations</td>
-                  <td>1872343 candidates</td>
+                  <td>Approx 2200000 candidates</td>
                 </tr>
                 <tr>
                   <td>Exam Duration (Revised)</td>
@@ -209,8 +211,8 @@ const Neet = () => {
                 <tr>
                   <td>Total Exam centres</td>
                   <td>
-                    3570 centres located in 497 cities throughout the country
-                    including 14 cities outside India
+                    3570 centres located in 500 cities throughout the country
+                    including 16 cities outside India
                   </td>
                 </tr>
                 <tr>
@@ -271,10 +273,10 @@ const Neet = () => {
               </tbody>
             </table>
           </div>
-          <h1>NEET Exam Date 2024 – Expected Dates</h1>
+          <h1>NEET Exam Date 2025 – Expected Dates</h1>
           <p>
             Here is a list that depicts an idea about the events and probable
-            date of the NEET exam 2024:
+            date of the NEET exam 2025:
           </p>
           <div className="tabledata">
             <table>
@@ -288,50 +290,50 @@ const Neet = () => {
                 <tr>
                   <td>
                     NTA releases official notification with information bulletin
-                    for NEET 2024
+                    for NEET 2025
                   </td>
-                  <td>December 2023 (tentative)</td>
+                  <td>December 2024 (tentative)</td>
                 </tr>
                 <tr>
                   <td>
-                    NEET 2024 application form release date – NEET Registration
-                    2024 Date
+                    NEET 2025 application form release date – NEET Registration
+                    2025 Date
                   </td>
-                  <td>April 2024 – 1st week (tentative)</td>
+                  <td>March 2025 – 1st week (tentative)</td>
                 </tr>
                 <tr>
                   <td>
-                    NEET Form date 2024 – Portal opens for corrections in the
+                    NEET Form date 2025 – Portal opens for corrections in the
                     application form
                   </td>
-                  <td>April 2024 (tentative)</td>
+                  <td>April 2025 (tentative)</td>
                 </tr>
                 <tr>
                   <td>Registration process commences</td>
-                  <td>April 2024 (tentative)</td>
+                  <td>March 2025 (tentative)</td>
                 </tr>
                 <tr>
                   <td>Last date to submit online application form</td>
-                  <td>April – May 2024 (tentative)</td>
+                  <td>April – May 2025 (tentative)</td>
                 </tr>
                 <tr>
-                  <td>Admit card release date for NEET 2024</td>
+                  <td>Admit card release date for NEET 2025</td>
                   <td>To be announced (tentative)</td>
                 </tr>
                 <tr>
-                  <td>NEET 2024 exam date</td>
-                  <td>5th May 2024</td>
+                  <td>NEET 2025 exam date</td>
+                  <td>To be announced (tentative)</td>
                 </tr>
                 <tr>
-                  <td>NEET 2024 results date</td>
+                  <td>NEET 2025 results date</td>
                   <td>To be announced (tentative)</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <h1>NEET 2024 Eligibility Criteria</h1>
+          <h1>NEET 2025 Eligibility Criteria</h1>
           <h4>
-            <b>What is the age requirement for the NEET 2024 examination?</b>
+            <b>What is the age requirement for the NEET 2025 examination?</b>
           </h4>
           <p>
             At the time of admission, the candidate must have completed 17 years
@@ -351,7 +353,7 @@ const Neet = () => {
             </ul>
           </div>
           <h4>
-            <b>What is the academic qualification for NEET 2024?</b>
+            <b>What is the academic qualification for NEET 2025?</b>
           </h4>
           <p>
             Candidates who have passed the class 12 board examination or would
@@ -367,25 +369,25 @@ const Neet = () => {
             Chemistry, and Biology/Biotechnology at the qualifying examination
             as mentioned in the Regulations. For admission to Undergraduate
             Medical Courses, one must have secured a rank in the merit list of
-            NEET (UG) – 2024.
+            NEET (UG) – 2025.
           </p>
           <h4>
             <b>
-              What percentage is needed in Class 12 to appear for NEET 2024
+              What percentage is needed in Class 12 to appear for NEET 2025
               exam?
             </b>
           </h4>
           <p>
-            Qualifying marks for NEET 2024 –under the general category
+            Qualifying marks for NEET 2025 –under the general category
             candidates must have secured a minimum of 50% in Physics, Chemistry,
             and Biology in the qualifying examination. In the case of the SC,
             ST, and OBC-NCL categories the minimum requirement is 40%.
           </p>
           <h4>
-            <b>What Is new in NEET 2024 exam? Expected Changes in NEET 2024</b>
+            <b>What Is new in NEET 2025 exam? Expected Changes in NEET 2025</b>
           </h4>
           <p>
-            All the students who are planning to take up NEET exam 2024 can
+            All the students who are planning to take up NEET exam 2025 can
             expect a few changes. The entity has introduced several changes in
             the past two years. Below given are a few changes that were
             introduced earlier:
@@ -423,11 +425,11 @@ const Neet = () => {
               </li>
             </ul>
           </div>
-          <h1>Registrations for NEET 2024 exam – NEET Registration 2024</h1>
+          <h1>Registrations for NEET 2025 exam – NEET Registration 2025</h1>
           <p>
             Candidates must visit the official website of NTA –
             https://neet.nta.nic.in/ and fill out the online application form to
-            register for NEET 2024 exam.
+            register for NEET 2025 exam.
           </p>
           <p>
             Upon the release of application forms online, official notification
@@ -437,7 +439,7 @@ const Neet = () => {
             process.
           </p>
           <p>
-            Simple Steps to Register for NEET 2024 exam – NEET Registration 2024
+            Simple Steps to Register for NEET 2025 exam – NEET Registration 2025
           </p>
           <div className="listdata">
             <ul>
@@ -448,7 +450,7 @@ const Neet = () => {
                 and other details.
               </li>
               <li>
-                Fill out the complete registration form for the NEET exam 2024.
+                Fill out the complete registration form for the NEET exam 2025.
               </li>
               <li>
                 Fill in other details like date of birth, category, nationality,
@@ -467,22 +469,22 @@ const Neet = () => {
               </li>
             </ul>
           </div>
-          <h1>NEET 2024 Registration Date – NEET Registration 2024</h1>
+          <h1>NEET 2025 Registration Date – NEET Registration 2025</h1>
           <p>
-            NEET registration 2024 dates: NTA is responsible for releasing the
-            application forms for NEET 2024. The registration process commences
+            NEET registration 2025 dates: NTA is responsible for releasing the
+            application forms for NEET 2025. The registration process commences
             on its official website, and it will also release an information
-            bulletin for NEET 2024. As per the speculation registration for NEET
-            2024 would commence in the month of April 2024. Keep visiting the
-            section to get the latest updates on NEET 2024 exam dates.
+            bulletin for NEET 2025. As per the speculation registration for NEET
+            2025 would commence in the month of April 2025. Keep visiting the
+            section to get the latest updates on NEET 2025 exam dates.
           </p>
-          <h1>NEET 2024 Online Application Form</h1>
+          <h1>NEET 2025 Online Application Form</h1>
           <p>
-            NTA will release the online application for NEET 2024 exam on its
+            NTA will release the online application for NEET 2025 exam on its
             official website. The candidates will have to fill out and submit
             the application form online mode only. The candidates should keep
             the required documents and details ready before filling out the NEET
-            2024 form.
+            2025 form.
           </p>
           <div className="listdata">
             <ul>
@@ -500,7 +502,7 @@ const Neet = () => {
             </ul>
           </div>
           <p>
-            NEET Exam application - Particulars to be filled in the NEET 2024
+            NEET Exam application - Particulars to be filled in the NEET 2025
             Online Application Form
           </p>
           <div className="listdata">
@@ -518,15 +520,15 @@ const Neet = () => {
           </div>
           <h4>
             <b>
-              NEET 2024 Application Form: Documents Required to Apply Online for
-              NEET 2024:
+              NEET 2025 Application Form: Documents Required to Apply Online for
+              NEET 2025:
             </b>
           </h4>
           <p>
             Candidates must keep ready the following documents while submitting
-            the NEET 2024 online application form.
+            the NEET 2025 online application form.
           </p>
-          <p>Documents required for NEET 2024 application form filling</p>
+          <p>Documents required for NEET 2025 application form filling</p>
           <div className="listdata">
             <ul>
               <li>Most recent passport-size photograph</li>
@@ -584,11 +586,11 @@ const Neet = () => {
               </tbody>
             </table>
           </div>
-          <h1>Examination Fee for NEET 2024</h1>
+          <h1>Examination Fee for NEET 2025</h1>
           <p>
-            NEET 2024 exam fees would be announced by the officials. However, in
-            NEET 2024 there was a change in the application fee. The below-given
-            table shows the fee structure of NEET 2023:
+            NEET 2025 exam fees would be announced by the officials. However, in
+            NEET 2025 there was a change in the application fee. The below-given
+            table shows the fee structure of NEET 2024:
           </p>
           <div className="tabledata">
             <table>
@@ -633,11 +635,11 @@ const Neet = () => {
             </ul>
           </div>
           <h4>
-            <b>NEET 2024 Application Form Online Correction</b>
+            <b>NEET 2025 Application Form Online Correction</b>
           </h4>
           <p>
             After the successful submission of the application form for NEET
-            2024, candidates are provided with the chance to make changes to a
+            2025, candidates are provided with the chance to make changes to a
             few fields through the online mode. The correction window is open
             for a specific duration. The candidates must keep a regular check on
             the official website to have an update regarding the notifications
@@ -650,12 +652,12 @@ const Neet = () => {
             is an additional fee required to make the correction, the amount can
             be paid through net banking, debit or credit card.
           </p>
-          <h1>Exam Pattern of NEET 2024</h1>
+          <h1>Exam Pattern of NEET 2025</h1>
           <p>
             Below given is the table that shows the latest exam pattern for NEET
             as per previous trends. So far there are no changes intimated by the
             officials. In case there is any revision in the exam pattern of NEET
-            2024, the update would be mentioned in this section accordingly.
+            2025, the update would be mentioned in this section accordingly.
           </p>
           <div className="tabledata">
             <table>
@@ -667,8 +669,8 @@ const Neet = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>NEET 2024 date</td>
-                  <td>5th May 2024</td>
+                  <td>NEET 2025 date</td>
+                  <td>To be announced (tentative)</td>
                 </tr>
                 <tr>
                   <td>Exam Duration </td>
@@ -731,7 +733,7 @@ const Neet = () => {
               </tbody>
             </table>
           </div>
-          <h1>NEET Exam 2024 Marking Scheme</h1>
+          <h1>NEET Exam 2025 Marking Scheme</h1>
           <p>
             A detailed marking scheme for each subject of NEET along with the
             allocation of marks and the total questions asked in each section is
@@ -800,15 +802,15 @@ const Neet = () => {
               </tbody>
             </table>
           </div>
-          <h1>NEET 2024 Syllabus – Complete NEET Syllabus 2024 (Latest)</h1>
+          <h1>NEET 2025 Syllabus – Complete NEET Syllabus 2025 (Latest)</h1>
           <p>
-            The syllabus for NEET 2024 would be recommended by The National
-            Medical Commission (NMC). The NEET 2024 question paper will be based
+            The syllabus for NEET 2025 would be recommended by The National
+            Medical Commission (NMC). The NEET 2025 question paper will be based
             on the syllabus specified by the NMC, which will be available on the
             official website of NMC.
           </p>
           <h4>
-            <b>Topic-wise Full NEET New Syllabus 2024</b>
+            <b>Topic-wise Full NEET New Syllabus 2025</b>
           </h4>
           <div className="tabledata">
             <table>
@@ -820,19 +822,19 @@ const Neet = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>Complete NEET 2024 Physics Syllabus</td>
+                  <td>Complete NEET 2025 Physics Syllabus</td>
                   <td>
                     <a href="/">Click here</a>
                   </td>
                 </tr>
                 <tr>
-                  <td>Complete NEET 2024 Chemistry Syllabus </td>
+                  <td>Complete NEET 2025 Chemistry Syllabus </td>
                   <td>
                     <a href="/">Click here</a>
                   </td>
                 </tr>
                 <tr>
-                  <td>Complete NEET 2024 Biology Syllabus</td>
+                  <td>Complete NEET 2025 Biology Syllabus</td>
                   <td>
                     <a href="/">Click here</a>
                   </td>
@@ -840,7 +842,7 @@ const Neet = () => {
               </tbody>
             </table>
           </div>
-          <h1>NEET Physics Syllabus 2024</h1>
+          <h1>NEET Physics Syllabus 2025</h1>
           <p>
             In the NEET paper, the physics section carries 180 marks. There are
             50 questions out of which 45 are to be answered. Below given table
@@ -850,8 +852,8 @@ const Neet = () => {
             <table>
               <thead>
                 <tr>
-                  <th>NEET 2024 Class 11 Syllabus</th>
-                  <th>NEET 2024 Class 12 Syllabus</th>
+                  <th>NEET 2025 Class 11 Syllabus</th>
+                  <th>NEET 2025 Class 12 Syllabus</th>
                 </tr>
               </thead>
               <tbody>
@@ -898,17 +900,17 @@ const Neet = () => {
               </tbody>
             </table>
           </div>
-          <h1>Chemistry Syllabus for NEET 2024 exam</h1>
+          <h1>Chemistry Syllabus for NEET 2025 exam</h1>
           <p>
             Topics are taken from class 11 and class 12 chemistry. The syllabus
-            of NEET 2024 is given below:
+            of NEET 2025 is given below:
           </p>
           <div className="tabledata">
             <table>
               <thead>
                 <tr>
-                  <th>NEET 2024 Class 11 Syllabus </th>
-                  <th>NEET 2024 Class 12 Syllabus</th>
+                  <th>NEET 2025 Class 11 Syllabus </th>
+                  <th>NEET 2025 Class 12 Syllabus</th>
                 </tr>
               </thead>
               <tbody>
@@ -979,7 +981,7 @@ const Neet = () => {
               </tbody>
             </table>
           </div>
-          <h1>NEET Syllabus 2024 Biology</h1>
+          <h1>NEET Syllabus 2025 Biology</h1>
           <p>
             The NEET Biology section comprises the maximum number of questions.
             A total of 90 questions are allotted to the Biology section, and the
@@ -990,8 +992,8 @@ const Neet = () => {
             <table>
               <thead>
                 <tr>
-                  <th>NEET 2024 Class 11 Syllabus</th>
-                  <th>NEET 2024 Class 12 Syllabus</th>
+                  <th>NEET 2025 Class 11 Syllabus</th>
+                  <th>NEET 2025 Class 12 Syllabus</th>
                 </tr>
               </thead>
               <tbody>
@@ -1018,24 +1020,24 @@ const Neet = () => {
               </tbody>
             </table>
           </div>
-          <h1>NEET 2024 Admit card</h1>
+          <h1>NEET 2025 Admit card</h1>
           <p>
-            The admit cards for NEET 2024 would be released after the successful
+            The admit cards for NEET 2025 would be released after the successful
             registration and the NTA would notify on the official website about
             the release of the same. The admit card can be downloaded in online
             mode from the official website{" "}
             <a href="https://neet.nta.nic.in/.">https://neet.nta.nic.in/.</a>
           </p>
           <p>
-            5-Step Process to download NEET Hall ticket for the 2024 session.
+            5-Step Process to download NEET Hall ticket for the 2025 session.
           </p>
           <p>
             <b>Step 1:</b>Go to the official website – neet.nta.nic.in{" "}
           </p>
           <p>
             <b>Step 2:</b>Click on this link flashing on the homepage –
-            "Download Admit Card for NEET (UG) – 2024 is Live Now". On the next
-            page - ‘Download NEET 2024 Admit card’ link will appear; click on
+            "Download Admit Card for NEET (UG) – 2025 is Live Now". On the next
+            page - ‘Download NEET 2025 Admit card’ link will appear; click on
             it.
           </p>
           <p>
@@ -1051,7 +1053,7 @@ const Neet = () => {
             of the NEET hall ticket for counseling and the admission process.
           </p>
           <h4>
-            <b>Details on the NEET 2024 Admit card</b>
+            <b>Details on the NEET 2025 Admit card</b>
           </h4>
           <div className="listdata">
             <ul>
@@ -1061,12 +1063,12 @@ const Neet = () => {
               <li>Roll Number</li>
               <li>Reporting</li>
               <li>Venue – Exam Center and its details</li>
-              <li>NEET 2024 Date of Exam</li>
+              <li>NEET 2025 Date of Exam</li>
               <li>Duration of Exam</li>
               <li>Photograph</li>
             </ul>
           </div>
-          <p>Steps to be taken after downloading the NEET-UG 2024 Admit Card</p>
+          <p>Steps to be taken after downloading the NEET-UG 2025 Admit Card</p>
           <div className="listdata">
             <ul>
               <li>
@@ -1090,12 +1092,12 @@ const Neet = () => {
             </ul>
           </div>
           <h1>
-            NEET 2024 Examination Schedule – Timeline of Events on Examination
+            NEET 2025 Examination Schedule – Timeline of Events on Examination
             Day
           </h1>
           <p>
-            In the NEET exam 2024 an increase in the exam duration was
-            introduced. NEET exam 2024 aspirants can have an idea about the
+            In the NEET exam 2025 an increase in the exam duration was
+            introduced. NEET exam 2025 aspirants can have an idea about the
             timeline of events from the table given below. One of the major
             changes that have occurred is the increase in the duration of time.
             The NEET exam is now 3 hours and 20 minutes.
@@ -1110,15 +1112,15 @@ const Neet = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td>NEET 2024 Exam date</td>
-                  <td>5th May 2024</td>
+                  <td>NEET 2025 Exam date</td>
+                  <td>To be announced (tentative)</td>
                 </tr>
                 <tr>
-                  <td>NEET 2024 Exam timing</td>
+                  <td>NEET 2025 Exam timing</td>
                   <td>02.00 pm to 05.20 pm</td>
                 </tr>
                 <tr>
-                  <td>NEET 2024 Exam Duration</td>
+                  <td>NEET 2025 Exam Duration</td>
                   <td>3 hours 20 minutes</td>
                 </tr>
                 <tr>
@@ -1188,7 +1190,7 @@ const Neet = () => {
               </li>
             </ul>
           </div>
-          <h1>NEET 2024 Question paper and answer keys</h1>
+          <h1>NEET 2025 Question paper and answer keys</h1>
           <p>
             NEET exam question paper is available in 13 languages. The
             candidates can opt for any of their choices. The NEET question paper
@@ -1279,7 +1281,7 @@ const Neet = () => {
               </tbody>
             </table>
           </div>
-          <h1>How to Calculate NEET 2024 Score?</h1>
+          <h1>How to Calculate NEET 2025 Score?</h1>
           <p>Steps to calculate your NEET score:</p>
           <div className="listdata">
             <ul>
@@ -1334,7 +1336,7 @@ const Neet = () => {
               </tbody>
             </table>
           </div>
-          <h1>NEET Cut-off 2024</h1>
+          <h1>NEET Cut-off 2025</h1>
           <p>
             The minimum score a candidate must secure to successfully qualify
             for medical counseling is termed as NEET cut-off. The NTA (National
@@ -1346,7 +1348,7 @@ const Neet = () => {
             was 715-117. For students belonging to different categories, NEET
             cut-off marks are different. To secure an All India Rank, the
             candidates should score marks equal to or more than the cut-off of
-            their respective category. For the NEET exam 2024, below given is
+            their respective category. For the NEET exam 2025, below given is
             the table providing details of the NEET cut-off from 2022 and 2021
             to understand the trends:
           </p>
@@ -1437,11 +1439,11 @@ const Neet = () => {
               <li>Availability of seats.</li>
             </ul>
           </div>
-          <h1>Best Books for NEET 2024 Preparation</h1>
+          <h1>Best Books for NEET 2025 Preparation</h1>
           <p>
             Books play a vital role in framing the success of the students. Most
             of the students are stuck on the question of what are the best books
-            for NEET preparation in 2024? Without any doubt, NCERT is the
+            for NEET preparation in 2025? Without any doubt, NCERT is the
             ultimate source of information for all NEET aspirants. All the NEET
             toppers of the previous years’ have highly recommended and suggested
             mastering NCERT content for the NEET exam. The NEET syllabus
@@ -1455,8 +1457,8 @@ const Neet = () => {
             success in the NEET exam. If a student wants to crack the NEET exam
             with great scores then the previous years’ question papers and NCERT
             syllabus should be completed. To help the candidates boost the score
-            in NEET 2024 examination, here is a list of the best books for NEET
-            2024 preparation.
+            in NEET 2025 examination, here is a list of the best books for NEET
+            2025 preparation.
           </p>
           <h4>
             <b>Best Books for NEET Biology Preparation</b>
@@ -1495,15 +1497,15 @@ const Neet = () => {
               <li>Problems in General Physics by I. E. Irodov</li>
             </ul>
           </div>
-          <h1>NEET 2024 Preparation Tips</h1>
+          <h1>NEET 2025 Preparation Tips</h1>
           <p>
             To get on the list of NEET toppers, it is very important to have a
             solid strategy for exam preparation. Some of the basic things to be
             kept in mind are; being aware of the exam pattern & syllabus, and
-            marking scheme for NEET 2024. The syllabus of NEET 2024 is based on
+            marking scheme for NEET 2025. The syllabus of NEET 2025 is based on
             class 11 and 12 NCERT syllabus of Physics, Chemistry, and Biology.
             Here are some tips which would help in boosting the NEET preparation
-            for 2024.
+            for 2025.
           </p>
           <div className="listdata">
             <ul>
@@ -1542,7 +1544,7 @@ const Neet = () => {
               </li>
             </ul>
           </div>
-          <h1>How to get 650+ in NEET 2024 exam?</h1>
+          <h1>How to get 650+ in NEET 2025 exam?</h1>
           <p>
             To score 650+ in the NEET exam is a tough task but if the candidate
             is determined toward the goal and opts for the right preparation
@@ -1551,7 +1553,7 @@ const Neet = () => {
             the NEET aspirants should remember this Thumb Rule.
           </p>
           <p>
-            If you are willing to score more than 650 in NEET 2024 and reach
+            If you are willing to score more than 650 in NEET 2025 and reach
             your dream medical college then, here is a checklist you can use to
             draft your study plan.
           </p>
@@ -1631,10 +1633,73 @@ const Neet = () => {
               </li>
             </ul>
           </div>
-          <h1>Frequently Asked Questions on NEET 2024</h1>
+          <h1>Frequently Asked Questions on NEET 2025</h1>
         </div>
       </div>
       <AccordionComponent />
+      <div className="container-fluid fullBlog-third">
+        <h3>What to do next? Ask Our experts in a Free Counselling</h3>
+        <p>
+          Years of Trusted Excellence in Classes for IIT-JEE | Medical |
+          Foundation, Now learn from the best teachers of India
+        </p>
+        <div className="button-container">
+          <a
+            href="https://www.iitacademy.in/Admission-form"
+            rel="noopener noreferrer"
+          >
+            <button className="btn">
+              <FaRegKeyboard className="icon" />
+              Enroll Now
+            </button>
+          </a>
+          <a href="tel:9205704041">
+            <button className="btn">
+              <FaHeadphones className="icon" />
+              Contact Us
+            </button>
+          </a>
+        </div>
+      </div>
+      <div className="aders">
+        <p>
+          <i
+            className="fas fa-angle-double-right"
+            style={{
+              color: "#f39c12",
+              marginRight: "5px",
+            }}
+          ></i>{" "}
+          Explore More about different batches offered by IIT Academy.
+        </p>
+        <div className="all_batches">
+          {" "}
+          <a
+            href="https://www.iitacademy.in/engineering-courses"
+            rel="noopener noreferrer"
+          >
+            <button className="details4-btn">Engineering Batches</button>
+          </a>
+          <a
+            href="https://www.iitacademy.in/medical-courses"
+            rel="noopener noreferrer"
+          >
+            <button className="details4-btn">Medical Batches</button>
+          </a>
+          <a
+            href="https://www.iitacademy.in/foundation-courses"
+            rel="noopener noreferrer"
+          >
+            <button className="details4-btn">Foundation Batches</button>
+          </a>
+          <a
+            href="https://www.iitacademy.in/board-courses"
+            rel="noopener noreferrer"
+          >
+            <button className="details4-btn">Boards Batches</button>
+          </a>
+        </div>
+      </div>
     </Layout>
   );
 };

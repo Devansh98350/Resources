@@ -26,7 +26,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   word-wrap: break-word;
 }
 
@@ -34,6 +34,7 @@ h4 {
   width: 100%;
   max-width: 90vw;
   word-wrap: break-word;
+  text-align: justify;
 }
 
 p {
@@ -137,6 +138,8 @@ h1 {
 
 .accordion-para {
   width: 95%;
+  margin: auto;
+  margin-bottom: 5px;
   font-weight: normal;
   text-align: justify;
   font-size: 16px;
@@ -212,3 +215,31 @@ h1 {
     margin: 2px; */
   }
 }
+
+.listdata {
+  width: 100%; /* or a fixed width if needed, e.g., width: 400px */
+  margin: 0 auto; /* Center the list if container width is set */
+  padding: 2px; /* Add padding around the container */
+}
+
+.listdata ul {
+  list-style-type: none; /* Remove default bullets */
+  padding: 0;
+}
+
+.listdata li {
+  position: relative; /* To enable custom bullet positioning */
+  padding-left: 20px; /* Space for custom bullet */
+  margin-bottom: 3px; /* Add some spacing between list items */
+  line-height: 1.6; /* Improve readability by adjusting line spacing */
+  text-align: justify; /* Align text to both edges */
+}
+
+.listdata li::before {
+  content: '•'; /* Custom bullet */
+  position: absolute;
+  left: 0;
+  color: #333; /* Bullet color */
+  font-size: 1.2em; /* Bullet size */
+}
+

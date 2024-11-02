@@ -87,7 +87,7 @@ const Footer = () => {
                     <FontAwesomeIcon icon={faPhone} className="linkedin-icon" />
                   </a>{" "}
                   <a
-                    href="YOUR_WHATSAPP_PROFILE_LINK"
+                    href="https://wa.me/919205704041?text=I have a query.&utm_medium=&utm_campaign=&utm_term=&utm_content=&lang=en"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -156,7 +156,11 @@ const Footer = () => {
               <p>JEE Mains PYQ</p>
               <p>JEE (Mains+Adv.) Books</p>
               <p>JEE Advanced PYQ</p>
-              <p>Internships</p>
+              <p>
+                <Link to="https://www.internship.iitacademy.in/">
+                  Internships
+                </Link>
+              </p>
               <p>Counseling</p>
               {/* <p>
                 <Link to="https://www.counselling.iitacademy.in/">

@@ -1,0 +1,103 @@
+/* Full Blog Third Row */
+
+.fullBlog-third h3 {
+  font-size: 28px;
+  margin-bottom: -10px;
+  font-weight: 700;
+}
+
+.fullBlog-third h3,
+.fullBlog-third p {
+  margin-bottom: 0.5rem;
+  text-align: center !important;
+  color: rgb(17, 24, 39);
+}
+
+.button-container .btn {
+  border-radius: 30px;
+  padding: 4px 10px !important;
+  position: relative;
+  font-size: 14px;
+  text-decoration: none;
+  outline: none;
+  line-height: 20px !important;
+  background: linear-gradient(to right, #ef1c24, #1c0a7d 100%);
+  cursor: pointer;
+  color: #fff;
+  margin: 5px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.button-container .btn .icon {
+  padding-right: 5px;
+  font-size: 20px;
+}
+
+.fullBlog-third {
+  background: rgb(245, 245, 245);
+  padding: 5px;
+  text-align: center;
+}
+
+.aders {
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .fullBlog-third {
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+    margin-top: 20px;
+  }
+  .fullBlog-third h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .aders {
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .fullBlog-third {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    margin-top: 20px;
+  }
+}
+
+.all_batches {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.details4-btn {
+  background-color: rgb(249, 148, 23);
+  color: #fff;
+  font-size: large;
+  padding: 4px 12px;
+  border-radius: 10px;
+  border: none;
+  margin-right: 10px;
+}
+
+.details4-btn:hover {
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .all_batches {
+    margin-bottom: 15px;
+  }
+  .details4-btn {
+    margin-bottom: 10px;
+  }
+}
+

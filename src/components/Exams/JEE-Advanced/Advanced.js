@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Layout from "../../Layout";
 import { CaretDown, CaretUp } from "phosphor-react";
+import { FaRegKeyboard } from "react-icons/fa6";
+import { FaHeadphones } from "react-icons/fa";
 import "../Exam.css";
 
 const Question = ({ question }) => {
@@ -37,48 +39,48 @@ const AccordionComponent = () => {
   const questions = [
     {
       id: 1,
-      title: "Q1. When will the JEE Advanced 2024 exam be conducted?",
-      content: `JEE Advanced 2024 is expected to take place in June 2024. The exam
-            conducting authorities for 2024 is IIT Madras.`,
+      title: "Q1. When will the JEE Advanced 2025 exam be conducted?",
+      content: `JEE Advanced 2025 is expected to take place in June 2025. The exam
+            conducting authorities for 2025 is IIT Madras.`,
     },
     {
       id: 2,
       title: "Q2. When will the JEE Advanced application form be released?",
-      content: `It is expected that the online application form for JEE Advanced 2024 will begin in the fourth week of May 2024. To fill out the application form for JEE Advanced 2024 the candidates can check at jeeadv.nic.in.`,
+      content: `It is expected that the online application form for JEE Advanced 2025 will begin in the fourth week of May 2025. To fill out the application form for JEE Advanced 2025 the candidates can check at jeeadv.nic.in.`,
     },
     {
       id: 3,
-      title: "Q3. How to download the JEE Advanced 2024 admit card?",
-      content: `In order to download JEE Advanced 2024 admit card the candidates should visit the official website and the candidate would be able to get the admit card.`,
+      title: "Q3. How to download the JEE Advanced 2025 admit card?",
+      content: `In order to download JEE Advanced 2025 admit card the candidates should visit the official website and the candidate would be able to get the admit card.`,
     },
     {
       id: 4,
       title:
-        "Q4. Are candidates who have cleared their qualifying exams in 2022 eligible for JEE Advanced 2024 if they did not appear for it in 2023?",
+        "Q4. Are candidates who have cleared their qualifying exams in 2022 eligible for JEE Advanced 2025 if they did not appear for it in 2023?",
       content: ` No, in such case the candidate won't be eligible. The only case might be the result of the qualifying exam being declared after June 2022 but still, the candidate would have to adhere to several other eligibility criteria.`,
     },
     {
       id: 5,
       title:
-        "Q5. Can aspirants who missed JEE Advanced 2023 appear in JEE Advanced 2024?",
-      content: ` Yes, in case the student has missed JEE Advanced 2023 then he or she will be allowed to appear in the entrance exam in 2024.`,
+        "Q5. Can aspirants who missed JEE Advanced 2023 appear in JEE Advanced 2025?",
+      content: ` Yes, in case the student has missed JEE Advanced 2023 then he or she will be allowed to appear in the entrance exam in 2025.`,
     },
     {
       id: 6,
-      title: "Q6. How many seats will be available in IITs in 2024?",
-      content: `The number of seats offered by IIT varies every year. In 2023 it was 17,385. In order to know the number of seats in 2024 we will have to wait for the official word from the exam authorities.`,
+      title: "Q6. How many seats will be available in IITs in 2025?",
+      content: `The number of seats offered by IIT varies every year. In 2023 it was 17,385. In order to know the number of seats in 2025 we will have to wait for the official word from the exam authorities.`,
     },
     {
       id: 7,
       title:
-        "Q7. How much do I have to score in the JEE Main to qualify for the JEE Advanced 2024?",
-      content: `A candidate must secure a rank among the top 2,50,000 in JEE Main 2024, in order to be eligible for JEE Advanced 2024.`,
+        "Q7. How much do I have to score in the JEE Main to qualify for the JEE Advanced 2025?",
+      content: `A candidate must secure a rank among the top 2,50,000 in JEE Main 2025, in order to be eligible for JEE Advanced 2025.`,
     },
     {
       id: 8,
       title:
-        "Q8. Are both Paper-I and Paper-II mandatory in the JEE Advanced 2024?",
-      content: `The candidate’s total score and rank will be calculated based on their scores in the JEE Advanced 2024 Paper-I & Paper-II hence, both papers are mandatory.`,
+        "Q8. Are both Paper-I and Paper-II mandatory in the JEE Advanced 2025?",
+      content: `The candidate’s total score and rank will be calculated based on their scores in the JEE Advanced 2025 Paper-I & Paper-II hence, both papers are mandatory.`,
     },
     {
       id: 9,
@@ -94,8 +96,8 @@ const AccordionComponent = () => {
     {
       id: 11,
       title:
-        "Q11. Which login ID must be used to apply for the JEE Advanced 2024?",
-      content: `JEE Main roll number is the candidate’s login ID for JEE Advanced 2024. The password is same as that of JEE Main.`,
+        "Q11. Which login ID must be used to apply for the JEE Advanced 2025?",
+      content: `JEE Main roll number is the candidate’s login ID for JEE Advanced 2025. The password is same as that of JEE Main.`,
     },
     {
       id: 12,
@@ -121,8 +123,8 @@ const AccordionComponent = () => {
     },
     {
       id: 16,
-      title: "Q16. JEE Advanced 2024 will be held in how many languages?",
-      content: `The JEE Advanced 2024 will be held in 2 languages namely English and Hindi.`,
+      title: "Q16. JEE Advanced 2025 will be held in how many languages?",
+      content: `The JEE Advanced 2025 will be held in 2 languages namely English and Hindi.`,
     },
     {
       id: 17,
@@ -161,15 +163,15 @@ const Advanced = () => {
             appear for the JEE Advanced exam. It is a Computer Based Exam and is
             conducted by the 7 IITs namely IIT Kharagpur, IIT Bombay, IIT
             Roorkee, IIT Madras, IIT Kanpur, IIT Delhi, and IIT Guwahati on a
-            rotational basis. As per the expectation, JEE Advanced 2024 would be
+            rotational basis. As per the expectation, JEE Advanced 2025 would be
             conducted by IIT Madras.
           </p>
           <p>
             Read to the bottom to get all the latest updates about JEE Advanced
-            2024 exam dates, syllabus, exam pattern, and eligibility criteria.
+            2025 exam dates, syllabus, exam pattern, and eligibility criteria.
           </p>
-          <h1>About JEE Advanced 2024</h1>
-          <p>Below given table presents the details of JEE Advanced 2024</p>
+          <h1>About JEE Advanced 2025</h1>
+          <p>Below given table presents the details of JEE Advanced 2025</p>
           <div className="tabledata">
             <table>
               <thead>
@@ -230,14 +232,14 @@ const Advanced = () => {
                   <td>JoSAA</td>
                 </tr>
                 <tr>
-                  <th>Official JEE Advanced 2024 Notification</th>
+                  <th>Official JEE Advanced 2025 Notification</th>
                   <td>Information Brochure PDF</td>
                 </tr>
               </tbody>
             </table>
           </div>
           <p>
-            The JEE Advanced 2024 would consist of two papers: Paper 1 and Paper
+            The JEE Advanced 2025 would consist of two papers: Paper 1 and Paper
             2, the papers would be carried out in two shifts. Both shifts will
             be held on the same day. For the students to be eligible for the
             merit list, it is mandatory to appear for both papers. Based on
@@ -248,10 +250,10 @@ const Advanced = () => {
           <p>
             Get the complete JEE study plan by visiting the link given below:
           </p>
-          <h1>JEE Advanced 2024 Important Dates</h1>
+          <h1>JEE Advanced 2025 Important Dates</h1>
           <p>
             All the important dates related to JEE Advanced are mentioned below.
-            The candidates should stay updated about the JEE Advanced 2024
+            The candidates should stay updated about the JEE Advanced 2025
             schedule in order to avoid missing out on any information.
           </p>
           <div className="tabledata">
@@ -266,65 +268,65 @@ const Advanced = () => {
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>JEE Advanced 2024 registrations</td>
-                  <td>4th week of Apr to 1st week of May 2024</td>
+                  <td>JEE Advanced 2025 registrations</td>
+                  <td>4th week of Apr to 1st week of May 2025</td>
                 </tr>
                 <tr>
                   <td>2</td>
                   <td>
                     Last date to pay fee by JEE Advanced registered candidates
                   </td>
-                  <td>1st week of May 2024</td>
+                  <td>1st week of May 2025</td>
                 </tr>
                 <tr>
                   <td>3</td>
                   <td>
-                    JEE Advanced 2024 Admit Card available for downloading
+                    JEE Advanced 2025 Admit Card available for downloading
                   </td>
-                  <td>4th week of May 2024</td>
+                  <td>4th week of May 2025</td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>
-                    JEE Advanced 2024 Choosing of scribe by PWD candidates
+                    JEE Advanced 2025 Choosing of scribe by PWD candidates
                   </td>
-                  <td>1st week of June 2024</td>
+                  <td>1st week of June 2025</td>
                 </tr>
                 <tr>
                   <td>5</td>
-                  <td>JEE Advanced 2024 Exam</td>
-                  <td>1st week of June 2024</td>
+                  <td>JEE Advanced 2025 Exam</td>
+                  <td>1st week of June 2025</td>
                 </tr>
                 <tr>
                   <td>6</td>
-                  <td>JEE Advanced 2024 response sheet release date </td>
-                  <td>1st week of June 2024</td>
+                  <td>JEE Advanced 2025 response sheet release date </td>
+                  <td>1st week of June 2025</td>
                 </tr>
                 <tr>
                   <td>7</td>
-                  <td>JEE Advanced 2024 answer key challenge window </td>
-                  <td>2nd week of June June 2024</td>
+                  <td>JEE Advanced 2025 answer key challenge window </td>
+                  <td>2nd week of June June 2025</td>
                 </tr>
                 <tr>
                   <td>8</td>
-                  <td>JEE Advanced 2024 provisional answer keys available</td>
-                  <td>2nd week of June 2024</td>
+                  <td>JEE Advanced 2025 provisional answer keys available</td>
+                  <td>2nd week of June 2025</td>
                 </tr>
                 <tr>
                   <td>9</td>
                   <td>
-                    JEE Advanced 2024 final answer key and result declaration{" "}
+                    JEE Advanced 2025 final answer key and result declaration{" "}
                   </td>
-                  <td>3rd week of June 2024</td>
+                  <td>3rd week of June 2025</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <h1>JEE Advanced 2024 Eligibility Criteria</h1>
+          <h1>JEE Advanced 2025 Eligibility Criteria</h1>
           <p>
             It is mandatory for the students to meet the specific eligibility
             criteria established by the exam conducting authority in order to
-            appear for JEE Advanced 2024. Any candidate failing to adhere to the
+            appear for JEE Advanced 2025. Any candidate failing to adhere to the
             eligibility criteria would not be qualified to appear for the JEE
             Advanced exam. To be on the safer side candidates are advised to
             read the eligibility criteria for JEE Advanced carefully and have a
@@ -332,11 +334,11 @@ const Advanced = () => {
             avoid any discrepancies in the future.
           </p>
           <h4>
-            <b>Criterion 1</b> (Performance in JEE (Main) 2024):
+            <b>Criterion 1</b> (Performance in JEE (Main) 2025):
           </h4>
           <p>
             Top 2,50,000 candidates (including all categories) in JEE (Main)
-            2024 are eligible to appear for JEE (Advanced).
+            2025 are eligible to appear for JEE (Advanced).
           </p>
           <p>The percentage of category-wise shortlisting of the candidates:</p>
           <p>GEN-EWS- 10%</p>
@@ -431,7 +433,7 @@ const Advanced = () => {
           </h4>
           <p>
             Candidates born on or after October 1, 1999, are eligible to appear
-            for JEE Advanced 2024 exam. However, candidates belonging to SC, ST,
+            for JEE Advanced 2025 exam. However, candidates belonging to SC, ST,
             or PwD get 5 years of relaxation.
           </p>
           <h4>
@@ -439,19 +441,19 @@ const Advanced = () => {
             examination:)
           </h4>
           <p>
-            Candidates who passed Class 12 in 2023 or 2024 are eligible for JEE
-            Advanced 2024.
+            Candidates who passed Class 12 in 2023 or 2025 are eligible for JEE
+            Advanced 2025.
           </p>
           <p>
             Candidates who had appeared in Class XII (or equivalent) examination
             for the first time in 2022 or earlier, are NOT eligible to appear in
-            JEE (Advanced) 2024, irrespective of the combination of subjects
+            JEE (Advanced) 2025, irrespective of the combination of subjects
             attempted/offered.
           </p>
-          <h1>JEE Advanced 2024 Application Form and Registration Process</h1>
+          <h1>JEE Advanced 2025 Application Form and Registration Process</h1>
           <p>
             Once the JEE Main Results are declared the conducting authority for
-            JEE Advanced releases the application form. For the year 2024, IIT
+            JEE Advanced releases the application form. For the year 2025, IIT
             Madras will be in charge of conducting the JEE Advanced paper and
             they would be releasing the application form. In order to fill out
             the application form, the student must first register on the
@@ -472,40 +474,45 @@ const Advanced = () => {
           <ul>
             <li>
               Visit Official Website and Login
-              <ul>
-                <li>
-                  Visit JEE Advanced official website. Click on:{" "}
-                  <a href="https://jeeadv.ac.in/">https://jeeadv.ac.in/</a>.
-                </li>
-                <li>You will see the login portal of JEE Advanced.</li>
-                <li>
-                  Enter the JEE Main 2024 Roll Number, Password, and Security
-                  Pin and submit it.
-                </li>
-                <li>
-                  Candidates have to select a new password for JEE Advanced.
-                </li>
-              </ul>
+              <div className="listdata">
+                <ul>
+                  <li>
+                    Visit JEE Advanced official website. Click on:{" "}
+                    <a href="https://jeeadv.ac.in/">https://jeeadv.ac.in/</a>.
+                  </li>
+                  <li>You will see the login portal of JEE Advanced.</li>
+                  <li>
+                    Enter the JEE Main 2025 Roll Number, Password, and Security
+                    Pin and submit it.
+                  </li>
+                  <li>
+                    Candidates have to select a new password for JEE Advanced.
+                  </li>
+                </ul>
+              </div>
             </li>
             <li>
               Fill Details
-              <ul>
-                <li>
-                  Once you provide the new password, a new page will be
-                  displayed. Candidates will find all the details that they
-                  entered during JEE Main registration.
-                </li>
-                <li>Enter the number of attempts.</li>
-                <li>
-                  Candidates can choose 3 examination cities as per their
-                  preferences.
-                </li>
-                <li>
-                  Select the language of the question paper (English or Hindi).
-                </li>
-                <li>Mention the category & scribe status.</li>
-                <li>Carefully check the entered data and click on submit.</li>
-              </ul>
+              <div className="listdata">
+                <ul>
+                  <li>
+                    Once you provide the new password, a new page will be
+                    displayed. Candidates will find all the details that they
+                    entered during JEE Main registration.
+                  </li>
+                  <li>Enter the number of attempts.</li>
+                  <li>
+                    Candidates can choose 3 examination cities as per their
+                    preferences.
+                  </li>
+                  <li>
+                    Select the language of the question paper (English or
+                    Hindi).
+                  </li>
+                  <li>Mention the category & scribe status.</li>
+                  <li>Carefully check the entered data and click on submit.</li>
+                </ul>
+              </div>
             </li>
           </ul>
           <h4>
@@ -522,9 +529,15 @@ const Advanced = () => {
                 <table>
                   <thead>
                     <tr>
-                      <td>Documents</td>
-                      <td>Format</td>
-                      <td>Size (in KB)</td>
+                      <td>
+                        <strong>Documents</strong>
+                      </td>
+                      <td>
+                        <strong>Format</strong>
+                      </td>
+                      <td>
+                        <strong>Size (in KB)</strong>
+                      </td>
                     </tr>
                   </thead>
                   <tbody>
@@ -570,11 +583,13 @@ const Advanced = () => {
             </li>
             <li>
               Upload Images
-              <ul>
-                <li>Go through the upload images option.</li>
-                <li>Select the required images.</li>
-                <li>Carefully upload images one at a time.</li>
-              </ul>
+              <div className="listdata">
+                <ul>
+                  <li>Go through the upload images option.</li>
+                  <li>Select the required images.</li>
+                  <li>Carefully upload images one at a time.</li>
+                </ul>
+              </div>
             </li>
           </ul>
           <h4>
@@ -587,32 +602,39 @@ const Advanced = () => {
           <ul>
             <li>
               Online Mode:
-              <ul>
-                <li>
-                  Candidates can pay the application fee through various online
-                  payment methods like net banking, debit/credit card, etc.
-                </li>
-                <li> Select the “Pay Registration Fee” option.</li>
-                <li>
-                  The Multi-Option Payment System (MOPS) page will appear on the
-                  screen.
-                </li>
-                <li>Enter the payment details and pay the application fee.</li>
-              </ul>
+              <div className="listdata">
+                <ul>
+                  <li>
+                    Candidates can pay the application fee through various
+                    online payment methods like net banking, debit/credit card,
+                    etc.
+                  </li>
+                  <li> Select the “Pay Registration Fee” option.</li>
+                  <li>
+                    The Multi-Option Payment System (MOPS) page will appear on
+                    the screen.
+                  </li>
+                  <li>
+                    Enter the payment details and pay the application fee.
+                  </li>
+                </ul>
+              </div>
             </li>
             <li>
               Offline Mode:
-              <ul>
-                <li>Select the “Pay Registration Fee” link.</li>
-                <li>
-                  Select the SBI Branch for cash payment. Take the printout of
-                  the e-challan generated by the system.
-                </li>
-                <li>
-                  Submit the printed e-challan to the SBI branch near you, along
-                  with the fee.
-                </li>
-              </ul>
+              <div className="listdata">
+                <ul>
+                  <li>Select the “Pay Registration Fee” link.</li>
+                  <li>
+                    Select the SBI Branch for cash payment. Take the printout of
+                    the e-challan generated by the system.
+                  </li>
+                  <li>
+                    Submit the printed e-challan to the SBI branch near you,
+                    along with the fee.
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
           <h4>
@@ -624,7 +646,7 @@ const Advanced = () => {
             extra printouts with you for future use. However, students need not
             send any hard copy to the conducting body.
           </p>
-          <h1>JEE Advanced 2024 Registration Fees</h1>
+          <h1>JEE Advanced 2025 Registration Fees</h1>
           <div className="tabledata">
             <table>
               <thead>
@@ -662,7 +684,7 @@ const Advanced = () => {
               </tbody>
             </table>
           </div>
-          <h1>JEE Advanced 2024 Admit Card</h1>
+          <h1>JEE Advanced 2025 Admit Card</h1>
           <p>
             JEE Advanced admit card would be released by IIT Madras at
             jeeadv.ac.in. Admit cards would be released only for those
@@ -671,9 +693,9 @@ const Advanced = () => {
             candidates would require to login into the portal using their
             registration number, date of birth, and mobile number.
           </p>
-          <h1>JEE Advanced 2024 Exam Pattern</h1>
+          <h1>JEE Advanced 2025 Exam Pattern</h1>
           <p>
-            The below-given table shows the exam pattern for JEE Advanced 2024,
+            The below-given table shows the exam pattern for JEE Advanced 2025,
             however, the number of questions in JEE Advanced paper may vary
             every year.
           </p>
@@ -723,7 +745,7 @@ const Advanced = () => {
               </tbody>
             </table>
           </div>
-          <h1>JEE Advanced 2024 Marking Scheme</h1>
+          <h1>JEE Advanced 2025 Marking Scheme</h1>
           <h4>
             <b>
               For questions with one or more correct options, the marking scheme
@@ -780,10 +802,10 @@ const Advanced = () => {
               </li>
             </ul>
           </div>
-          <h1>JEE Advanced 2024 Syllabus</h1>
+          <h1>JEE Advanced 2025 Syllabus</h1>
           <p>
             The syllabus of JEE Advanced is declared by the Examination
-            Authority. As compared to the previous years' JEE Advanced 2024
+            Authority. As compared to the previous years' JEE Advanced 2025
             syllabus has been released with some differences. The syllabus is
             extracted according to the NCERT curriculum and is somewhat very
             similar to the Main syllabus. The difference that can be spotted is
@@ -818,7 +840,7 @@ const Advanced = () => {
             that the preparation can be completed on time and there is enough
             time left for revision.
           </p>
-          <h1>JEE Advanced 2024 Preparation Tips</h1>
+          <h1>JEE Advanced 2025 Preparation Tips</h1>
           <p>
             <b>Focus:</b> Your focus will decide your selection. It is better to
             understand the concept rather than just focusing on formulae.
@@ -899,10 +921,10 @@ const Advanced = () => {
             aspirants. Solve your doubts and interact with mentors or friends
             without hesitating for effective studies.
           </p>
-          <h1>Best Books for JEE Advanced 2024</h1>
+          <h1>Best Books for JEE Advanced 2025</h1>
           <p>
             Below given is the list of most preferred books by the toppers.
-            Students preparing for the JEE Advanced 2024 can opt these to boost
+            Students preparing for the JEE Advanced 2025 can opt these to boost
             their preparation.
           </p>
           <div className="tabledata">
@@ -949,7 +971,7 @@ const Advanced = () => {
           </div>
           <h1>JEE Advanced Mock Test</h1>
           <p>
-            The mock test paper for the 2024 exams would be released by the
+            The mock test paper for the 2025 exams would be released by the
             Examination Authority. To get well acquainted with the Computer
             Based online exam pattern, the students are advised to practice
             these test papers. JEE Advanced mock test will be for 180 minutes.
@@ -964,7 +986,7 @@ const Advanced = () => {
             questions asked, the difficulty level of the exam, and how much time
             is to be put in different sections.
           </p>
-          <h1>JEE Advanced 2024 Answer Key</h1>
+          <h1>JEE Advanced 2025 Answer Key</h1>
           <p>
             Candidates can compare their responses with the provisional answer
             of JEE Advanced. It will help predict the average score in the exam.
@@ -972,12 +994,12 @@ const Advanced = () => {
             completing the payment of 1000/- INR.
           </p>
           <p>
-            The Answer Key for JEE Advanced 2024 will be updated soon after the
+            The Answer Key for JEE Advanced 2025 will be updated soon after the
             examination. The JEE Advanced 2023 Answer Key will be available
             here.
           </p>
           <p>
-            The process of challenging the JEE Advanced 2024 Answer Key is
+            The process of challenging the JEE Advanced 2025 Answer Key is
             explained in detail below:
           </p>
           <div className="listdata">
@@ -1008,7 +1030,7 @@ const Advanced = () => {
           </p>
           <h1>JEE Advanced Results</h1>
           <p>
-            JEE Advanced 2024 results would be declared by IIT Madras. The
+            JEE Advanced 2025 results would be declared by IIT Madras. The
             responsibility of declaring the result is given to the Examination
             Authority of that particular year. The result will be published
             online on the official website. The marksheet would include
@@ -1049,8 +1071,8 @@ const Advanced = () => {
             candidates will have to choose their preferred IIT and courses. On
             the basis of the marks and the rank scored the seat allotment is
             done. The preferences, along with the availability of seats are also
-            considered. After the JEE Advanced 2024 results are declared the
-            application form for JoSAA 2024 would be released.
+            considered. After the JEE Advanced 2025 results are declared the
+            application form for JoSAA 2025 would be released.
           </p>
           <h1>JEE Advanced Cut-off Marks</h1>
           <p>
@@ -1134,10 +1156,73 @@ const Advanced = () => {
               </tbody>
             </table>
           </div>
-          <h1>Frequently Asked Questions on JEE Advanced 2024</h1>
+          <h1>Frequently Asked Questions on JEE Advanced 2025</h1>
         </div>
       </div>
       <AccordionComponent />
+      <div className="container-fluid fullBlog-third">
+        <h3>What to do next? Ask Our experts in a Free Counselling</h3>
+        <p>
+          Years of Trusted Excellence in Classes for IIT-JEE | Medical |
+          Foundation, Now learn from the best teachers of India
+        </p>
+        <div className="button-container">
+          <a
+            href="https://www.iitacademy.in/Admission-form"
+            rel="noopener noreferrer"
+          >
+            <button className="btn">
+              <FaRegKeyboard className="icon" />
+              Enroll Now
+            </button>
+          </a>
+          <a href="tel:9205704041">
+            <button className="btn">
+              <FaHeadphones className="icon" />
+              Contact Us
+            </button>
+          </a>
+        </div>
+      </div>
+      <div className="aders">
+        <p>
+          <i
+            className="fas fa-angle-double-right"
+            style={{
+              color: "#f39c12",
+              marginRight: "5px",
+            }}
+          ></i>{" "}
+          Explore More about different batches offered by IIT Academy.
+        </p>
+        <div className="all_batches">
+          {" "}
+          <a
+            href="https://www.iitacademy.in/engineering-courses"
+            rel="noopener noreferrer"
+          >
+            <button className="details4-btn">Engineering Batches</button>
+          </a>
+          <a
+            href="https://www.iitacademy.in/medical-courses"
+            rel="noopener noreferrer"
+          >
+            <button className="details4-btn">Medical Batches</button>
+          </a>
+          <a
+            href="https://www.iitacademy.in/foundation-courses"
+            rel="noopener noreferrer"
+          >
+            <button className="details4-btn">Foundation Batches</button>
+          </a>
+          <a
+            href="https://www.iitacademy.in/board-courses"
+            rel="noopener noreferrer"
+          >
+            <button className="details4-btn">Boards Batches</button>
+          </a>
+        </div>
+      </div>
     </Layout>
   );
 };

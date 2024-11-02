@@ -128,11 +128,14 @@ export default function Header() {
             Home
           </Link>
           {/*dkfhj*/}
-          <Popover className="relative">
+          <Popover
+            className="relative"
+            onMouseEnter={() => setIsOpen(true)}
+            onMouseLeave={() => setIsOpen(false)}
+          >
             <Popover.Button
               className="flex items-center gap-x-1 text-lg font-semibold leading-6 text-gray-900 focus:outline-none"
               style={{ whiteSpace: "nowrap" }}
-              onClick={() => setIsOpen(!isOpen)}
             >
               Previous Year Questions
               {isOpen ? (
@@ -150,6 +153,7 @@ export default function Header() {
 
             <Transition
               as={Fragment}
+              show={isOpen}
               enter="transition ease-out duration-200"
               enterFrom="opacity-0 translate-y-1"
               enterTo="opacity-100 translate-y-0"
@@ -189,11 +193,12 @@ export default function Header() {
               </Popover.Panel>
             </Transition>
           </Popover>
-          <Popover className="relative">
-            <Popover.Button
-              className="flex items-center gap-x-1 text-lg font-semibold leading-6 text-gray-900 focus:outline-none"
-              onClick={() => setIsOpen1(!isOpen1)}
-            >
+          <Popover
+            className="relative"
+            onMouseEnter={() => setIsOpen1(true)}
+            onMouseLeave={() => setIsOpen1(false)}
+          >
+            <Popover.Button className="flex items-center gap-x-1 text-lg font-semibold leading-6 text-gray-900 focus:outline-none">
               Exams
               {isOpen1 ? (
                 <ChevronUpIcon
@@ -210,6 +215,7 @@ export default function Header() {
 
             <Transition
               as={Fragment}
+              show={isOpen1}
               enter="transition ease-out duration-200"
               enterFrom="opacity-0 translate-y-1"
               enterTo="opacity-100 translate-y-0"
@@ -249,11 +255,12 @@ export default function Header() {
               </Popover.Panel>
             </Transition>
           </Popover>
-          <Popover className="relative">
-            <Popover.Button
-              className="flex items-center gap-x-1 text-lg font-semibold leading-6 text-gray-900 focus:outline-none"
-              onClick={() => setIsOpen2(!isOpen2)}
-            >
+          <Popover
+            className="relative"
+            onMouseEnter={() => setIsOpen2(true)}
+            onMouseLeave={() => setIsOpen2(false)}
+          >
+            <Popover.Button className="flex items-center gap-x-1 text-lg font-semibold leading-6 text-gray-900 focus:outline-none">
               Syllabus
               {isOpen2 ? (
                 <ChevronUpIcon
@@ -270,6 +277,7 @@ export default function Header() {
 
             <Transition
               as={Fragment}
+              show={isOpen2}
               enter="transition ease-out duration-200"
               enterFrom="opacity-0 translate-y-1"
               enterTo="opacity-100 translate-y-0"
@@ -309,11 +317,12 @@ export default function Header() {
               </Popover.Panel>
             </Transition>
           </Popover>
-          <Popover className="relative">
-            <Popover.Button
-              className="flex items-center gap-x-1 text-lg font-semibold leading-6 text-gray-900 focus:outline-none"
-              onClick={() => setIsOpen3(!isOpen3)}
-            >
+          <Popover
+            className="relative"
+            onMouseEnter={() => setIsOpen3(true)}
+            onMouseLeave={() => setIsOpen3(false)}
+          >
+            <Popover.Button className="flex items-center gap-x-1 text-lg font-semibold leading-6 text-gray-900 focus:outline-none">
               Books
               {isOpen3 ? (
                 <ChevronUpIcon
@@ -330,6 +339,7 @@ export default function Header() {
 
             <Transition
               as={Fragment}
+              show={isOpen3}
               enter="transition ease-out duration-200"
               enterFrom="opacity-0 translate-y-1"
               enterTo="opacity-100 translate-y-0"
