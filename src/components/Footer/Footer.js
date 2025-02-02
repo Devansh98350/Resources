@@ -112,22 +112,36 @@ const Footer = () => {
                 </Link>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/admission-process">
-                  Admission Process
-                </Link>
+                <a
+                  href="https://www.iitacademy.in/board-batches"
+                  rel="noopener noreferrer"
+                >
+                  Board Batches
+                </a>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/why-us">
-                  Why IIT Academy
-                </Link>
+                <a
+                  href="https://www.iitacademy.in/engineering-batches"
+                  rel="noopener noreferrer"
+                >
+                  Engineering Batches
+                </a>
               </p>
               <p>
-                <Link to="https://www.iitacademy.in/our-policy">
-                  Privacy & Policy
-                </Link>
+                <a
+                  href="https://www.iitacademy.in/medical-batches"
+                  rel="noopener noreferrer"
+                >
+                  Medical Batches
+                </a>
               </p>
               <p>
-                <Link to="#">Contact US</Link>
+                <a
+                  href="https://www.iitacademy.in/foundation-batches"
+                  rel="noopener noreferrer"
+                >
+                  Foundation Batches
+                </a>
               </p>
               <p>
                 <Link to="https://www.iitacademy.in/careers">Careers</Link>
@@ -157,11 +171,21 @@ const Footer = () => {
               <p>JEE (Mains+Adv.) Books</p>
               <p>JEE Advanced PYQ</p>
               <p>
-                <Link to="https://www.internship.iitacademy.in/">
+                <a
+                  href="https://www.internship.iitacademy.in"
+                  rel="noopener noreferrer"
+                >
                   Internships
-                </Link>
+                </a>
               </p>
-              <p>Counseling</p>
+              <p>
+                <a
+                  href="https://www.counselling.iitacademy.in"
+                  rel="noopener noreferrer"
+                >
+                  Counselling
+                </a>
+              </p>
               {/* <p>
                 <Link to="https://www.counselling.iitacademy.in/">
                   Counseling

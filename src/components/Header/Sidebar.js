@@ -319,7 +319,7 @@ const Sidebar = () => {
             {dropdownOpen.exams && (
               <DropdownMenu>
                 <DropdownItem>
-                  <StyledNavLink to="/exam-jee-main" className="dropdown-item">
+                  <StyledNavLink to="/exams/jee-main" className="dropdown-item">
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
@@ -329,8 +329,7 @@ const Sidebar = () => {
                 </DropdownItem>
                 <DropdownItem>
                   <StyledNavLink
-                    // to="/exam-jee-advanced"
-                    to=" "
+                    to="/exams/jee-advanced"
                     className="dropdown-item"
                   >
                     <i
@@ -341,11 +340,7 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink
-                    // to="/exam-neet"
-                    to=" "
-                    className="dropdown-item"
-                  >
+                  <StyledNavLink to="/exams/neet" className="dropdown-item">
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
@@ -354,11 +349,7 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink
-                    // to="/exam-ntse"
-                    to=" "
-                    className="dropdown-item"
-                  >
+                  <StyledNavLink to="/exams/ntse" className="dropdown-item">
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
@@ -372,7 +363,7 @@ const Sidebar = () => {
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
                     ></i>{" "}
-                    Exam Schedule 2024
+                    Exam Schedule 2025
                   </StyledNavLink>
                 </DropdownItem>
               </DropdownMenu>
@@ -392,7 +383,7 @@ const Sidebar = () => {
               <DropdownMenu>
                 <DropdownItem>
                   <StyledNavLink
-                    to="/syllabus-jee-main"
+                    to="/syllabus/jee-main"
                     className="dropdown-item"
                   >
                     <i
@@ -404,7 +395,7 @@ const Sidebar = () => {
                 </DropdownItem>
                 <DropdownItem>
                   <StyledNavLink
-                    to="/syllabus-jee-advanced"
+                    to="/syllabus/jee-advanced"
                     className="dropdown-item"
                   >
                     <i
@@ -415,7 +406,7 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink to="/syllabus-neet" className="dropdown-item">
+                  <StyledNavLink to="/syllabus/neet" className="dropdown-item">
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
@@ -424,7 +415,7 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink to="/syllabus-ntse" className="dropdown-item">
+                  <StyledNavLink to="/syllabus/ntse" className="dropdown-item">
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}

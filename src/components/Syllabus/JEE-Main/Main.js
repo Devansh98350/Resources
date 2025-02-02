@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Layout from "../../Layout";
 import { FaRegKeyboard } from "react-icons/fa6";
 import { FaHeadphones } from "react-icons/fa";
+import Breadcrumbs from "../../Breadcrumbs";
 
 const Main = () => {
   useEffect(() => {
@@ -13,6 +14,7 @@ const Main = () => {
       description="Prepare for JEE Main 2025 with IIT Academy's comprehensive syllabus guide, covering all essential topics in Physics, Chemistry, and Mathematics. Stay updated with the latest JEE Main syllabus, subject-wise breakdowns, and important chapters to help you focus on high-yield topics. Download the detailed syllabus PDF and explore expert tips on how to efficiently complete your JEE preparation. Whether you're a Class 11, Class 12, or dropper student, IIT Academy provides all the resources you need to excel in JEE Main 2025"
       keywords="JEE Main syllabus 2025, JEE Main exam syllabus, JEE syllabus for physics, chemistry, and mathematics, JEE Main topics and chapters, JEE Main exam topics, JEE syllabus breakdown, Detailed JEE Main syllabus PDF, Latest JEE Main syllabus, JEE syllabus for Class 11 and 12, JEE Main 2025 syllabus updates, Physics syllabus for JEE Main, Chemistry syllabus for JEE Main, Math syllabus for JEE Main, JEE Main syllabus weightage, What is the syllabus for JEE Main 2025?, How to cover JEE Main syllabus quickly?, JEE Main syllabus with important topics, JEE Main subject-wise syllabus 2025, Best books for JEE Main syllabus preparation, JEE Main syllabus for droppers 2025, Chapter-wise JEE Main syllabus for physics, Important chapters in JEE Main syllabus, JEE Main paper pattern and syllabus, Best strategy to complete JEE Main syllabus, Important topics for JEE Main 2025, JEE Main exam pattern and syllabus comparison, JEE Advanced vs JEE Main syllabus"
     >
+      <Breadcrumbs />
       <div style={{ width: "100%" }}>
         <div
           className="jee-main-syllabus"

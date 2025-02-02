@@ -85,10 +85,10 @@ function App() {
            */}
           {/* EXAM */}
           {/*<Route path="/exam-schedule-2024" element={<Schedule />} />*/}
-          <Route path="/exam-jee-main" element={<Amain />} />
-          <Route path="/exam-jee-advanced" element={<Aadvanced />} />
-          <Route path="/exam-neet" element={<Aneet />} />
-          <Route path="/exam-ntse" element={<Antse />} />
+          <Route path="/exams/jee-main" element={<Amain />} />
+          <Route path="/exams/jee-advanced" element={<Aadvanced />} />
+          <Route path="/exams/neet" element={<Aneet />} />
+          <Route path="/exams/ntse" element={<Antse />} />
           {/* PYQ */}
           {/*<Route path="/pyq-jee-main" element={<PYmain />} />
           <Route path="/pyq-jee-advanced" element={<PYadvanced />} />
@@ -98,11 +98,11 @@ function App() {
           <Route path="/pyq-ntse" element={<PYntse />} />
           */}
           {/* SYLLABUS */}
-          <Route path="/syllabus-jee-main" element={<Smain />} />
-          <Route path="/syllabus-jee-advanced" element={<Sadvanced />} />
-          <Route path="/syllabus-neet" element={<Sneet />} />
+          <Route path="/syllabus/jee-main" element={<Smain />} />
+          <Route path="/syllabus/jee-advanced" element={<Sadvanced />} />
+          <Route path="/syllabus/neet" element={<Sneet />} />
           {/* <Route path="/syllabus-cbse-boards" element={<Scbse />} />*/}
-          <Route path="/syllabus-ntse" element={<Sntse />} />
+          <Route path="/syllabus/ntse" element={<Sntse />} />
           {/* NCERT Books Page */}
           {/*<Route path="/ncert-books" element={<Ncert />} />
           <Route path="/ncert-class-6-books" element={<Ncert6 />} />
@@ -152,7 +152,7 @@ function App() {
           {/* <Route path="/contact-us" element={<Contact />} /> */}
           {/*<Route path="*" element={<PagenotFound />} />
            */}
-          <Route path="*" element={<Navigate to="/exam-jee-main" replace />} />
+          <Route path="*" element={<Navigate to="/exams/jee-main" replace />} />
         </Routes>
       </Router>
     </I18nextProvider>

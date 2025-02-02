@@ -4,6 +4,7 @@ import { CaretDown, CaretUp } from "phosphor-react";
 import { FaRegKeyboard } from "react-icons/fa6";
 import { FaHeadphones } from "react-icons/fa";
 import "../Exam.css";
+import Breadcrumbs from "../../Breadcrumbs";
 
 const Question = ({ question }) => {
   const initiallyOpen = question.id === 1 || question.id === 2;
@@ -129,6 +130,7 @@ export default function Main() {
       description="Prepare for JEE Main 2026 with IIT Academy, your ultimate destination for comprehensive coaching and resources. Our expert faculty offers personalized guidance, covering essential topics such as the JEE Main syllabus, exam pattern, and eligibility criteria. Access previous year question papers, mock tests, and the best preparation tips to enhance your performance. Join our online coaching sessions and benefit from a structured study schedule tailored to your needs. Whether you’re looking for study materials or workshops anywhere, IIT Academy is committed to helping you succeed in your JEE Main journey. Register now and take the first step towards achieving your engineering dreams!"
       keywords="JEE Main result, JEE Main NTA, JEE Main admit card, JEE Main nta.ac.in, JEE Main.nta.nic.in, JEE Main session 2, JEE Mains exam, JEE Main 2025 exam date, JEE Main syllabus, JEE Main official website, JEE Main answer key, JEE Main exams, JEE Main registration, JEE Main total marks, JEE Main NTA nic, JEE Main dates, JEE Main login, JEE Main marks vs percentile, JEE Main form, JEE Main PYQ, JEE Main exam pattern, JEE Main last year question paper, JEE Main question paper, JEE Main website, JEE Main result date, JEE Main news, JEE Main online form, JEE Main helpline number, JEE Main latest news, JEE Main intimation slip, JEE Main total questions, JEE Main update, JEE Main chemistry syllabus, JEE Main qualifying marks, JEE Main question paper PDF, JEE Main B Arch question paper, JEE Main eligibility criteria, JEE Main exam centre, JEE Main documents required."
     >
+      <Breadcrumbs />
       <div className="main">
         <div className="container">
           <h1>WHAT IS JEE MAIN ?</h1>

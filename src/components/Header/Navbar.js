@@ -33,38 +33,38 @@ const pyq = [
 ];
 const exams = [
   {
-    name: "Exam Schedule 2024",
+    name: "Exam Schedule 2025",
     // href: "/exam-schedule-2024",
   },
   {
     name: "JEE-Main",
-    href: "/exam-jee-main",
+    href: "/exams/jee-main",
   },
   {
     name: "JEE-Advanced",
-    href: "/exam-jee-advanced",
+    href: "/exams/jee-advanced",
   },
   {
     name: "NEET",
-    href: "/exam-neet",
+    href: "/exams/neet",
   },
   {
     name: "NTSE",
-    href: "/exam-ntse",
+    href: "/exams/ntse",
   },
 ];
 const syllabus = [
   {
     name: "JEE-Main",
-    href: "/syllabus-jee-main",
+    href: "/syllabus/jee-main",
   },
   {
     name: "JEE-Advanced",
-    href: "/syllabus-jee-advanced",
+    href: "/syllabus/jee-advanced",
   },
   {
     name: "NEET",
-    href: "/syllabus-neet",
+    href: "/syllabus/neet",
   },
   {
     name: " CBSE Boards",
@@ -72,7 +72,7 @@ const syllabus = [
   },
   {
     name: "NTSE",
-    href: "/syllabus-ntse",
+    href: "/syllabus/ntse",
   },
 ];
 const books = [

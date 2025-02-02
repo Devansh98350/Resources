@@ -4,6 +4,7 @@ import { CaretDown, CaretUp } from "phosphor-react";
 import { FaRegKeyboard } from "react-icons/fa6";
 import { FaHeadphones } from "react-icons/fa";
 import "../Exam.css";
+import Breadcrumbs from "../../Breadcrumbs";
 
 const Question = ({ question }) => {
   const initiallyOpen = question.id === 1 || question.id === 2;
@@ -109,6 +110,7 @@ const Neet = () => {
       description="Prepare for NEET 2025 with comprehensive guidance from IIT Academy. Our expert faculty provides in-depth study materials, personalized coaching, and the latest updates on NEET eligibility, exam patterns, and application procedures. Explore our extensive resources, including previous year question papers and exam tips, to maximize your chances of success. Whether you're looking for the best books for NEET preparation or need advice on choosing the right coaching, IIT Academy is your trusted partner in achieving your medical dreams. Join us and take the first step towards a successful career in medical!"
       keywords="neet, neet result 2024, neet 2024, neet pg 2024, neet full form, neet pg, neet long form, neet ug, neet admit card 2024, neet exam date 2024, neet nta nic in, neet 2024 exam date, neet result, neet application form 2024, neet exam, neet nta, neet pg result 2024, neet syllabus 2024, neet news, neet 2025, neet 2025 exam date, neet result 2024 link, neet 2024 question paper, neet 2024 syllabus, neet syllabus, neet 2025 syllabus, neet pg counselling, neet result 2024 date, neet pg result, neet official website, neet registration, neet pg 2024 counselling, net jrf, neet ka full form, neet latest news, neet last year question paper, neet previous year question paper, neet question paper, neet ug results, neet age limit, neet air 1 2024, neet counselling, neet exam date, neet form, neet hall ticket 2024, neet question paper 2024, neet question paper 2023, neet syllabus 2025, neet ss, neet total marks, neet counselling 2024, neet exam date 2025, neet mock test, neet omr sheet, neet result 2023, neet ss 2024, neet ug syllabus, neet 2025 syllabus pdf by nta, neet books, neet coaching near me, neet exam pattern, neet mds, neet pg 2025, neet pyq, neet registration last date, neet cut off 2024 for obc."
     >
+      <Breadcrumbs />
       <div className="main">
         <div className="container">
           <p>

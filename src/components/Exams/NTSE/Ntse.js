@@ -3,6 +3,7 @@ import Layout from "../../Layout";
 import { FaRegKeyboard } from "react-icons/fa6";
 import { FaHeadphones } from "react-icons/fa";
 import "../Exam.css";
+import Breadcrumbs from "../../Breadcrumbs";
 
 const Ntse = () => {
   useEffect(() => {
@@ -14,6 +15,7 @@ const Ntse = () => {
       description="Prepare for the NTSE Exam with IIT Academy's comprehensive resources! Our expert guidance covers the National Talent Search Examination syllabus, eligibility criteria, exam pattern, and preparation tips for NTSE 2025. Access valuable study materials, previous year papers, and mock tests to boost your chances of success. Join our coaching classes to excel in talent search exams and secure scholarships for your academic journey. Start your path to success with IIT Academy today!"
       keywords="ntse, NTSE Exam, National Talent Search Examination, NTSE 2025, NTSE Application Form, NTSE Syllabus, NTSE Eligibility Criteria, NTSE Exam Pattern, NTSE Preparation Tips, NTSE Previous Year Papers, NTSE Result, NTSE Coaching Classes, How to prepare for NTSE, NTSE Scholarship, NTSE Admit Card, NTSE Study Material, NTSE Mock Tests, NTSE Cut Off Marks, NTSE Exam Date, NTSE Answer Key, NTSE Success Stories, How to fill NTSE application form online, Best books for NTSE preparation, Tips for cracking the NTSE exam, NTSE exam date and schedule for 2025, NTSE preparation strategies for students, What is the format of the NTSE exam?, Importance of NTSE for students in India, NTSE exam centers, How to check NTSE results online, NTSE interview preparation tips, Talent search exams in India, National scholarships for students, Competitive exams for school students, Indian talent search programs, Educational assessments in India"
     >
+      <Breadcrumbs />
       <div className="main">
         <div className="container">
           <h1>WHAT IS NTSE ?</h1>
