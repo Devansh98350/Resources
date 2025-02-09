@@ -52,6 +52,10 @@ const exams = [
     name: "NTSE",
     href: "/exams/ntse",
   },
+  {
+    name: "IPHO",
+    href: "/exams/ipho",
+  },
 ];
 const syllabus = [
   {
