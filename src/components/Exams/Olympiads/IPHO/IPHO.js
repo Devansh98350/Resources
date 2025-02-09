@@ -15,7 +15,7 @@ const Neet = () => {
       <Breadcrumbs />{" "}
       <div className="main">
         <div className="container">
-          <h1>WHAT IS IPhO?</h1>
+          <h1>What is IPhO?</h1>
           <p>
             The International Physics Olympiad (IPhO) is one of the most
             prestigious physics competitions in the world, designed to inspire
