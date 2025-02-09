@@ -5,144 +5,7 @@ import "../Exam.css";
 import Breadcrumbs from "../../Breadcrumbs";
 import Explore from "../../Common/Explore";
 import Banner from "../../Common/Banner";
-
-const Question = ({ question }) => {
-  const initiallyOpen = question.id === 1 || question.id === 2;
-  const [open, setOpen] = useState(initiallyOpen);
-
-  const contentWithLineBreaks = question.content
-    ? question.content.split("\n").map((line, index) => (
-        <React.Fragment key={index}>
-          {line}
-          <br />
-        </React.Fragment>
-      ))
-    : null;
-
-  return (
-    <section
-      className={`accordion ${open ? "open" : "closed"}`}
-      id={`accordion-${question.id}`}
-      onClick={() => setOpen(!open)}
-    >
-      <div className={open ? "open" : "closed"} id="accordion-two">
-        <h2>{question.title}</h2>
-        <button onClick={() => setOpen(!open)} className="btns">
-          {open ? <CaretUp /> : <CaretDown />}
-        </button>
-      </div>
-      {open && <p className="accordion-para">{contentWithLineBreaks}</p>}
-    </section>
-  );
-};
-
-const AccordionComponent = () => {
-  const questions = [
-    {
-      id: 1,
-      title: "Q1. When will the JEE Advanced 2025 exam be conducted?",
-      content: `JEE Advanced 2025 is expected to take place in June 2025. The exam
-            conducting authorities for 2025 is IIT Madras.`,
-    },
-    {
-      id: 2,
-      title: "Q2. When will the JEE Advanced application form be released?",
-      content: `It is expected that the online application form for JEE Advanced 2025 will begin in the fourth week of May 2025. To fill out the application form for JEE Advanced 2025 the candidates can check at jeeadv.nic.in.`,
-    },
-    {
-      id: 3,
-      title: "Q3. How to download the JEE Advanced 2025 admit card?",
-      content: `In order to download JEE Advanced 2025 admit card the candidates should visit the official website and the candidate would be able to get the admit card.`,
-    },
-    {
-      id: 4,
-      title:
-        "Q4. Are candidates who have cleared their qualifying exams in 2022 eligible for JEE Advanced 2025 if they did not appear for it in 2023?",
-      content: ` No, in such case the candidate won't be eligible. The only case might be the result of the qualifying exam being declared after June 2022 but still, the candidate would have to adhere to several other eligibility criteria.`,
-    },
-    {
-      id: 5,
-      title:
-        "Q5. Can aspirants who missed JEE Advanced 2023 appear in JEE Advanced 2025?",
-      content: ` Yes, in case the student has missed JEE Advanced 2023 then he or she will be allowed to appear in the entrance exam in 2025.`,
-    },
-    {
-      id: 6,
-      title: "Q6. How many seats will be available in IITs in 2025?",
-      content: `The number of seats offered by IIT varies every year. In 2023 it was 17,385. In order to know the number of seats in 2025 we will have to wait for the official word from the exam authorities.`,
-    },
-    {
-      id: 7,
-      title:
-        "Q7. How much do I have to score in the JEE Main to qualify for the JEE Advanced 2025?",
-      content: `A candidate must secure a rank among the top 2,50,000 in JEE Main 2025, in order to be eligible for JEE Advanced 2025.`,
-    },
-    {
-      id: 8,
-      title:
-        "Q8. Are both Paper-I and Paper-II mandatory in the JEE Advanced 2025?",
-      content: `The candidate’s total score and rank will be calculated based on their scores in the JEE Advanced 2025 Paper-I & Paper-II hence, both papers are mandatory.`,
-    },
-    {
-      id: 9,
-      title: "Q9. Is there any change in the JEE Advanced eligibility?",
-      content: ` Yes, 75% of the eligibility criteria for admissions to IITs have been scrapped in 2022, as per the request of students.`,
-    },
-    {
-      id: 10,
-      title:
-        " Q10. How is the top 20 percentile calculated for the qualifying exam?",
-      content: `The aggregate marks of all the qualifying exam subjects are calculated to know the percentiles. The Institutions will be providing cut-off marks for the top 20 percentile of various categories. This information will be published on the IIT websites.`,
-    },
-    {
-      id: 11,
-      title:
-        "Q11. Which login ID must be used to apply for the JEE Advanced 2025?",
-      content: `JEE Main roll number is the candidate’s login ID for JEE Advanced 2025. The password is same as that of JEE Main.`,
-    },
-    {
-      id: 12,
-      title: "Q12. What kind of questions can I expect in the JEE Advanced?",
-      content: `As per the format, the questions are mostly multiple choice and they cover all three subjects. Namely Physics, Chemistry, and Mathematics. The candidate should prepare well as the questions are tricky and analytical in the JEE Advanced paper.`,
-    },
-    {
-      id: 13,
-      title:
-        "Q13. Is there any way to confirm the registration status for the exam?",
-      content: `To confirm the registration status of the exam the candidates can check the official website. The status is updated within 72 hours of payment of the fees, in case the candidate is unable to see the updated status then the admission authorities should be connected immediately.`,
-    },
-    {
-      id: 14,
-      title:
-        "Q14. Apart from IIT colleges, which are the other premier institutes offering admissions based on the JEE Advanced score?",
-      content: `Apart from IIT, based on JEE Advanced score, nine other premier institutes offer admissions, namely, IISC Bangalore, IISER Bhopal, IISER Kolkata, IISER Mohali, IISER Thiruvananthapuram, IISER Pune, IIST Thiruvananthapuram, RGIPT Rae Bareli, and IIPE Visakhapatnam.`,
-    },
-    {
-      id: 15,
-      title: "Q15. How to develop better skills for solving JEE questions?",
-      content: `Solving JEE Advanced question papers, sample question papers, and mock tests are best and the most effective ways to develop skills for solving the JEE questions. These indeed are a great way to get familiar with the exam pattern and how much time should be invested in a specific question on the day of the exam.`,
-    },
-    {
-      id: 16,
-      title: "Q16. JEE Advanced 2025 will be held in how many languages?",
-      content: `The JEE Advanced 2025 will be held in 2 languages namely English and Hindi.`,
-    },
-    {
-      id: 17,
-      title: "Q17. Do I need to apply for the JEE Advanced separately?",
-      content: `Yes, after the announcement of JEE Main results, the JEE Advanced applications will be released. Only the top 2,50,000 candidates from JEE Main would be eligible to apply for JEE Advanced.`,
-    },
-  ];
-  return (
-    <div className="container-accordian">
-      <div className="questions">
-        {questions.map((question) => (
-          <Question key={question.id} question={question} />
-        ))}
-      </div>
-    </div>
-  );
-};
+import FAQ from "./faq";
 
 const Advanced = () => {
   useEffect(() => {
@@ -1158,10 +1021,10 @@ const Advanced = () => {
               </tbody>
             </table>
           </div>
-          <h1>Frequently Asked Questions on JEE Advanced 2025</h1>
         </div>
       </div>
-      <AccordionComponent />
+
+      <FAQ />
       <Banner />
       <Explore />
     </Layout>

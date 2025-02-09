@@ -1,124 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Layout from "../../Layout";
-import { CaretDown, CaretUp } from "phosphor-react";
 import "../Exam.css";
 import Breadcrumbs from "../../Breadcrumbs";
 import Explore from "../../Common/Explore";
 import Banner from "../../Common/Banner";
-
-const Question = ({ question }) => {
-  const initiallyOpen = question.id === 1 || question.id === 2;
-  const [open, setOpen] = useState(initiallyOpen);
-
-  const contentWithLineBreaks = question.content
-    ? question.content.split("\n").map((line, index) => (
-        <React.Fragment key={index}>
-          {line}
-          <br />
-        </React.Fragment>
-      ))
-    : null;
-
-  return (
-    <section
-      className={`accordion ${open ? "open" : "closed"}`}
-      id={`accordion-${question.id}`}
-      onClick={() => setOpen(!open)}
-    >
-      <div className={open ? "open" : "closed"} id="accordion-two">
-        <h2>{question.title}</h2>
-        <button onClick={() => setOpen(!open)} className="btns">
-          {open ? <CaretUp /> : <CaretDown />}
-        </button>
-      </div>
-      {open && <p className="accordion-para">{contentWithLineBreaks}</p>}
-    </section>
-  );
-};
-
-const AccordionComponent = () => {
-  const questions = [
-    {
-      id: 1,
-      title: "Q1. What is the difference between JEE Main and JEE Advanced?",
-      content: `For candidates aspiring for B.Tech courses offered in NITs, IIITs, and other CFTIs, JEE Main is conducted. JEE Main can be considered as an eligibility test for candidates preparing for JEE Advanced, which paves the way to admission to IITs. The students can appear for JEE Main three consecutive times while only two consecutive chances are given to appear for JEE Advanced.`,
-    },
-    {
-      id: 2,
-      title: "Q2. What are the new exam dates for JEE Main 2025 sessions?",
-      content: `The JEE Main 2025 exam would be conducted in two sessions. The first section session is on date 24th January To 1st February 2025 while the second session is on date 1st April, 2025 To 15th April, 2025.`,
-    },
-    {
-      id: 3,
-      title:
-        "Q3. When will NTA release JEE Main 2025 Admit Card for the upcoming session?",
-      content: `After the applications are completed the NTA would be releasing the JEE Main admit card for 2025 on the official website. The candidates who have registered successfully can download JEE Main admit card from nta.ac.in or jeemain.nta.nic.in. on the specified dates.`,
-    },
-    {
-      id: 4,
-      title: " Q4. Is NCERT important for the JEE Main?",
-      content: `Around 35 to 40% of questions in JEE Main are picked directly from the concepts that are covered in the NCERT book hence the students are advised to go through the entire NCERT textbook while preparing for JEE Main.`,
-    },
-    {
-      id: 5,
-      title: "Q5. What should I do to get admission to an IIT?",
-      content: `On the basis of marks obtained in JEE Main the students are granted admission to IIITs, NITs, and GFTIs. In order to get a seat in IIT colleges the student must clear the JEE advanced exam. Only the top 2.50 lakh students qualifying for the JEE Main will be eligible for JEE Advanced.`,
-    },
-    {
-      id: 6,
-      title: " Q6. How many attempts are granted for the JEE Main?",
-      content: ` The JEE Main 2025 will be conducted in two sessions it is entirely the choice of the student whether he or she is willing to appear only in one session or both sessions.`,
-    },
-    {
-      id: 7,
-      title: " Q7. Can I change my paper appearing mode from Hindi to English?",
-      content: `The student must be very careful while filling in the mode of language option in the application form online as it cannot be changed at a later stage.`,
-    },
-    {
-      id: 8,
-      title: "Q8. Can I apply for two sessions together in JEE Main 2025?",
-      content: `No, the JEE would open the application window before both sessions and the student can apply .`,
-    },
-    {
-      id: 9,
-      title:
-        "Q9. Is it mandatory to appear for all the sessions of the JEE Main exam?",
-      content: `It is completely the choice of the candidate to appear for either one session or both sessions. In case the candidate has opted to appear for both sessions then the better marks out of the two attempts would be considered.`,
-    },
-    {
-      id: 10,
-      title: " Q10. Is the syllabus of JEE Main and JEE Advanced the same?",
-      content: `There are a lot of topics that are a part of JEE Main syllabus but are excluded from JEE Advanced syllabus and vice versa. Hence there are several differences in the syllabus of JEE Main and JEE Advanced.`,
-    },
-    {
-      id: 11,
-      title:
-        " Q11. I uploaded the wrong photo in my JEE Main application form. What should I do?",
-      content: ` Once the form has been submitted no correction would be permitted.`,
-    },
-    {
-      id: 12,
-      title: "Q12. What are the new changes in the JEE Main exam pattern?",
-      content: `The JEE Main exam pattern more or less remains the same. The only major change this year is in terms of the marking scheme. There will be a negative marking for both Sections A and B.`,
-    },
-    {
-      id: 13,
-      title:
-        "Q13. I got a “Transaction Failed” message while paying the application fee online, but the money was deducted from my account. What should I do?",
-      content: `Due to some technical error with the payment network, this condition might have occurred. The amount would be refunded within 7 to 10 working days. In case of such a situation, the candidate should submit the application fees again.`,
-    },
-  ];
-
-  return (
-    <div className="container-accordian">
-      <div className="questions">
-        {questions.map((question) => (
-          <Question key={question.id} question={question} />
-        ))}
-      </div>
-    </div>
-  );
-};
+import FAQ from "./faq";
 
 export default function Main() {
   useEffect(() => {
@@ -877,10 +763,9 @@ export default function Main() {
             important questions, exam pattern, application form, etc. keep
             visiting the IIT Academy website.
           </p>
-          <h1>FAQ For JEE Main 2025</h1>
         </div>
       </div>
-      <AccordionComponent />
+      <FAQ />
       <Banner />
       <Explore />
     </Layout>

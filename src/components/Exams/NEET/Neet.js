@@ -1,104 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Layout from "../../Layout";
-import { CaretDown, CaretUp } from "phosphor-react";
 import "../Exam.css";
 import Breadcrumbs from "../../Breadcrumbs";
 import Explore from "../../Common/Explore";
 import Banner from "../../Common/Banner";
-
-const Question = ({ question }) => {
-  const initiallyOpen = question.id === 1 || question.id === 2;
-  const [open, setOpen] = useState(initiallyOpen);
-
-  const contentWithLineBreaks = question.content
-    ? question.content.split("\n").map((line, index) => (
-        <React.Fragment key={index}>
-          {line}
-          <br />
-        </React.Fragment>
-      ))
-    : null;
-
-  return (
-    <section
-      className={`accordion ${open ? "open" : "closed"}`}
-      id={`accordion-${question.id}`}
-      onClick={() => setOpen(!open)}
-    >
-      <div className={open ? "open" : "closed"} id="accordion-two">
-        <h2>{question.title}</h2>
-        <button onClick={() => setOpen(!open)} className="btns">
-          {open ? <CaretUp /> : <CaretDown />}
-        </button>
-      </div>
-      {open && <p className="accordion-para">{contentWithLineBreaks}</p>}
-    </section>
-  );
-};
-
-const AccordionComponent = () => {
-  const questions = [
-    {
-      id: 1,
-      title: "Q1. When is NEET 2025?",
-      content: ` Considering the previous years’ schedule trend, it is possible that the NEET 2025 exam would be conducted on date 5th May 2025.`,
-    },
-    {
-      id: 2,
-      title: "Q2. How many students will appear for NEET?",
-      content: `It is expected that the registration would be the same as last year or could be more than that. With every passing year more and more, students are taking interest in pursuing medicine hence the number is increasing.`,
-    },
-    {
-      id: 3,
-      title: "Q3. What is the full form of NEET?",
-      content: `The full form of NEET is National Eligibility cum Entrance Test.`,
-    },
-    {
-      id: 4,
-      title: "Q4. Is qualifying class 12th enough to appear for NEET 2025?",
-      content: `To appear for the NEET exam, it is mandatory for the candidate to qualify class 12th exam. Candidate should be appearing for the board exam the same year or might have given the class 12th examination in the previous year.`,
-    },
-    {
-      id: 5,
-      title: "Q5. How many marks are required to pursue MBBS in NEET?",
-      content: `In the case of the General category: 50% marks are required, whereas for OBC, SC & ST: 40% marks. Visit the official website to know more about the category-wise requirements.`,
-    },
-    {
-      id: 6,
-      title: "Q6. When do the NEET 2025 Registrations start?",
-      content: `The official authority has not declared NEET 2025 registration dates yet. The candidate can check this section in regard to when the NEET 2025 exam dates would be released.`,
-    },
-    {
-      id: 7,
-      title: "Q7. Will NEET be held twice in 2025?",
-      content: `The NTA has made no official statement regarding the conduction of NEET 2025 twice. Keep visiting this section to have updates on the same.`,
-    },
-    {
-      id: 8,
-      title: "Q8. When will the NEET 2025 form date be announced?",
-      content: `Though the release date for NEET 2025 exam forms is not announced, as per the previous years' trends it can be expected that the forms would be released in the month of April 2025.`,
-    },
-    {
-      id: 9,
-      title: "Q9. Will NEET be held in 2025?",
-      content: `For young graduates seeking to pursue a career in the field of medicine NEET 2025 medical entrance test would be conducted. The NEET 2025 would be conducted at several centers in India and even abroad. And, as the competition is high and the syllabus is vast, the students are suggested to have a proper preparation strategy to score well.`,
-    },
-    {
-      id: 10,
-      title: "Q10. Is there any change in the NEET 2025 syllabus?",
-      content: `India will be conducting NEET 2025 examination on the basis of the NEET syllabus as specified by the officials. The complete syllabus of NEET 2025 is provided in detail here. In case of any changes, the same will be updated on this page.`,
-    },
-  ];
-  return (
-    <div className="container-accordian">
-      <div className="questions">
-        {questions.map((question) => (
-          <Question key={question.id} question={question} />
-        ))}
-      </div>
-    </div>
-  );
-};
+import FAQ from "./faq";
 
 const Neet = () => {
   useEffect(() => {
@@ -1638,7 +1544,7 @@ const Neet = () => {
           <h1>Frequently Asked Questions on NEET 2025</h1>
         </div>
       </div>
-      <AccordionComponent />
+      <FAQ />
       <Banner />
       <Explore />
     </Layout>
