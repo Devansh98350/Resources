@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { FaRegKeyboard } from "react-icons/fa6";
 import { FaHeadphones } from "react-icons/fa";
 
@@ -8,16 +7,20 @@ const Banner = () => {
     <div className="container-fluid fullBlog-third">
       <h3>What to do next? Ask Our experts in a Free Counselling</h3>
       <p>
-        24 Years of Excellence in Classes for Medical | IIT-JEE, Now learn from
+        A Legacy of Excellence in Classes for IIT-JEE | Medical. Now learn from
         the best teachers of India
       </p>
       <div className="button-container">
-        <Link to="/Admission-form">
+        <a
+          href="https://www.iitacademy.in/Admission-form"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="btn">
             <FaRegKeyboard className="icon" />
             Enroll Now
           </button>
-        </Link>
+        </a>
         <a href="tel:9205704041">
           <button className="btn">
             <FaHeadphones className="icon" />

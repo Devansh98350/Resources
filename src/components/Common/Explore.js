@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Explore = () => {
   return (
@@ -15,19 +14,34 @@ const Explore = () => {
         Explore More about different batches offered by IIT Academy.
       </p>
       <div className="all_batches">
-        {" "}
-        <Link to="/engineering-batches">
+        <a
+          href="https://www.iitacademy.in/engineering-batches"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="details4-btn">Engineering Batches</button>
-        </Link>
-        <Link to="/medical-batches">
+        </a>
+        <a
+          href="https://www.iitacademy.in/medical-batches"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="details4-btn">Medical Batches</button>
-        </Link>
-        <Link to="/foundation-batches">
+        </a>
+        <a
+          href="https://www.iitacademy.in/foundation-batches"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="details4-btn">Foundation Batches</button>
-        </Link>
-        <Link to="/board-batches">
+        </a>
+        <a
+          href="https://www.iitacademy.in/board-batches"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="details4-btn">Boards Batches</button>
-        </Link>
+        </a>
       </div>
     </div>
   );
