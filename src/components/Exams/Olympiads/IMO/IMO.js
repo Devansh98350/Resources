@@ -11,7 +11,7 @@ const Imo = () => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <Layout title="IPhO - IIT Academy" description="" keywords="">
+    <Layout title="IMO - IIT Academy" description="" keywords="">
       <Breadcrumbs />{" "}
       <div className="main">
         <div className="container">
