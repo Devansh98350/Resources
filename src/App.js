@@ -16,6 +16,7 @@ import Aadvanced from "./components/Exams/JEE-Advanced/Advanced";
 import Aneet from "./components/Exams/NEET/Neet";
 import Antse from "./components/Exams/NTSE/Ntse";
 import Aipho from "./components/Exams/Olympiads/IPHO/IPHO";
+import Aimo from "./components/Exams/Olympiads/IMO/IMO";
 // PYQ
 // import PYmain from "./components/P_year/JEE-Main/Main";
 // import PYadvanced from "./components/P_year/JEE-Advanced/Advanced";
@@ -91,6 +92,7 @@ function App() {
           <Route path="/exams/neet" element={<Aneet />} />
           <Route path="/exams/ntse" element={<Antse />} />
           <Route path="/exams/ipho" element={<Aipho />} />
+          <Route path="/exams/imo" element={<Aimo />} />
           {/* PYQ */}
           {/*<Route path="/pyq-jee-main" element={<PYmain />} />
           <Route path="/pyq-jee-advanced" element={<PYadvanced />} />

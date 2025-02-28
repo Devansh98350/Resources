@@ -53,8 +53,12 @@ const exams = [
     href: "/exams/ntse",
   },
   {
-    name: "IPHO",
+    name: "IPhO",
     href: "/exams/ipho",
+  },
+  {
+    name: "IMO",
+    href: "/exams/imo",
   },
 ];
 const syllabus = [
