@@ -201,7 +201,9 @@ const FAQ = () => {
               }}
               className="answer"
             >
-              <p styles={styles.pstyle}>{faqItem.answer}</p>
+              <p styles={styles.pstyle} className="mt-0">
+                {faqItem.answer}
+              </p>
             </div>
           </div>
         ))}

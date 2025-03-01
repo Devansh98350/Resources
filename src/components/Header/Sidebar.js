@@ -376,6 +376,15 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
+                  <StyledNavLink to="/exams/nso" className="dropdown-item">
+                    <i
+                      className="fas fa-angle-double-right"
+                      style={{ color: "#f39c12", marginRight: "5px" }}
+                    ></i>{" "}
+                    NSO
+                  </StyledNavLink>
+                </DropdownItem>
+                <DropdownItem>
                   <StyledNavLink to=" " className="dropdown-item">
                     <i
                       className="fas fa-angle-double-right"

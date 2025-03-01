@@ -79,54 +79,48 @@ const FAQ = () => {
 
   const faqData = [
     {
-      question: "When is NEET 2025?",
+      question: "Who can participate in the SOF NSO?",
       answer:
-        "Considering the previous years’ schedule trend, it is possible that the NEET 2025 exam would be conducted on 5th May 2025.",
+        " Students from Class 1 to 12 studying in CBSE, ICSE, State Board, or other recognized boards are eligible to participate.",
     },
     {
-      question: "How many students will appear for NEET?",
+      question: "How can I register for the NSO?",
       answer:
-        "It is expected that the registration would be the same as last year or could be more. With every passing year, more students are taking interest in pursuing medicine, hence the number is increasing.",
+        " Students can register through their schools if their school is registered with SOF. If the school is not participating, students can register individually through the official SOF website.",
     },
     {
-      question: "What is the full form of NEET?",
+      question: "What is the exam format of the NSO?",
       answer:
-        "The full form of NEET is National Eligibility cum Entrance Test.",
+        "The NSO exam is conducted in two levels:\n\n• Level 1: Three sections – Logical Reasoning, Science, and Achievers Section.\n• Level 2: Two sections – Science and Achievers Section (for students from Classes 3 to 12).",
     },
     {
-      question: "Is qualifying class 12th enough to appear for NEET 2025?",
+      question: "What is the syllabus for the NSO?",
       answer:
-        "To appear for the NEET exam, it is mandatory for the candidate to qualify class 12th exam. The candidate should be appearing for the board exam the same year or might have given the class 12th examination in the previous year.",
+        "  The syllabus is based on the CBSE, ICSE, and State Board curriculum for the respective classes.",
     },
     {
-      question: "How many marks are required to pursue MBBS in NEET?",
-      answer:
-        "In the case of the General category: 50% marks are required, whereas for OBC, SC & ST: 40% marks. Visit the official website to know more about the category-wise requirements.",
+      question: "Is there any negative marking in the NSO exam?",
+      answer: ": No, there is no negative marking in any stage of the exam.",
     },
     {
-      question: "When do the NEET 2025 registrations start?",
+      question: "How can I check my NSO results?",
       answer:
-        "The official authority has not declared NEET 2025 registration dates yet. The candidate can check this section for updates on when the NEET 2025 exam dates would be released.",
+        "Results are available on the SOF website, and participating schools also receive them. Students can check their results using their roll numbers.",
     },
     {
-      question: "Will NEET be held twice in 2025?",
+      question: "What are the benefits of participating in NSO?",
       answer:
-        "The NTA has made no official statement regarding the conduction of NEET 2025 twice. Keep visiting this section for updates on the same.",
+        " The NSO helps students develop scientific aptitude, logical reasoning, and problem-solving skills. It also provides national and international-level recognition, boosting confidence for future competitive exams like JEE, NEET, and UPSC.",
     },
     {
-      question: "When will the NEET 2025 form date be announced?",
+      question: "What awards and recognition do students receive?",
       answer:
-        "Though the release date for NEET 2025 exam forms is not announced, as per previous years' trends, it can be expected that the forms would be released in April 2025.",
+        "SOF provides certificates, medals, trophies, and scholarships to top-performing students at the school, zonal, and international levels.",
     },
     {
-      question: "Will NEET be held in 2025?",
+      question: "How should I prepare for the NSO?",
       answer:
-        "For young graduates seeking to pursue a career in medicine, the NEET 2025 medical entrance test will be conducted. The NEET 2025 will be held at several centers in India and even abroad. As competition is high and the syllabus is vast, students are advised to have a proper preparation strategy to score well.",
-    },
-    {
-      question: "Is there any change in the NEET 2025 syllabus?",
-      answer:
-        "India will conduct the NEET 2025 examination based on the NEET syllabus specified by the officials. The complete syllabus of NEET 2025 is provided in detail here. In case of any changes, the same will be updated on this page.",
+        "Students should study from NCERT textbooks, practice with Olympiad workbooks and sample papers, and develop analytical skills through logical reasoning exercises.",
     },
   ];
 

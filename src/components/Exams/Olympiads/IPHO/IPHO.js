@@ -7,9 +7,9 @@ import Banner from "../../../Common/Banner";
 import FAQ from "./faq";
 
 const Neet = () => {
-  //   useEffect(() => {
-  //     window.scrollTo(0, 0);
-  //   }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <Layout title="IPhO - IIT Academy" description="" keywords="">
       <Breadcrumbs />{" "}

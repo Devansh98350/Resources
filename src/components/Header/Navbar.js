@@ -60,6 +60,10 @@ const exams = [
     name: "IMO",
     href: "/exams/imo",
   },
+  {
+    name: "NSO",
+    href: "/exams/nso",
+  },
 ];
 const syllabus = [
   {
