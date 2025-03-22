@@ -344,7 +344,7 @@ const Sidebar = () => {
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
-                    ></i>{" "}
+                    ></i>
                     NEET
                   </StyledNavLink>
                 </DropdownItem>
@@ -353,7 +353,7 @@ const Sidebar = () => {
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
-                    ></i>{" "}
+                    ></i>
                     NTSE
                   </StyledNavLink>
                 </DropdownItem>
@@ -362,7 +362,7 @@ const Sidebar = () => {
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
-                    ></i>{" "}
+                    ></i>
                     IPhO
                   </StyledNavLink>
                 </DropdownItem>
@@ -371,7 +371,7 @@ const Sidebar = () => {
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
-                    ></i>{" "}
+                    ></i>
                     IMO
                   </StyledNavLink>
                 </DropdownItem>
@@ -380,7 +380,7 @@ const Sidebar = () => {
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
-                    ></i>{" "}
+                    ></i>
                     NSO
                   </StyledNavLink>
                 </DropdownItem>
@@ -389,8 +389,26 @@ const Sidebar = () => {
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
-                    ></i>{" "}
+                    ></i>
                     SFO
+                  </StyledNavLink>
+                </DropdownItem>
+                <DropdownItem>
+                  <StyledNavLink to="/exams/ieo" className="dropdown-item">
+                    <i
+                      className="fas fa-angle-double-right"
+                      style={{ color: "#f39c12", marginRight: "5px" }}
+                    ></i>
+                    IEO
+                  </StyledNavLink>
+                </DropdownItem>
+                <DropdownItem>
+                  <StyledNavLink to="/exams/igko" className="dropdown-item">
+                    <i
+                      className="fas fa-angle-double-right"
+                      style={{ color: "#f39c12", marginRight: "5px" }}
+                    ></i>
+                    IGKO
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
@@ -398,7 +416,7 @@ const Sidebar = () => {
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
-                    ></i>{" "}
+                    ></i>
                     Exam Schedule 2025
                   </StyledNavLink>
                 </DropdownItem>

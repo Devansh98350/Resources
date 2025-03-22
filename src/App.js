@@ -19,6 +19,8 @@ import Aipho from "./components/Exams/Olympiads/IPHO/IPHO";
 import Aimo from "./components/Exams/Olympiads/IMO/IMO";
 import Anso from "./components/Exams/Olympiads/NSO/NSO";
 import Asfo from "./components/Exams/Olympiads/SFO/SFO";
+import Aieo from "./components/Exams/Olympiads/IEO/IEO";
+import Aigko from "./components/Exams/Olympiads/IGKO/IGKO";
 // PYQ
 // import PYmain from "./components/P_year/JEE-Main/Main";
 // import PYadvanced from "./components/P_year/JEE-Advanced/Advanced";
@@ -97,6 +99,8 @@ function App() {
           <Route path="/exams/imo" element={<Aimo />} />
           <Route path="/exams/nso" element={<Anso />} />
           <Route path="/exams/sfo" element={<Asfo />} />
+          <Route path="/exams/ieo" element={<Aieo />} />
+          <Route path="/exams/igko" element={<Aigko />} />
           {/* PYQ */}
           {/*<Route path="/pyq-jee-main" element={<PYmain />} />
           <Route path="/pyq-jee-advanced" element={<PYadvanced />} />
