@@ -11,6 +11,7 @@ const formatBreadcrumb = (segment) => {
     "sfo",
     "ieo",
     "igko",
+    "isso",
   ];
 
   return segment

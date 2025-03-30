@@ -76,6 +76,10 @@ const exams = [
     name: "IGKO",
     href: "/exams/igko",
   },
+  {
+    name: "ISSO",
+    href: "/exams/isso",
+  },
 ];
 const syllabus = [
   {
