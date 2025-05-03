@@ -80,6 +80,10 @@ const exams = [
     name: "ISSO",
     href: "/exams/isso",
   },
+  {
+    name: "NSTSE",
+    href: "/exams/nstse",
+  },
 ];
 const syllabus = [
   {

@@ -22,6 +22,7 @@ import Asfo from "./components/Exams/Olympiads/SFO/SFO";
 import Aieo from "./components/Exams/Olympiads/IEO/IEO";
 import Aigko from "./components/Exams/Olympiads/IGKO/IGKO";
 import Aisso from "./components/Exams/Olympiads/ISSO/ISSO";
+import Anstse from "./components/Exams/Olympiads/NSTSE/NSTSE";
 // PYQ
 // import PYmain from "./components/P_year/JEE-Main/Main";
 // import PYadvanced from "./components/P_year/JEE-Advanced/Advanced";
@@ -103,6 +104,7 @@ function App() {
           <Route path="/exams/ieo" element={<Aieo />} />
           <Route path="/exams/igko" element={<Aigko />} />
           <Route path="/exams/isso" element={<Aisso />} />
+          <Route path="/exams/nstse" element={<Anstse />} />
           {/* PYQ */}
           {/*<Route path="/pyq-jee-main" element={<PYmain />} />
           <Route path="/pyq-jee-advanced" element={<PYadvanced />} />
