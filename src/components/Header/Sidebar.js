@@ -217,7 +217,7 @@ const Sidebar = () => {
               <Image src={mainlogo} alt="" />
             </Details>
 
-            <StyledNavLink to=" " exact>
+            <StyledNavLink to="/" exact>
               Home
             </StyledNavLink>
             <DropdownToggle

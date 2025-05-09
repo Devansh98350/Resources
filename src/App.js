@@ -8,7 +8,8 @@ import {
 import i18n from "./i18n";
 import { I18nextProvider } from "react-i18next";
 
-// import Homepage from "./components/Homepage/Homepage";
+import Homepage from "./components/Homepage/Homepage";
+import CategoryPage from "./components/Homepage/CategoryPage";
 // About
 // import Schedule from "./components/Exams/Schedule_2024/Schedule";
 import Amain from "./components/Exams/JEE-Main/Main";
@@ -89,8 +90,8 @@ function App() {
     <I18nextProvider i18n={i18n}>
       <Router>
         <Routes>
-          {/*<Route path="/" element={<Homepage />} />
-           */}
+          <Route path="/" element={<Homepage />} />
+          <Route path="/:categoryId" element={<CategoryPage />} />
           {/* EXAM */}
           {/*<Route path="/exam-schedule-2024" element={<Schedule />} />*/}
           <Route path="/exams/jee-main" element={<Amain />} />
@@ -168,7 +169,7 @@ function App() {
           {/* <Route path="/contact-us" element={<Contact />} /> */}
           {/*<Route path="*" element={<PagenotFound />} />
            */}
-          <Route path="*" element={<Navigate to="/exams/jee-main" replace />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Router>
     </I18nextProvider>
