@@ -10,6 +10,7 @@ import one from "../../../assests/Pages/2021.png";
 import two from "../../../assests/Pages/2022.png";
 import three from "../../../assests/Pages/2023.png";
 import "./Neet.css";
+import Breadcrumbs from "../../Breadcrumbs";
 
 function Neet() {
   useEffect(() => {
@@ -48,6 +49,7 @@ function Neet() {
       : null;
   return (
     <Layout title="NEET-PYQ-IIT-Academy">
+      <Breadcrumbs />
       <div className="content">
         <p
           style={{
@@ -139,7 +141,7 @@ function Neet() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2017-neet");
+              navigate("/pyq/neet/2017");
               activeTab(1);
             }}
           >
@@ -150,7 +152,7 @@ function Neet() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2018-neet");
+              navigate("/pyq/neet/2018");
               activeTab(2);
             }}
           >
@@ -161,7 +163,7 @@ function Neet() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2019-neet");
+              navigate("/pyq/neet/2019");
               activeTab(3);
             }}
           >
@@ -172,7 +174,7 @@ function Neet() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2020-neet");
+              navigate("/pyq/neet/2020");
               activeTab(4);
             }}
           >
@@ -183,7 +185,7 @@ function Neet() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2021-neet");
+              navigate("/pyq/neet/2021");
               activeTab(5);
             }}
           >
@@ -194,7 +196,7 @@ function Neet() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2022-neet");
+              navigate("/pyq/neet/2022");
               activeTab(6);
             }}
           >
@@ -205,7 +207,7 @@ function Neet() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2023-neet");
+              navigate("/pyq/neet/2023");
               activeTab(1);
             }}
           >

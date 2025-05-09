@@ -10,6 +10,7 @@ import ten from "../../../assests/Pages/2020.png";
 import one from "../../../assests/Pages/2021.png";
 import two from "../../../assests/Pages/2022.png";
 import three from "../../../assests/Pages/2023.png";
+import Breadcrumbs from "../../Breadcrumbs";
 
 function Cbse() {
   useEffect(() => {
@@ -48,12 +49,13 @@ function Cbse() {
       : null;
   return (
     <Layout title="CBSE-PYQ-IIT-Academy">
+      <Breadcrumbs />
       <div className="jee-main">
         <div>
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2017-cbse-boards");
+              navigate("/pyq/cbse-board/2017");
               activeTab(1);
             }}
           >
@@ -64,7 +66,7 @@ function Cbse() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2018-cbse-boards");
+              navigate("/pyq/cbse-board/2018");
               activeTab(2);
             }}
           >
@@ -75,7 +77,7 @@ function Cbse() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2019-cbse-boards");
+              navigate("/pyq/cbse-board/2019");
               activeTab(3);
             }}
           >
@@ -86,7 +88,7 @@ function Cbse() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2020-cbse-boards");
+              navigate("/pyq/cbse-board/2020");
               activeTab(4);
             }}
           >
@@ -97,7 +99,7 @@ function Cbse() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2021-cbse-boards");
+              navigate("/pyq/cbse-board/2021");
               activeTab(5);
             }}
           >
@@ -108,7 +110,7 @@ function Cbse() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2022-cbse-boards");
+              navigate("/pyq/cbse-board/2022");
               activeTab(6);
             }}
           >
@@ -119,7 +121,7 @@ function Cbse() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2023-cbse-boards");
+              navigate("/pyq/cbse-board/2023");
               activeTab(1);
             }}
           >

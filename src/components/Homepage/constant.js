@@ -187,7 +187,7 @@ export const getCategoryTitle = (categoryId) => {
   switch (categoryId) {
     case "exams":
       return "About Exams";
-    case "questions":
+    case "pyq":
       return "Previous Year Questions";
     case "syllabus":
       return "Syllabus";

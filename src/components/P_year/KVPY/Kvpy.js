@@ -8,6 +8,7 @@ import ten from "../../../assests/Pages/2020.png";
 import one from "../../../assests/Pages/2021.png";
 import two from "../../../assests/Pages/2022.png";
 import three from "../../../assests/Pages/2023.png";
+import Breadcrumbs from "../../Breadcrumbs";
 
 const Kvpy = () => {
   useEffect(() => {
@@ -45,6 +46,7 @@ const Kvpy = () => {
       : null;
   return (
     <Layout title="KVPY-PYQ-IIT-Academy">
+      <Breadcrumbs />
       <div className="content">
         <p
           style={{

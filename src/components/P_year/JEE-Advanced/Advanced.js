@@ -10,6 +10,7 @@ import ten from "../../../assests/Pages/2020.png";
 import one from "../../../assests/Pages/2021.png";
 import two from "../../../assests/Pages/2022.png";
 import three from "../../../assests/Pages/2023.png";
+import Breadcrumbs from "../../Breadcrumbs";
 
 function Advanced() {
   const navigate = useNavigate();
@@ -48,6 +49,7 @@ function Advanced() {
   }, []);
   return (
     <Layout title="JEE-Advanced-PYQ-IIT-Academy">
+      <Breadcrumbs />
       <div className="content">
         <p
           style={{
@@ -173,7 +175,7 @@ function Advanced() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2017-jee-advanced");
+              navigate("/pyq/jee-advanced/2017");
               activeTab(1);
             }}
           >
@@ -184,7 +186,7 @@ function Advanced() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2018-jee-advanced");
+              navigate("/pyq/jee-advanced/2018");
               activeTab(2);
             }}
           >
@@ -195,7 +197,7 @@ function Advanced() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2019-jee-advanced");
+              navigate("/pyq/jee-advanced/2019");
               activeTab(3);
             }}
           >
@@ -206,7 +208,7 @@ function Advanced() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2020-jee-advanced");
+              navigate("/pyq/jee-advanced/2020");
               activeTab(4);
             }}
           >
@@ -217,7 +219,7 @@ function Advanced() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2021-jee-advanced");
+              navigate("/pyq/jee-advanced/2021");
               activeTab(5);
             }}
           >
@@ -228,7 +230,7 @@ function Advanced() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2022-jee-advanced");
+              navigate("/pyq/jee-advanced/2022");
               activeTab(6);
             }}
           >
@@ -239,7 +241,7 @@ function Advanced() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/pyq-2023-jee-advanced");
+              navigate("/pyq/jee-advanced/2023");
               activeTab(1);
             }}
           >

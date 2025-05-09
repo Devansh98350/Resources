@@ -7,6 +7,7 @@ import maths from "../../../../assests/Pages/maths.png";
 import biology1 from "../../../../assests/Pages/biology1.png";
 import english from "../../../../assests/Pages/english.png";
 import painting from "../../../../assests/Pages/painting.png";
+import Breadcrumbs from "../../../Breadcrumbs";
 
 function CbseContent2017() {
   useEffect(() => {
@@ -14,6 +15,7 @@ function CbseContent2017() {
   }, []);
   return (
     <Layout title="CBSE-PYQ-2017-IIT-Academy">
+      <Breadcrumbs />
       <div className="jeeContent-container">
         <div>
           <button className="jeeContent-card">

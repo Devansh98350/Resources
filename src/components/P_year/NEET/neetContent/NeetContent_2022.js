@@ -4,6 +4,7 @@ import "./NeetContent.css";
 import physics from "../../../../assests/Pages/physics.png";
 import chemistry from "../../../../assests/Pages/chemistry.png";
 import biology from "../../../../assests/Pages/biology.png";
+import Breadcrumbs from "../../../Breadcrumbs";
 
 function NeetContent2022() {
   useEffect(() => {
@@ -11,6 +12,7 @@ function NeetContent2022() {
   }, []);
   return (
     <Layout title="NEET-PYQ-2022-IIT-Academy">
+      <Breadcrumbs />
       <div className="content">
         <p
           style={{

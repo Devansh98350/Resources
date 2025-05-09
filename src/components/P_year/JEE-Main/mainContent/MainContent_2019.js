@@ -4,6 +4,7 @@ import "./MainContent.css";
 import physics from "../../../../assests/Pages/physics.png";
 import chemistry from "../../../../assests/Pages/chemistry.png";
 import maths from "../../../../assests/Pages/maths.png";
+import Breadcrumbs from "../../../Breadcrumbs";
 
 function MainContent2019() {
   useEffect(() => {
@@ -11,6 +12,7 @@ function MainContent2019() {
   }, []);
   return (
     <Layout title="JEE-Mains-PYQ-2019-IIT-Academy">
+      <Breadcrumbs />
       <div className="jeeContent-container">
         <div>
           <button className="jeeContent-card">

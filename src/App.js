@@ -25,12 +25,12 @@ import Aigko from "./components/Exams/Olympiads/IGKO/IGKO";
 import Aisso from "./components/Exams/Olympiads/ISSO/ISSO";
 import Anstse from "./components/Exams/Olympiads/NSTSE/NSTSE";
 // PYQ
-// import PYmain from "./components/P_year/JEE-Main/Main";
-// import PYadvanced from "./components/P_year/JEE-Advanced/Advanced";
-// import PYneet from "./components/P_year/NEET/Neet";
-// import PYcbse from "./components/P_year/CBSE/cbse";
-// import PYkvpy from "./components/P_year/KVPY/Kvpy";
-// import PYntse from "./components/P_year/NTSE/Ntse";
+import PYmain from "./components/P_year/JEE-Main/Main";
+import PYadvanced from "./components/P_year/JEE-Advanced/Advanced";
+import PYneet from "./components/P_year/NEET/Neet";
+import PYcbse from "./components/P_year/CBSE/cbse";
+import PYkvpy from "./components/P_year/KVPY/Kvpy";
+import PYntse from "./components/P_year/NTSE/Ntse";
 // Syllabus
 import Smain from "./components/Syllabus/JEE-Main/Main";
 import Sadvanced from "./components/Syllabus/JEE-Advanced/Advanced";
@@ -38,37 +38,37 @@ import Sneet from "./components/Syllabus/NEET/Neet";
 // import Scbse from "./components/Syllabus/CBSE/cbse";
 import Sntse from "./components/Syllabus/NTSE/Ntse";
 //Mains Year Wise Pages
-// import Main2017 from "./components/P_year/JEE-Main/mainContent/MainContent_2017";
-// import Main2018 from "./components/P_year/JEE-Main/mainContent/MainContent_2018";
-// import Main2019 from "./components/P_year/JEE-Main/mainContent/MainContent_2019";
-// import Main2020 from "./components/P_year/JEE-Main/mainContent/MainContent_2020";
-// import Main2021 from "./components/P_year/JEE-Main/mainContent/MainContent_2021";
-// import Main2022 from "./components/P_year/JEE-Main/mainContent/MainContent_2022";
-// import Main2023 from "./components/P_year/JEE-Main/mainContent/MainContent_2023";
+import Main2017 from "./components/P_year/JEE-Main/mainContent/MainContent_2017";
+import Main2018 from "./components/P_year/JEE-Main/mainContent/MainContent_2018";
+import Main2019 from "./components/P_year/JEE-Main/mainContent/MainContent_2019";
+import Main2020 from "./components/P_year/JEE-Main/mainContent/MainContent_2020";
+import Main2021 from "./components/P_year/JEE-Main/mainContent/MainContent_2021";
+import Main2022 from "./components/P_year/JEE-Main/mainContent/MainContent_2022";
+import Main2023 from "./components/P_year/JEE-Main/mainContent/MainContent_2023";
 // Advance Year Wise Pages
-// import Adv2017 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2017";
-// import Adv2018 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2018";
-// import Adv2019 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2019";
-// import Adv2020 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2020";
-// import Adv2021 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2021";
-// import Adv2022 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2022";
-// import Adv2023 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2023";
+import Adv2017 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2017";
+import Adv2018 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2018";
+import Adv2019 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2019";
+import Adv2020 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2020";
+import Adv2021 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2021";
+import Adv2022 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2022";
+import Adv2023 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2023";
 //NEET Year Wise Pages
-// import Neet2017 from "./components/P_year/NEET/neetContent/NeetContent_2017";
-// import Neet2018 from "./components/P_year/NEET/neetContent/NeetContent_2018";
-// import Neet2019 from "./components/P_year/NEET/neetContent/NeetContent_2019";
-// import Neet2020 from "./components/P_year/NEET/neetContent/NeetContent_2020";
-// import Neet2021 from "./components/P_year/NEET/neetContent/NeetContent_2021";
-// import Neet2022 from "./components/P_year/NEET/neetContent/NeetContent_2022";
-// import Neet2023 from "./components/P_year/NEET/neetContent/NeetContent_2023";
+import Neet2017 from "./components/P_year/NEET/neetContent/NeetContent_2017";
+import Neet2018 from "./components/P_year/NEET/neetContent/NeetContent_2018";
+import Neet2019 from "./components/P_year/NEET/neetContent/NeetContent_2019";
+import Neet2020 from "./components/P_year/NEET/neetContent/NeetContent_2020";
+import Neet2021 from "./components/P_year/NEET/neetContent/NeetContent_2021";
+import Neet2022 from "./components/P_year/NEET/neetContent/NeetContent_2022";
+import Neet2023 from "./components/P_year/NEET/neetContent/NeetContent_2023";
 //CBSE Year Wise Pages
-// import Cbse2017 from "./components/P_year/CBSE/CbseContent/CbseContent_2017";
-// import Cbse2018 from "./components/P_year/CBSE/CbseContent/CbseContent_2018";
-// import Cbse2019 from "./components/P_year/CBSE/CbseContent/CbseContent_2019";
-// import Cbse2020 from "./components/P_year/CBSE/CbseContent/CbseContent_2020";
-// import Cbse2021 from "./components/P_year/CBSE/CbseContent/CbseContent_2021";
-// import Cbse2022 from "./components/P_year/CBSE/CbseContent/CbseContent_2022";
-// import Cbse2023 from "./components/P_year/CBSE/CbseContent/CbseContent_2023";
+import Cbse2017 from "./components/P_year/CBSE/CbseContent/CbseContent_2017";
+import Cbse2018 from "./components/P_year/CBSE/CbseContent/CbseContent_2018";
+import Cbse2019 from "./components/P_year/CBSE/CbseContent/CbseContent_2019";
+import Cbse2020 from "./components/P_year/CBSE/CbseContent/CbseContent_2020";
+import Cbse2021 from "./components/P_year/CBSE/CbseContent/CbseContent_2021";
+import Cbse2022 from "./components/P_year/CBSE/CbseContent/CbseContent_2022";
+import Cbse2023 from "./components/P_year/CBSE/CbseContent/CbseContent_2023";
 //NCERT Books Pages
 // import Ncert from "./components/Books/NCERT/Ncert";
 // import Ncert6 from "./components/Books/NCERT/NcertContent/Ncert06";
@@ -107,13 +107,13 @@ function App() {
           <Route path="/exams/isso" element={<Aisso />} />
           <Route path="/exams/nstse" element={<Anstse />} />
           {/* PYQ */}
-          {/*<Route path="/pyq-jee-main" element={<PYmain />} />
-          <Route path="/pyq-jee-advanced" element={<PYadvanced />} />
-          <Route path="/pyq-neet" element={<PYneet />} />
-          <Route path="/pyq-cbse-boards" element={<PYcbse />} />
-          <Route path="/pyq-kvpy" element={<PYkvpy />} />
-          <Route path="/pyq-ntse" element={<PYntse />} />
-          */}
+          <Route path="/pyq/jee-main" element={<PYmain />} />
+          <Route path="/pyq/jee-advanced" element={<PYadvanced />} />
+          <Route path="/pyq/neet" element={<PYneet />} />
+          <Route path="/pyq/cbse-board" element={<PYcbse />} />
+          <Route path="/pyq/kvpy" element={<PYkvpy />} />
+          <Route path="/pyq/ntse" element={<PYntse />} />
+
           {/* SYLLABUS */}
           <Route path="/syllabus/jee-main" element={<Smain />} />
           <Route path="/syllabus/jee-advanced" element={<Sadvanced />} />
@@ -134,37 +134,37 @@ function App() {
           <Route path="/neet-books" element={<NeetB />} />
           <Route path="/cbse-sample-2024" element={<Sample />} />*/}
           {/* Mains Year Wise Pages */}
-          {/*<Route path="/pyq-2017-jee-main" element={<Main2017 />} />
-          <Route path="/pyq-2018-jee-main" element={<Main2018 />} />
-          <Route path="/pyq-2019-jee-main" element={<Main2019 />} />
-          <Route path="/pyq-2020-jee-main" element={<Main2020 />} />
-          <Route path="/pyq-2021-jee-main" element={<Main2021 />} />
-          <Route path="/pyq-2022-jee-main" element={<Main2022 />} />
-          <Route path="/pyq-2023-jee-main" element={<Main2023 />} />*/}
+          <Route path="/pyq/jee-main/2017" element={<Main2017 />} />
+          <Route path="/pyq/jee-main/2018" element={<Main2018 />} />
+          <Route path="/pyq/jee-main/2019" element={<Main2019 />} />
+          <Route path="/pyq/jee-main/2020" element={<Main2020 />} />
+          <Route path="/pyq/jee-main/2021" element={<Main2021 />} />
+          <Route path="/pyq/jee-main/2022" element={<Main2022 />} />
+          <Route path="/pyq/jee-main/2023" element={<Main2023 />} />
           {/* Advance Year Wise Pages */}
-          {/*<Route path="/pyq-2017-jee-advanced" element={<Adv2017 />} />
-          <Route path="/pyq-2018-jee-advanced" element={<Adv2018 />} />
-          <Route path="/pyq-2019-jee-advanced" element={<Adv2019 />} />
-          <Route path="/pyq-2020-jee-advanced" element={<Adv2020 />} />
-          <Route path="/pyq-2021-jee-advanced" element={<Adv2021 />} />
-          <Route path="/pyq-2022-jee-advanced" element={<Adv2022 />} />
-          <Route path="/pyq-2023-jee-advanced" element={<Adv2023 />} />*/}
+          <Route path="/pyq/jee-advanced/2017" element={<Adv2017 />} />
+          <Route path="/pyq/jee-advanced/2018" element={<Adv2018 />} />
+          <Route path="/pyq/jee-advanced/2019" element={<Adv2019 />} />
+          <Route path="/pyq/jee-advanced/2020" element={<Adv2020 />} />
+          <Route path="/pyq/jee-advanced/2021" element={<Adv2021 />} />
+          <Route path="/pyq/jee-advanced/2022" element={<Adv2022 />} />
+          <Route path="/pyq/jee-advanced/2023" element={<Adv2023 />} />
           {/* Neet Year Wise Pages */}
-          {/* <Route path="/pyq-2017-neet" element={<Neet2017 />} />
-          <Route path="/pyq-2018-neet" element={<Neet2018 />} />
-          <Route path="/pyq-2019-neet" element={<Neet2019 />} />
-          <Route path="/pyq-2020-neet" element={<Neet2020 />} />
-          <Route path="/pyq-2021-neet" element={<Neet2021 />} />
-          <Route path="/pyq-2022-neet" element={<Neet2022 />} />
-          <Route path="/pyq-2023-neet" element={<Neet2023 />} />*/}
+          <Route path="/pyq/neet/2017" element={<Neet2017 />} />
+          <Route path="/pyq/neet/2018" element={<Neet2018 />} />
+          <Route path="/pyq/neet/2019" element={<Neet2019 />} />
+          <Route path="/pyq/neet/2020" element={<Neet2020 />} />
+          <Route path="/pyq/neet/2021" element={<Neet2021 />} />
+          <Route path="/pyq/neet/2022" element={<Neet2022 />} />
+          <Route path="/pyq/neet/2023" element={<Neet2023 />} />
           {/* CBSE Year Wise Pages */}
-          {/*<Route path="/pyq-2017-cbse-boards" element={<Cbse2017 />} />
-          <Route path="/pyq-2018-cbse-boards" element={<Cbse2018 />} />
-          <Route path="/pyq-2019-cbse-boards" element={<Cbse2019 />} />
-          <Route path="/pyq-2020-cbse-boards" element={<Cbse2020 />} />
-          <Route path="/pyq-2021-cbse-boards" element={<Cbse2021 />} />
-          <Route path="/pyq-2022-cbse-boards" element={<Cbse2022 />} />
-          <Route path="/pyq-2023-cbse-boards" element={<Cbse2023 />} />*/}
+          <Route path="/pyq/cbse-board/2017" element={<Cbse2017 />} />
+          <Route path="/pyq/cbse-board/2018" element={<Cbse2018 />} />
+          <Route path="/pyq/cbse-board/2019" element={<Cbse2019 />} />
+          <Route path="/pyq/cbse-board/2020" element={<Cbse2020 />} />
+          <Route path="/pyq/cbse-board/2021" element={<Cbse2021 />} />
+          <Route path="/pyq/cbse-board/2022" element={<Cbse2022 />} />
+          <Route path="/pyq/cbse-board/2023" element={<Cbse2023 />} />
           {/* Others */}
           {/* <Route path="/contact-us" element={<Contact />} /> */}
           {/*<Route path="*" element={<PagenotFound />} />

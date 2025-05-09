@@ -5,6 +5,7 @@ import physics from "../../../../assests/Pages/physics.png";
 import chemistry from "../../../../assests/Pages/chemistry.png";
 import biology from "../../../../assests/Pages/biology.png";
 import StackBars from "./StackBars";
+import Breadcrumbs from "../../../Breadcrumbs";
 
 function NeetContent2023() {
   useEffect(() => {
@@ -12,6 +13,7 @@ function NeetContent2023() {
   }, []);
   return (
     <Layout title="NEET-PYQ-2023-IIT-Academy">
+      <Breadcrumbs />
       <div className="content">
         <p
           style={{

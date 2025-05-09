@@ -13,6 +13,9 @@ const formatBreadcrumb = (segment) => {
     "igko",
     "isso",
     "nstse",
+    "pyq",
+    "cbse",
+    "kvpy",
   ];
 
   return segment

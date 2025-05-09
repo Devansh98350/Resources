@@ -25,11 +25,11 @@ const CategoryPage = () => {
             "Learn about various competitive exams with detailed insights, strategies, and preparation tips.",
           paragraphDescription: "",
         };
-      case "questions":
+      case "pyq":
         return {
           title: "Previous Year Questions",
           data: questionsData,
-          layoutTitle: "Previous Year Questions - IIT Academy",
+          layoutTitle: "PYQ - IIT Academy",
           keyword: "previous year questions, exam questions, IIT past papers",
           description:
             "Access a collection of previous year exam questions to enhance your preparation.",

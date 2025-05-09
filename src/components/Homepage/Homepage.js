@@ -311,7 +311,7 @@ const Homepage = () => {
 
         <Scroller
           title="Previous Year Questions"
-          categoryId="questions"
+          categoryId="pyq"
           items={questionsData}
         />
 
