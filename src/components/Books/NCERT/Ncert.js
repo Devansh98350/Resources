@@ -10,6 +10,7 @@ import class9 from "../../../assests/Pages/class9.png";
 import class10 from "../../../assests/Pages/class10.png";
 import class11 from "../../../assests/Pages/class11.png";
 import class12 from "../../../assests/Pages/class12.png";
+import Breadcrumbs from "../../Breadcrumbs";
 
 function Ncert() {
   useEffect(() => {
@@ -49,12 +50,13 @@ function Ncert() {
 
   return (
     <Layout title="NCERT-Books-IIT-Academy">
+      <Breadcrumbs />
       <div className="jee-main">
         <div>
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/ncert-class-6-books");
+              navigate("/books/ncert/class-6");
               activeTab(1);
             }}
           >
@@ -65,7 +67,7 @@ function Ncert() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/ncert-class-7-books");
+              navigate("/books/ncert/class-7");
               activeTab(2);
             }}
           >
@@ -76,7 +78,7 @@ function Ncert() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/ncert-class-8-books");
+              navigate("/books/ncert/class-8");
               activeTab(3);
             }}
           >
@@ -87,7 +89,7 @@ function Ncert() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/ncert-class-9-books");
+              navigate("/books/ncert/class-9");
               activeTab(4);
             }}
           >
@@ -98,7 +100,7 @@ function Ncert() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/ncert-class-10-books");
+              navigate("/books/ncert/class-10");
               activeTab(5);
             }}
           >
@@ -109,7 +111,7 @@ function Ncert() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/ncert-class-11-books");
+              navigate("/books/ncert/class-11");
               activeTab(6);
             }}
           >
@@ -120,7 +122,7 @@ function Ncert() {
           <button
             className="jeemain-btn"
             onClick={() => {
-              navigate("/ncert-class-12-books");
+              navigate("/books/ncert/class-12");
               activeTab(1);
             }}
           >

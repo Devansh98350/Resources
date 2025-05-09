@@ -16,6 +16,7 @@ const formatBreadcrumb = (segment) => {
     "pyq",
     "cbse",
     "kvpy",
+    "ncert",
   ];
 
   return segment

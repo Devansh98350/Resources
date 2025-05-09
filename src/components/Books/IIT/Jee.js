@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Layout from "../../Layout";
 import "./Jee.css";
+import Breadcrumbs from "../../Breadcrumbs";
 
 function JeeBooks() {
   useEffect(() => {
@@ -8,6 +9,7 @@ function JeeBooks() {
   }, []);
   return (
     <Layout title="Jee(Mains+Advanced)-Books-IIT-Academy">
+      <Breadcrumbs />
       <div className="others-container">
         <h1>Physics</h1>
         <div>

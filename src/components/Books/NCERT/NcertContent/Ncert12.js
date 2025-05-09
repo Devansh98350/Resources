@@ -6,6 +6,7 @@ import maths1 from "../../../../assests/Pages/maths1.png";
 import physics2 from "../../../../assests/Pages/physics2.png";
 import chemistry2 from "../../../../assests/Pages/chemistry2.png";
 import maths2 from "../../../../assests/Pages/maths2.png";
+import Breadcrumbs from "../../../Breadcrumbs";
 
 function Ncert12() {
   useEffect(() => {
@@ -13,6 +14,7 @@ function Ncert12() {
   }, []);
   return (
     <Layout title="NCERT-Class-12-IIT-Academy">
+      <Breadcrumbs />
       <div className="jeeContent-container">
         <div>
           <button className="jeeContent-card">

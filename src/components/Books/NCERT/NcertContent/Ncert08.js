@@ -3,6 +3,7 @@ import Layout from "../../../Layout";
 import "./NcertContent.css";
 import maths from "../../../../assests/Pages/maths.png";
 import science from "../../../../assests/Pages/science.png";
+import Breadcrumbs from "../../../Breadcrumbs";
 
 function Ncert8() {
   useEffect(() => {
@@ -10,6 +11,7 @@ function Ncert8() {
   }, []);
   return (
     <Layout title="NCERT-Class-8-IIT-Academy">
+      <Breadcrumbs />
       <div className="class7-container">
         <div>
           <button className="class7-card">

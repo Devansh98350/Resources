@@ -70,18 +70,19 @@ import Cbse2021 from "./components/P_year/CBSE/CbseContent/CbseContent_2021";
 import Cbse2022 from "./components/P_year/CBSE/CbseContent/CbseContent_2022";
 import Cbse2023 from "./components/P_year/CBSE/CbseContent/CbseContent_2023";
 //NCERT Books Pages
-// import Ncert from "./components/Books/NCERT/Ncert";
-// import Ncert6 from "./components/Books/NCERT/NcertContent/Ncert06";
-// import Ncert7 from "./components/Books/NCERT/NcertContent/Ncert07";
-// import Ncert8 from "./components/Books/NCERT/NcertContent/Ncert08";
-// import Ncert9 from "./components/Books/NCERT/NcertContent/Ncert09";
-// import Ncert10 from "./components/Books/NCERT/NcertContent/Ncert10";
-// import Ncert11 from "./components/Books/NCERT/NcertContent/Ncert11";
-// import Ncert12 from "./components/Books/NCERT/NcertContent/Ncert12";
+import Ncert from "./components/Books/NCERT/Ncert";
+import Ncert6 from "./components/Books/NCERT/NcertContent/Ncert06";
+import Ncert7 from "./components/Books/NCERT/NcertContent/Ncert07";
+import Ncert8 from "./components/Books/NCERT/NcertContent/Ncert08";
+import Ncert9 from "./components/Books/NCERT/NcertContent/Ncert09";
+import Ncert10 from "./components/Books/NCERT/NcertContent/Ncert10";
+import Ncert11 from "./components/Books/NCERT/NcertContent/Ncert11";
+import Ncert12 from "./components/Books/NCERT/NcertContent/Ncert12";
 //Other Book Pages
-// import JeeB from "./components/Books/IIT/Jee";
-// import NeetB from "./components/Books/NEET/Neet";
-// import Sample from "./components/Books/CBSE_Sample/Sample";
+import JeeB from "./components/Books/IIT/Jee";
+import NeetB from "./components/Books/NEET/Neet";
+import FoundationB from "./components/Books/Foundation/Foundation";
+import Sample from "./components/Books/CBSE_Sample/Sample";
 // import Contact from "./components/Contact_Us/Contact";
 // import PagenotFound from "./components/PagenotFound";
 
@@ -121,18 +122,19 @@ function App() {
           {/* <Route path="/syllabus-cbse-boards" element={<Scbse />} />*/}
           <Route path="/syllabus/ntse" element={<Sntse />} />
           {/* NCERT Books Page */}
-          {/*<Route path="/ncert-books" element={<Ncert />} />
-          <Route path="/ncert-class-6-books" element={<Ncert6 />} />
-          <Route path="/ncert-class-7-books" element={<Ncert7 />} />
-          <Route path="/ncert-class-8-books" element={<Ncert8 />} />
-          <Route path="/ncert-class-9-books" element={<Ncert9 />} />
-          <Route path="/ncert-class-10-books" element={<Ncert10 />} />
-          <Route path="/ncert-class-11-books" element={<Ncert11 />} />
-          <Route path="/ncert-class-12-books" element={<Ncert12 />} />*/}
+          <Route path="/books/ncert" element={<Ncert />} />
+          <Route path="/books/ncert/class-6" element={<Ncert6 />} />
+          <Route path="/books/ncert/class-7" element={<Ncert7 />} />
+          <Route path="/books/ncert/class-8" element={<Ncert8 />} />
+          <Route path="/books/ncert/class-9" element={<Ncert9 />} />
+          <Route path="/books/ncert/class-10" element={<Ncert10 />} />
+          <Route path="/books/ncert/class-11" element={<Ncert11 />} />
+          <Route path="/books/ncert/class-12" element={<Ncert12 />} />
           {/* Other Books Pages */}
-          {/*  <Route path="/jee(mains+advanced)-books" element={<JeeB />} />
-          <Route path="/neet-books" element={<NeetB />} />
-          <Route path="/cbse-sample-2024" element={<Sample />} />*/}
+          <Route path="/books/jee" element={<JeeB />} />
+          <Route path="/books/neet" element={<NeetB />} />
+          <Route path="/books/foundation" element={<FoundationB />} />
+          <Route path="/books/cbse" element={<Sample />} />
           {/* Mains Year Wise Pages */}
           <Route path="/pyq/jee-main/2017" element={<Main2017 />} />
           <Route path="/pyq/jee-main/2018" element={<Main2018 />} />

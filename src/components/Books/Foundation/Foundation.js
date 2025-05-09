@@ -2,16 +2,16 @@ import React, { useEffect } from "react";
 import Layout from "../../Layout";
 import Breadcrumbs from "../../Breadcrumbs";
 
-const Sample = () => {
+function FoundationBooks() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <Layout title="NTSE-Exam-IIT-Academy">
+    <Layout title="Foundation Books-IIT-Academy">
       <Breadcrumbs />
-      All CBSE Sample Paper
+      <h>Books for NEET Preparation</h>
     </Layout>
   );
-};
+}
 
-export default Sample;
+export default FoundationBooks;

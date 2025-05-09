@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Layout from "../../../Layout";
 import science from "../../../../assests/Pages/science.png";
 import maths from "../../../../assests/Pages/maths.png";
+import Breadcrumbs from "../../../Breadcrumbs";
 
 function Ncert10() {
   useEffect(() => {
@@ -9,6 +10,7 @@ function Ncert10() {
   }, []);
   return (
     <Layout title="NCERT-Class-10-IIT-Academy">
+      <Breadcrumbs />
       <div className="class7-container">
         <div>
           <button className="class7-card">
