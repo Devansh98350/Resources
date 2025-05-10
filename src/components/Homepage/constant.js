@@ -43,29 +43,84 @@ export const examData = [
     bgColor: "bg-[#21A1A1]",
     image: img3,
   },
-  {
-    id: "boards",
-    title: "Boards",
-    description:
-      "Board exams are the final examinations conducted by educational boards at the end of an academic year. They serve as an evaluation of a student's understanding of the subjects they have studied throughout the year.",
-    bgColor: "bg-[#21A1A1]",
-    image: img4,
-  },
+  // {
+  //   id: "boards",
+  //   title: "Boards",
+  //   description:
+  //     "Board exams are the final examinations conducted by educational boards at the end of an academic year. They serve as an evaluation of a student's understanding of the subjects they have studied throughout the year.",
+  //   bgColor: "bg-[#21A1A1]",
+  //   image: img4,
+  // },
   {
     id: "ntse",
     title: "NTSE",
     bgColor: "bg-[#21A1A1]",
     description:
       "The National Talent Search Examination (NTSE) is a national-level scholarship program to identify and nurture talented students. It is conducted by NCERT for students studying in Class X.",
+    image: img1,
+  },
+  {
+    id: "ipho",
+    title: "IPhO",
+    description:
+      "International Physics Olympiad (IPhO) is a competition for pre-university students to test their knowledge in physics at an advanced level.",
+    bgColor: "bg-[#21A1A1]",
+    image: img2,
+  },
+  {
+    id: "imo",
+    title: "IMO",
+    description:
+      "International Mathematics Olympiad (IMO) challenges students with complex mathematical problems and promotes logical thinking.",
+    bgColor: "bg-[#21A1A1]",
     image: img3,
   },
   {
-    id: "olympiads",
-    title: "Olympiads",
-    bgColor: "bg-[#21A1A1]",
+    id: "nso",
+    title: "NSO",
     description:
-      "Olympiads are competitive exams that test a student's conceptual understanding and logical reasoning in various subjects. They are conducted at regional, national and international levels to identify and nurture talented students.",
+      "National Science Olympiad (NSO) evaluates students' science knowledge and analytical skills at school level.",
+    bgColor: "bg-[#21A1A1]",
     image: img4,
+  },
+  {
+    id: "sfo",
+    title: "SFO",
+    description:
+      "Science Foundation Olympiad (SFO) helps build a strong base in science among school students through competition.",
+    bgColor: "bg-[#21A1A1]",
+    image: img1,
+  },
+  {
+    id: "ieo",
+    title: "IEO",
+    description:
+      "International English Olympiad (IEO) is designed to assess English language skills of school students across various topics.",
+    bgColor: "bg-[#21A1A1]",
+    image: img2,
+  },
+  {
+    id: "igko",
+    title: "IGKO",
+    description:
+      "International General Knowledge Olympiad (IGKO) tests general awareness, current affairs, and logical reasoning of students.",
+    bgColor: "bg-[#21A1A1]",
+    image: img3,
+  },
+  {
+    id: "isso",
+    title: "ISSO",
+    description:
+      "International Social Studies Olympiad (ISSO) examines students’ knowledge in history, geography, civics, and more.",
+    bgColor: "bg-[#21A1A1]",
+    image: img4,
+  },
+  {
+    id: "nstse",
+    title: "NSTSE",
+    description: "",
+    bgColor: "bg-[#21A1A1]",
+    image: img1,
   },
 ];
 
@@ -129,24 +184,24 @@ export const syllabusData = [
     bgColor: "bg-indigo-600",
     image: img13,
   },
-  {
-    id: "cbse-board",
-    title: "CBSE Board",
-    bgColor: "bg-indigo-600",
-    image: img14,
-  },
+  // {
+  //   id: "cbse-board",
+  //   title: "CBSE Board",
+  //   bgColor: "bg-indigo-600",
+  //   image: img14,
+  // },
   {
     id: "ntse",
     title: "NTSE",
     bgColor: "bg-indigo-600",
-    image: img11,
+    image: img14,
   },
-  {
-    id: "olympiads",
-    title: "Olympiads",
-    bgColor: "bg-indigo-600",
-    image: img12,
-  },
+  // {
+  //   id: "olympiads",
+  //   title: "Olympiads",
+  //   bgColor: "bg-indigo-600",
+  //   image: img12,
+  // },
 ];
 
 // Books data

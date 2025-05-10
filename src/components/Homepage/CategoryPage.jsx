@@ -5,21 +5,21 @@ import { motion } from "framer-motion";
 import Layout from "../Layout";
 import { examData, questionsData, syllabusData, booksData } from "./constant";
 import Breadcrumbs from "../Breadcrumbs";
+import Explore from "../Common/Explore";
+import Banner from "../Common/Banner";
 
 const CategoryPage = () => {
   const { categoryId } = useParams();
-
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [categoryId]);
-
   const getCategoryData = () => {
     switch (categoryId) {
       case "exams":
         return {
           title: "About Exams",
           data: examData,
-          layoutTitle: "Exams - IIT Academy",
+          layoutTitle: "About Exams - IIT Academy",
           keyword: "competitive exams, IIT exams, exam preparation",
           description:
             "Learn about various competitive exams with detailed insights, strategies, and preparation tips.",
@@ -56,7 +56,8 @@ const CategoryPage = () => {
           keyword: "best books for IIT, exam books, study material",
           description:
             "Discover the best books and study material recommended for cracking competitive exams.",
-          paragraphDescription: "",
+          paragraphDescription:
+            "Books are the foundation of effective exam preparation. Choosing the right study material can make a significant difference in understanding concepts and practicing efficiently. High-quality books cover the syllabus comprehensively, provide ample practice questions, and offer expert explanations. With the right resources in hand, students can build a strong academic base and boost their chances of success in competitive exams.",
         };
       default:
         return { title: "Resources", data: [] };
@@ -145,6 +146,10 @@ const CategoryPage = () => {
           ))}
         </motion.div>
       </div>
+      <div className="mt-6">
+        <Banner />
+      </div>
+      <Explore />
     </Layout>
   );
 };
