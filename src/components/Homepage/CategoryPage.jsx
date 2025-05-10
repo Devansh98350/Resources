@@ -23,7 +23,8 @@ const CategoryPage = () => {
           keyword: "competitive exams, IIT exams, exam preparation",
           description:
             "Learn about various competitive exams with detailed insights, strategies, and preparation tips.",
-          paragraphDescription: "",
+          paragraphDescription:
+            "Having a brief understanding of any exam helps you stay prepared and confident. It gives you clarity about the syllabus, pattern, and what to expect. Knowing the basics early can save time and reduce stress. It’s the first step toward smart preparation.",
         };
       case "pyq":
         return {
@@ -33,7 +34,8 @@ const CategoryPage = () => {
           keyword: "previous year questions, exam questions, IIT past papers",
           description:
             "Access a collection of previous year exam questions to enhance your preparation.",
-          paragraphDescription: "",
+          paragraphDescription:
+            "Practicing previous year question papers (PYQs) is one of the best ways to prepare for any exam. It helps you understand the exam pattern, the type of questions asked, and the important topics. Solving PYQs also boosts your confidence and improves time management. By practicing them regularly, you can easily identify your strengths and weak areas before the main exam.",
         };
       case "syllabus":
         return {
@@ -43,7 +45,8 @@ const CategoryPage = () => {
           keyword: "exam syllabus, IIT syllabus, course content",
           description:
             "Explore the complete syllabus for various exams to plan your study effectively.",
-          paragraphDescription: "",
+          paragraphDescription:
+            "Knowing the syllabus of any exam is the first step toward smart preparation. It helps you understand what topics to focus on and avoid wasting time on irrelevant content. A clear idea of the syllabus also reduces exam stress and boosts confidence. With proper planning based on the syllabus, you can study more effectively and score better.",
         };
       case "books":
         return {
@@ -92,7 +95,7 @@ const CategoryPage = () => {
       <Breadcrumbs />
       <div className="container mx-auto px-4">
         <div className="mb-10">
-          <h1 className="text-3xl font-bold text-gray-900 mb-4">{title}</h1>
+          <h1 className="text-[2rem] font-bold text-blue mb-4">{title}</h1>
           <p className="text-gray-600">{paragraphDescription}</p>
         </div>
 
@@ -104,6 +107,10 @@ const CategoryPage = () => {
         >
           {data.map((item) => (
             <motion.div
+              whileHover={{
+                scale: 1.03,
+                boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.1)",
+              }}
               key={item.id}
               variants={itemVariants}
               className="h-64 relative rounded-xl overflow-hidden shadow-md transition-transform hover:shadow-lg"
