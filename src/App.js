@@ -55,6 +55,8 @@ import Adv2020 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2020
 import Adv2021 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2021";
 import Adv2022 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2022";
 import Adv2023 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2023";
+import Adv2024 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2024";
+import Adv2025 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2025";
 //NEET Year Wise Pages
 import Neet2017 from "./components/P_year/NEET/neetContent/NeetContent_2017";
 import Neet2018 from "./components/P_year/NEET/neetContent/NeetContent_2018";
@@ -155,6 +157,8 @@ function App() {
           <Route path="/pyq/jee-advanced/2021" element={<Adv2021 />} />
           <Route path="/pyq/jee-advanced/2022" element={<Adv2022 />} />
           <Route path="/pyq/jee-advanced/2023" element={<Adv2023 />} />
+          <Route path="/pyq/jee-advanced/2024" element={<Adv2024 />} />
+          <Route path="/pyq/jee-advanced/2025" element={<Adv2025 />} />
           {/* Neet Year Wise Pages */}
           <Route path="/pyq/neet/2017" element={<Neet2017 />} />
           <Route path="/pyq/neet/2018" element={<Neet2018 />} />
