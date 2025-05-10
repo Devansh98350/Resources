@@ -75,6 +75,8 @@ import Cbse2020 from "./components/P_year/CBSE/CbseContent/CbseContent_2020";
 import Cbse2021 from "./components/P_year/CBSE/CbseContent/CbseContent_2021";
 import Cbse2022 from "./components/P_year/CBSE/CbseContent/CbseContent_2022";
 import Cbse2023 from "./components/P_year/CBSE/CbseContent/CbseContent_2023";
+import Cbse2024 from "./components/P_year/CBSE/CbseContent/CbseContent_2024";
+import Cbse2025 from "./components/P_year/CBSE/CbseContent/CbseContent_2025";
 //NCERT Books Pages
 import Ncert from "./components/Books/NCERT/Ncert";
 import Ncert6 from "./components/Books/NCERT/NcertContent/Ncert06";
@@ -179,6 +181,8 @@ function App() {
           <Route path="/pyq/cbse-board/2021" element={<Cbse2021 />} />
           <Route path="/pyq/cbse-board/2022" element={<Cbse2022 />} />
           <Route path="/pyq/cbse-board/2023" element={<Cbse2023 />} />
+          <Route path="/pyq/cbse-board/2024" element={<Cbse2024 />} />
+          <Route path="/pyq/cbse-board/2025" element={<Cbse2025 />} />
           {/* Others */}
           {/* <Route path="/contact-us" element={<Contact />} /> */}
           {/*<Route path="*" element={<PagenotFound />} />
