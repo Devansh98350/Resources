@@ -45,6 +45,8 @@ import Main2020 from "./components/P_year/JEE-Main/mainContent/MainContent_2020"
 import Main2021 from "./components/P_year/JEE-Main/mainContent/MainContent_2021";
 import Main2022 from "./components/P_year/JEE-Main/mainContent/MainContent_2022";
 import Main2023 from "./components/P_year/JEE-Main/mainContent/MainContent_2023";
+import Main2024 from "./components/P_year/JEE-Main/mainContent/MainContent_2024";
+import Main2025 from "./components/P_year/JEE-Main/mainContent/MainContent_2025";
 // Advance Year Wise Pages
 import Adv2017 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2017";
 import Adv2018 from "./components/P_year/JEE-Advanced/advContent/AdvContent_2018";
@@ -143,6 +145,8 @@ function App() {
           <Route path="/pyq/jee-main/2021" element={<Main2021 />} />
           <Route path="/pyq/jee-main/2022" element={<Main2022 />} />
           <Route path="/pyq/jee-main/2023" element={<Main2023 />} />
+          <Route path="/pyq/jee-main/2024" element={<Main2024 />} />
+          <Route path="/pyq/jee-main/2025" element={<Main2025 />} />
           {/* Advance Year Wise Pages */}
           <Route path="/pyq/jee-advanced/2017" element={<Adv2017 />} />
           <Route path="/pyq/jee-advanced/2018" element={<Adv2018 />} />
