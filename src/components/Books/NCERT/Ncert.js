@@ -1,145 +1,152 @@
-import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
+import { motion } from "framer-motion";
 import Layout from "../../Layout";
-import "./Ncert.css";
-import { ncertData } from "./ncertData";
-import class6 from "../../../assests/Pages/class6.png";
-import class7 from "../../../assests/Pages/class7.png";
-import class8 from "../../../assests/Pages/class8.png";
-import class9 from "../../../assests/Pages/class9.png";
-import class10 from "../../../assests/Pages/class10.png";
-import class11 from "../../../assests/Pages/class11.png";
-import class12 from "../../../assests/Pages/class12.png";
 import Breadcrumbs from "../../Breadcrumbs";
+import Explore from "../../Common/Explore";
+import Banner from "../../Common/Banner";
+import img1 from "../../../assests/home_page/learn1.png";
+import img2 from "../../../assests/home_page/learn4.png";
 
-function Ncert() {
+const Ncert = () => {
+  const location = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const navigate = useNavigate();
-  const [tab, setTab] = useState(1);
-
-  function activeTab(tabNumber) {
-    setTab(tabNumber);
-  }
-
-  const sevenTeen = ncertData.filter((data) => data.name === "class6");
-  const eighteen = ncertData.filter((data) => data.name === "class7");
-  const nineTeen = ncertData.filter((data) => data.name === "class8");
-  const twenty = ncertData.filter((data) => data.name === "class9");
-  const twentyOne = ncertData.filter((data) => data.name === "class10");
-  const twentyTwo = ncertData.filter((data) => data.name === "class11");
-  const twentyThree = ncertData.filter((data) => data.name === "class12");
-
-  const ncert =
-    tab === 1
-      ? sevenTeen
-      : tab === 2
-      ? eighteen
-      : tab === 3
-      ? nineTeen
-      : tab === 4
-      ? twenty
-      : tab === 5
-      ? twentyOne
-      : tab === 6
-      ? twentyTwo
-      : tab === 7
-      ? twentyThree
-      : null;
+  const questionsData = [
+    {
+      id: "class-6",
+      title: "Class 6",
+      bgColor: "bg-[#12bd84]",
+      image: img1,
+    },
+    {
+      id: "class-7",
+      title: "Class 7",
+      bgColor: "bg-[#12bd84]",
+      image: img2,
+    },
+    {
+      id: "class-8",
+      title: "Class 8",
+      bgColor: "bg-[#12bd84]",
+      image: img1,
+    },
+    {
+      id: "class-9",
+      title: "Class 9",
+      bgColor: "bg-[#12bd84]",
+      image: img2,
+    },
+    {
+      id: "class-10",
+      title: "Class 10",
+      bgColor: "bg-[#12bd84]",
+      image: img1,
+    },
+    {
+      id: "class-11",
+      title: "Class 11",
+      bgColor: "bg-[#12bd84]",
+      image: img2,
+    },
+    {
+      id: "class-12",
+      title: "Class 12",
+      bgColor: "bg-[#12bd84]",
+      image: img1,
+    },
+  ];
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+      },
+    },
+  };
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.3,
+      },
+    },
+  };
 
   return (
-    <Layout title="NCERT-Books-IIT-Academy">
+    <Layout title="NCERT Books - IIT Academy" keyword="" description="">
       <Breadcrumbs />
-      <div className="jee-main">
-        <div>
-          <button
-            className="jeemain-btn"
-            onClick={() => {
-              navigate("/books/ncert/class-6");
-              activeTab(1);
-            }}
-          >
-            <img src={class6} alt="Seven" />
-          </button>
+      <div className="container mx-auto px-4">
+        <div className="mb-10">
+          <h1 className="text-[2rem] font-bold text-blue mb-4">
+            NCERT Textbooks
+          </h1>
+          <p className="text-gray-600">
+            NCERT textbooks are the foundation of school education and are
+            essential for building strong conceptual clarity. They follow a
+            structured and concise approach, making it easier for students to
+            understand complex topics. Most competitive exams like JEE and NEET
+            base their questions on NCERT content. These books ensure complete
+            coverage of the syllabus without unnecessary information. Regular
+            study of NCERT books helps in developing analytical thinking and
+            accurate understanding of fundamentals.
+          </p>
         </div>
-        <div>
-          <button
-            className="jeemain-btn"
-            onClick={() => {
-              navigate("/books/ncert/class-7");
-              activeTab(2);
-            }}
-          >
-            <img src={class7} alt="Seven" />
-          </button>
-        </div>
-        <div>
-          <button
-            className="jeemain-btn"
-            onClick={() => {
-              navigate("/books/ncert/class-8");
-              activeTab(3);
-            }}
-          >
-            <img src={class8} alt="Seven" />
-          </button>
-        </div>
-        <div>
-          <button
-            className="jeemain-btn"
-            onClick={() => {
-              navigate("/books/ncert/class-9");
-              activeTab(4);
-            }}
-          >
-            <img src={class9} alt="Sten" />
-          </button>
-        </div>
-        <div>
-          <button
-            className="jeemain-btn"
-            onClick={() => {
-              navigate("/books/ncert/class-10");
-              activeTab(5);
-            }}
-          >
-            <img src={class10} alt="one" />
-          </button>
-        </div>
-        <div>
-          <button
-            className="jeemain-btn"
-            onClick={() => {
-              navigate("/books/ncert/class-11");
-              activeTab(6);
-            }}
-          >
-            <img src={class11} alt="two" />
-          </button>
-        </div>
-        <div>
-          <button
-            className="jeemain-btn"
-            onClick={() => {
-              navigate("/books/ncert/class-12");
-              activeTab(1);
-            }}
-          >
-            <img src={class12} alt="three" />
-          </button>
-        </div>
+
+        <motion.div
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+        >
+          {questionsData.map((item) => (
+            <motion.div
+              whileHover={{
+                scale: 1.03,
+                boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.1)",
+              }}
+              key={item.id}
+              variants={itemVariants}
+              className="h-64 relative rounded-xl overflow-hidden shadow-md transition-transform hover:shadow-lg"
+            >
+              <Link to={`${location.pathname}/${item.id}`}>
+                <div
+                  className={`absolute inset-0 ${
+                    item.bgColor || "bg-blue-500"
+                  } bg-opacity-80`}
+                >
+                  <img
+                    src={item.image}
+                    alt=""
+                    className="w-full h-full object-cover opacity-60 "
+                  />
+                </div>
+                <div className="absolute inset-0 p-6 flex flex-col justify-between">
+                  <h2 className="text-white text-2xl font-bold">
+                    {item.title}
+                  </h2>
+                  <div className="flex items-center justify-between">
+                    <span className="text-white text-sm">NCERT Textook</span>
+                    <span className="px-3 py-1 bg-white bg-opacity-20 text-white text-sm rounded-full">
+                      Click Here
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            </motion.div>
+          ))}
+        </motion.div>
       </div>
-      {ncert &&
-        ncert.map((value, index) => {
-          return (
-            <div key={index}>
-              <button>{/* <h1>{value.title}</h1> */}</button>
-            </div>
-          );
-        })}
+      <div className="mt-6">
+        <Banner />
+      </div>
+      <Explore />
     </Layout>
   );
-}
+};
 
 export default Ncert;
