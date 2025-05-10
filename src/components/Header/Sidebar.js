@@ -118,7 +118,6 @@ const CloseButton = styled.a`
   cursor: pointer;
   color: black; /* Add your desired color */
 `;
-// Styled component for the NavLink (navigation link)
 const StyledNavLink = styled(NavLink)`
   color: white;
   display: block;
@@ -134,8 +133,6 @@ const StyledNavLink = styled(NavLink)`
     background-color: blue;
   }
 `;
-
-// Styled component for the dropdown menu
 const DropdownMenu = styled.ul`
   list-style-type: none;
   padding: 0;
@@ -153,7 +150,6 @@ const DropdownMenu = styled.ul`
     }
   }
 `;
-// Styled component for the dropdown toggle (navigation link with dropdown)
 const DropdownToggle = styled(StyledNavLink)`
   color: white;
   display: block;
@@ -234,7 +230,7 @@ const Sidebar = () => {
             {dropdownOpen.pyq && (
               <DropdownMenu>
                 <DropdownItem>
-                  <StyledNavLink to=" " className="dropdown-item">
+                  <StyledNavLink to="/pyq/jee-main" className="dropdown-item">
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
@@ -244,8 +240,7 @@ const Sidebar = () => {
                 </DropdownItem>
                 <DropdownItem>
                   <StyledNavLink
-                    // to="/pyq-jee-advanced"
-                    to=" "
+                    to="/pyq/jee-advanced"
                     className="dropdown-item"
                   >
                     <i
@@ -256,11 +251,7 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink
-                    // to="/pyq-neet"
-                    to=" "
-                    className="dropdown-item"
-                  >
+                  <StyledNavLink to="/pyq/neet" className="dropdown-item">
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
@@ -269,7 +260,7 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink to=" " className="dropdown-item">
+                  <StyledNavLink to="/pyq/cbse-board" className="dropdown-item">
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
@@ -278,11 +269,7 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink
-                    // to="/pyq-ntse"
-                    to=" "
-                    className="dropdown-item"
-                  >
+                  <StyledNavLink to="/pyq/ntse" className="dropdown-item">
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
@@ -291,11 +278,7 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink
-                    // to="/pyq-kvpy"
-                    to=" "
-                    className="dropdown-item"
-                  >
+                  <StyledNavLink to="/pyq/kvpy" className="dropdown-item">
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
@@ -358,75 +341,12 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink to="/exams/ipho" className="dropdown-item">
+                  <StyledNavLink to="/exams" className="dropdown-item">
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
                     ></i>
-                    IPhO
-                  </StyledNavLink>
-                </DropdownItem>
-                <DropdownItem>
-                  <StyledNavLink to="/exams/imo" className="dropdown-item">
-                    <i
-                      className="fas fa-angle-double-right"
-                      style={{ color: "#f39c12", marginRight: "5px" }}
-                    ></i>
-                    IMO
-                  </StyledNavLink>
-                </DropdownItem>
-                <DropdownItem>
-                  <StyledNavLink to="/exams/nso" className="dropdown-item">
-                    <i
-                      className="fas fa-angle-double-right"
-                      style={{ color: "#f39c12", marginRight: "5px" }}
-                    ></i>
-                    NSO
-                  </StyledNavLink>
-                </DropdownItem>
-                <DropdownItem>
-                  <StyledNavLink to="/exams/sfo" className="dropdown-item">
-                    <i
-                      className="fas fa-angle-double-right"
-                      style={{ color: "#f39c12", marginRight: "5px" }}
-                    ></i>
-                    SFO
-                  </StyledNavLink>
-                </DropdownItem>
-                <DropdownItem>
-                  <StyledNavLink to="/exams/ieo" className="dropdown-item">
-                    <i
-                      className="fas fa-angle-double-right"
-                      style={{ color: "#f39c12", marginRight: "5px" }}
-                    ></i>
-                    IEO
-                  </StyledNavLink>
-                </DropdownItem>
-                <DropdownItem>
-                  <StyledNavLink to="/exams/igko" className="dropdown-item">
-                    <i
-                      className="fas fa-angle-double-right"
-                      style={{ color: "#f39c12", marginRight: "5px" }}
-                    ></i>
-                    IGKO
-                  </StyledNavLink>
-                </DropdownItem>
-                <DropdownItem>
-                  <StyledNavLink to="/exams/isso" className="dropdown-item">
-                    <i
-                      className="fas fa-angle-double-right"
-                      style={{ color: "#f39c12", marginRight: "5px" }}
-                    ></i>
-                    ISSO
-                  </StyledNavLink>
-                </DropdownItem>
-                <DropdownItem>
-                  <StyledNavLink to="/exams/nstse" className="dropdown-item">
-                    <i
-                      className="fas fa-angle-double-right"
-                      style={{ color: "#f39c12", marginRight: "5px" }}
-                    ></i>
-                    NSTSE
+                    Olympiads
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
@@ -496,7 +416,10 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink to=" " className="dropdown-item">
+                  <StyledNavLink
+                    to="/syllabus/cbse-board"
+                    className="dropdown-item"
+                  >
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
@@ -520,7 +443,7 @@ const Sidebar = () => {
             {dropdownOpen.books && (
               <DropdownMenu>
                 <DropdownItem>
-                  <StyledNavLink to=" " className="dropdown-item">
+                  <StyledNavLink to="/books/ncert" className="dropdown-item">
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
@@ -529,7 +452,7 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink to=" " className="dropdown-item">
+                  <StyledNavLink to="/books/jee" className="dropdown-item">
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
@@ -538,7 +461,7 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink to=" " className="dropdown-item">
+                  <StyledNavLink to="/books/neet" className="dropdown-item">
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
@@ -547,16 +470,22 @@ const Sidebar = () => {
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink to=" " className="dropdown-item">
+                  <StyledNavLink
+                    to="/books/cbse-sample-paper"
+                    className="dropdown-item"
+                  >
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}
                     ></i>
-                    CBSE Sample Paper 2024
+                    CBSE Sample Paper
                   </StyledNavLink>
                 </DropdownItem>
                 <DropdownItem>
-                  <StyledNavLink to=" " className="dropdown-item">
+                  <StyledNavLink
+                    to="/books/foundation"
+                    className="dropdown-item"
+                  >
                     <i
                       className="fas fa-angle-double-right"
                       style={{ color: "#f39c12", marginRight: "5px" }}

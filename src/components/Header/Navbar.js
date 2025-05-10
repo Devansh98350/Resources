@@ -8,27 +8,27 @@ import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/20/solid";
 const pyq = [
   {
     name: "JEE-Main",
-    // href: "/pyq-jee-main",
+    href: "/pyq/jee-main",
   },
   {
     name: "JEE-Advanced",
-    // href: "/pyq-jee-advanced",
+    href: "/pyq/jee-advanced",
   },
   {
     name: "NEET",
-    // href: "/pyq-neet",
+    href: "/pyq/neet",
   },
   {
     name: "CBSE Boards",
-    // href: "/pyq-cbse-boards",
+    href: "/pyq/cbse-board",
   },
   {
     name: "NTSE",
-    // href: "/pyq-ntse",
+    href: "/pyq/ntse",
   },
   {
     name: "KVPY",
-    // href: "/pyq-kvpy",
+    href: "/pyq/kvpy",
   },
 ];
 const exams = [
@@ -53,36 +53,8 @@ const exams = [
     href: "/exams/ntse",
   },
   {
-    name: "IPhO",
-    href: "/exams/ipho",
-  },
-  {
-    name: "IMO",
-    href: "/exams/imo",
-  },
-  {
-    name: "NSO",
-    href: "/exams/nso",
-  },
-  {
-    name: "SFO",
-    href: "/exams/sfo",
-  },
-  {
-    name: "IEO",
-    href: "/exams/ieo",
-  },
-  {
-    name: "IGKO",
-    href: "/exams/igko",
-  },
-  {
-    name: "ISSO",
-    href: "/exams/isso",
-  },
-  {
-    name: "NSTSE",
-    href: "/exams/nstse",
+    name: "Olympiads",
+    href: "/exams",
   },
 ];
 const syllabus = [
@@ -100,7 +72,7 @@ const syllabus = [
   },
   {
     name: " CBSE Boards",
-    // href: "/syllabus-cbse-boards",
+    href: "/syllabus/cbse-board",
   },
   {
     name: "NTSE",
@@ -110,19 +82,23 @@ const syllabus = [
 const books = [
   {
     name: "NCERT",
-    // href: "/ncert-books",
+    href: "/books/ncert",
   },
   {
     name: "JEE(Main+Advanced)",
-    // href: "/jee(mains+advanced)-books",
+    href: "/books/jee",
   },
   {
     name: "NEET",
-    // href: "/neet-books",
+    href: "/books/neet",
   },
   {
-    name: "CBSE Sample Paper 2024",
-    // href: "/cbse-sample-2024",
+    name: "CBSE Sample Paper",
+    href: "/books/cbse-sample-paper",
+  },
+  {
+    name: "Foundation",
+    href: "/books/foundation",
   },
 ];
 
