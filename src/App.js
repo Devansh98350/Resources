@@ -65,6 +65,8 @@ import Neet2020 from "./components/P_year/NEET/neetContent/NeetContent_2020";
 import Neet2021 from "./components/P_year/NEET/neetContent/NeetContent_2021";
 import Neet2022 from "./components/P_year/NEET/neetContent/NeetContent_2022";
 import Neet2023 from "./components/P_year/NEET/neetContent/NeetContent_2023";
+import Neet2024 from "./components/P_year/NEET/neetContent/NeetContent_2024";
+import Neet2025 from "./components/P_year/NEET/neetContent/NeetContent_2025";
 //CBSE Year Wise Pages
 import Cbse2017 from "./components/P_year/CBSE/CbseContent/CbseContent_2017";
 import Cbse2018 from "./components/P_year/CBSE/CbseContent/CbseContent_2018";
@@ -167,6 +169,8 @@ function App() {
           <Route path="/pyq/neet/2021" element={<Neet2021 />} />
           <Route path="/pyq/neet/2022" element={<Neet2022 />} />
           <Route path="/pyq/neet/2023" element={<Neet2023 />} />
+          <Route path="/pyq/neet/2024" element={<Neet2024 />} />
+          <Route path="/pyq/neet/2025" element={<Neet2025 />} />
           {/* CBSE Year Wise Pages */}
           <Route path="/pyq/cbse-board/2017" element={<Cbse2017 />} />
           <Route path="/pyq/cbse-board/2018" element={<Cbse2018 />} />
