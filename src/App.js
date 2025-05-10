@@ -142,7 +142,7 @@ function App() {
           <Route path="/books/jee" element={<JeeB />} />
           <Route path="/books/neet" element={<NeetB />} />
           <Route path="/books/foundation" element={<FoundationB />} />
-          <Route path="/books/cbse" element={<Sample />} />
+          <Route path="/books/cbse-sample-paper" element={<Sample />} />
           {/* Mains Year Wise Pages */}
           <Route path="/pyq/jee-main/2017" element={<Main2017 />} />
           <Route path="/pyq/jee-main/2018" element={<Main2018 />} />

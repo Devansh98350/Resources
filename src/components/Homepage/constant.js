@@ -225,8 +225,8 @@ export const booksData = [
     image: img5,
   },
   {
-    id: "cbse",
-    title: "CBSE Textbooks",
+    id: "cbse-sample-paper",
+    title: "CBSE Sample Paper",
     bgColor: "bg-[#12bd84]",
     image: img6,
   },
