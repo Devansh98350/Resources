@@ -1,102 +1,182 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 import Layout from "../../../Layout";
-import "./AdvContent.css";
-import physics1 from "../../../../assests/Pages/physics1.png";
-import chemistry1 from "../../../../assests/Pages/chemistry1.png";
-import maths1 from "../../../../assests/Pages/maths1.png";
-import physics2 from "../../../../assests/Pages/physics2.png";
-import chemistry2 from "../../../../assests/Pages/chemistry2.png";
-import maths2 from "../../../../assests/Pages/maths2.png";
 import Breadcrumbs from "../../../Breadcrumbs";
+import Explore from "../../../Common/Explore";
+import Banner from "../../../Common/Banner";
+import img7 from "../../../../assests/home_page/dev1.png";
+import img8 from "../../../../assests/home_page/dev2.png";
+import img9 from "../../../../assests/home_page/dev3.png";
+import img10 from "../../../../assests/home_page/dev4.png";
 
-function AdvContent2020() {
+const AdvancedPYQ2020 = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const questionsData = [
+    {
+      id: "",
+      title: "Physics (Shift-I)",
+      shift: "JEE Advanced 2020",
+      bgColor: "bg-[#5dc298]",
+      image: img7,
+    },
+    {
+      id: "",
+      title: "Chemistry (Shift-I)",
+      shift: "JEE Advanced 2020",
+      bgColor: "bg-[#5dc298]",
+      image: img8,
+    },
+    {
+      id: "",
+      title: "Maths (Shift-I)",
+      shift: "JEE Advanced 2020",
+      bgColor: "bg-[#5dc298]",
+      image: img9,
+    },
+    {
+      id: "",
+      title: "Physics (Shift-II)",
+      shift: "JEE Advanced 2020",
+      bgColor: "bg-[#5dc298]",
+      image: img10,
+    },
+    {
+      id: "",
+      title: "Chemistry (Shift-II)",
+      shift: "JEE Advanced 2020",
+      bgColor: "bg-[#5dc298]",
+      image: img7,
+    },
+    {
+      id: "",
+      title: "Maths (Shift-II)",
+      shift: "JEE Advanced 2020",
+      bgColor: "bg-[#5dc298]",
+      image: img8,
+    },
+  ];
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+      },
+    },
+  };
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.3,
+      },
+    },
+  };
   return (
-    <Layout title="JEE-Advanced-PYQ-2020-IIT-Academy">
+    <Layout
+      title="JEE Advanced 2020 PYQ - IIT Academy"
+      keyword=""
+      description=""
+    >
       <Breadcrumbs />
-      <div className="content">
-        <p
-          style={{
-            color: "blue",
-            fontWeight: "bold",
-            fontSize: "25px",
-            textAlign: "center",
-          }}
+      <div className="container mx-auto px-4">
+        <div className="mb-10">
+          <h1 className="text-[2rem] font-bold text-blue mb-4">
+            JEE Advanced 2020 Paper Analysis
+          </h1>
+          <p className="text-gray-600">
+            Paper 2 pattern was a little different from the last year and was
+            difficult and calculative due to pattern change as compared to the
+            last year.
+          </p>
+          <h4 className="mb-[-1rem] mt-0">
+            <strong>Physics</strong>
+          </h4>
+          <p className="text-gray-600">
+            Paper 1 was little difficult and almost all questions from within
+            the syllabus, though a little calculative. Paper was calculative and
+            lengthy but covered most of syllabus as expected. Class XI & XII
+            syllabus almost equal in the overall paper. Electromagnetism, heat
+            and thermodynamics and mechanics covering a major portion.
+          </p>
+          <h4 className="mb-[-1rem] mt-0">
+            <strong> Chemistry</strong>
+          </h4>
+          <p className="text-gray-600">
+            Paper 1 was easy to moderate and questions asked were within
+            syllabus. Physical chemistry had little higher percentage of
+            questions as compared to Organic and Inorganic chemistry. The
+            questions were based on NCERT text books. Paper II was easy to
+            moderate but calculative. Physical and Organic chemistry portion was
+            higher.
+          </p>
+          <h4 className="mb-[-1rem] mt-0">
+            <strong>Maths</strong>
+          </h4>
+          <p className="text-gray-600">
+            Paper 1 was little calculative and lengthy, and the Algebra and
+            Calculus portions were higher, similar to last year. Paper 2 was
+            Moderate to difficult and calculative as expected. Paper had
+            questions from the syllabus and multicorrect type of questions
+            consumed time due to calculations.
+          </p>
+        </div>
+
+        <motion.div
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
         >
-          Paper Analysis
-        </p>
-        <p>
-          Paper 2 pattern was a little different from the last year and was
-          difficult and calculative due to pattern change as compared to the
-          last year.
-        </p>
-        <h4>
-          <strong>Physics</strong>
-        </h4>
-        <p>
-          Paper 1 was little difficult and almost all questions from within the
-          syllabus, though a little calculative. Paper was calculative and
-          lengthy but covered most of syllabus as expected. Class XI & XII
-          syllabus almost equal in the overall paper. Electromagnetism, heat and
-          thermodynamics and mechanics covering a major portion.
-        </p>
-        <h4>
-          <strong> Chemistry</strong>
-        </h4>
-        <p>
-          Paper 1 was easy to moderate and questions asked were within syllabus.
-          Physical chemistry had little higher percentage of questions as
-          compared to Organic and Inorganic chemistry. The questions were based
-          on NCERT text books. Paper II was easy to moderate but calculative.
-          Physical and Organic chemistry portion was higher.
-        </p>
-        <h4>
-          <strong>Maths</strong>
-        </h4>
-        <p>
-          Paper 1 was little calculative and lengthy, and the Algebra and
-          Calculus portions were higher, similar to last year. Paper 2 was
-          Moderate to difficult and calculative as expected. Paper had questions
-          from the syllabus and multicorrect type of questions consumed time due
-          to calculations.
-        </p>
+          {questionsData.map((item) => (
+            <motion.div
+              whileHover={{
+                scale: 1.03,
+                boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.1)",
+              }}
+              key={item.id}
+              variants={itemVariants}
+              className="h-64 relative rounded-xl overflow-hidden shadow-md transition-transform hover:shadow-lg"
+            >
+              <Link to={`#`}>
+                <div
+                  className={`absolute inset-0 ${
+                    item.bgColor || "bg-blue-500"
+                  } bg-opacity-80`}
+                >
+                  <img
+                    src={item.image}
+                    alt=""
+                    className="w-full h-full object-cover opacity-60 "
+                  />
+                </div>
+                <div className="absolute inset-0 p-6 flex flex-col justify-between">
+                  <h2 className="text-white text-2xl font-bold">
+                    {item.title}
+                  </h2>
+                  <div className="flex items-center justify-between">
+                    <span className="text-white text-sm">{item.shift}</span>
+                    <span className="px-3 py-1 bg-white bg-opacity-20 text-white text-sm rounded-full">
+                      Click Here
+                    </span>
+                  </div>
+                </div>
+              </Link>
+            </motion.div>
+          ))}
+        </motion.div>
       </div>
-      <div className="jeeContent-container">
-        <div>
-          <button className="jeeContent-card">
-            <img src={physics1} alt="physics1" />
-          </button>
-        </div>
-        <div>
-          <button className="jeeContent-card">
-            <img src={chemistry1} alt="chemistry1" />
-          </button>
-        </div>
-        <div>
-          <button className="jeeContent-card">
-            <img src={maths1} alt="maths1" />
-          </button>
-        </div>
-        <div>
-          <button className="jeeContent-card">
-            <img src={physics2} alt="physics2" />
-          </button>
-        </div>
-        <div>
-          <button className="jeeContent-card">
-            <img src={chemistry2} alt="chemistry2" />
-          </button>
-        </div>
-        <div>
-          <button className="jeeContent-card">
-            <img src={maths2} alt="maths2" />
-          </button>
-        </div>
+      <div className="mt-6">
+        <Banner />
       </div>
+      <Explore />
     </Layout>
   );
-}
+};
 
-export default AdvContent2020;
+export default AdvancedPYQ2020;
