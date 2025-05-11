@@ -149,27 +149,21 @@ const Footer = () => {
             </div>
             <div className="footer-col">
               <h2 style={{ textAlign: "center" }}>Quick Links</h2>
-              {/*<p>
-                <Link to="/pyq-neet">NEET PYQ</Link>
+              <p>
+                <Link to="/pyq/neet">NEET PYQ</Link>
               </p>
               <p>
-                <Link to=" ">NEET Books</Link>
+                <Link to="/books/ncert">NCERT Books</Link>
               </p>
               <p>
-                <Link to=" ">JEE Mains PYQ</Link>
+                <Link to="/pyq/jee-main">JEE Mains PYQ</Link>
               </p>
               <p>
-                <Link to=" ">JEE (Mains+Adv.) Books</Link>
+                <Link to="/books/jee">JEE (Mains+Adv.) Books</Link>
               </p>
               <p>
-                <Link to="/pyq-jee-advanced">JEE Advanced PYQ</Link>
+                <Link to="/pyq/jee-advanced">JEE Advanced PYQ</Link>
               </p>
-              */}
-              <p>NEET PYQ</p>
-              <p>NEET Books</p>
-              <p>JEE Mains PYQ</p>
-              <p>JEE (Mains+Adv.) Books</p>
-              <p>JEE Advanced PYQ</p>
               <p>
                 <a
                   href="https://www.internship.iitacademy.in"

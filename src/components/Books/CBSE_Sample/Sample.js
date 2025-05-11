@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Layout from "../../Layout";
 import Breadcrumbs from "../../Breadcrumbs";
@@ -9,35 +9,10 @@ import img1 from "../../../assests/home_page/learn1.png";
 import img2 from "../../../assests/home_page/learn4.png";
 
 const CbseSample = () => {
-  const location = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   const questionsData = [
-    {
-      id: "class-6",
-      title: "Class 6",
-      bgColor: "bg-[#12bd84]",
-      image: img1,
-    },
-    {
-      id: "class-7",
-      title: "Class 7",
-      bgColor: "bg-[#12bd84]",
-      image: img2,
-    },
-    {
-      id: "class-8",
-      title: "Class 8",
-      bgColor: "bg-[#12bd84]",
-      image: img1,
-    },
-    {
-      id: "class-9",
-      title: "Class 9",
-      bgColor: "bg-[#12bd84]",
-      image: img2,
-    },
     {
       id: "class-10",
       title: "Class 10",
@@ -45,16 +20,10 @@ const CbseSample = () => {
       image: img1,
     },
     {
-      id: "class-11",
-      title: "Class 11",
-      bgColor: "bg-[#12bd84]",
-      image: img2,
-    },
-    {
       id: "class-12",
       title: "Class 12",
       bgColor: "bg-[#12bd84]",
-      image: img1,
+      image: img2,
     },
   ];
   const containerVariants = {
