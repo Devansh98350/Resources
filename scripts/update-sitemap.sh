@@ -18,7 +18,7 @@ write_url() {
     <loc>$url</loc>
     <lastmod>$date</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
 EOF
 }

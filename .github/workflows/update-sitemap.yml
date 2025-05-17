@@ -1,37 +1,6 @@
-# on:
-#   push:
-#     branches: [main] # Run only when pushing to main
-
-# permissions:
-#   contents: write
-
-# jobs:
-#   update-sitemap:
-#     runs-on: ubuntu-latest
-
-#     steps:
-#       - name: Checkout repository
-#         uses: actions/checkout@v3
-
-#       - name: Update <lastmod> date in sitemap.xml
-#         run: |
-#           TODAY=$(date +%Y-%m-%d)
-#           SITEMAP_PATH="public/sitemap.xml"
-#           echo "Updating sitemap at $SITEMAP_PATH to use date $TODAY"
-#           sed -i "s|<lastmod>.*</lastmod>|<lastmod>$TODAY</lastmod>|g" "$SITEMAP_PATH"
-
-#       - name: Commit and push changes
-#         run: |
-#           git config --global user.name "github-actions"
-#           git config --global user.email "github-actions@github.com"
-
-#           git add public/sitemap.xml
-#           git diff --cached --quiet || git commit -m "update"
-#           git push
-
 on:
   push:
-    branches: [main]
+    branches: [main] # Run only when pushing to main
 
 permissions:
   contents: write
@@ -41,17 +10,48 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Run sitemap update script
-        run: bash scripts/update-sitemap.sh
+      - name: Update <lastmod> date in sitemap.xml
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          SITEMAP_PATH="public/sitemap.xml"
+          echo "Updating sitemap at $SITEMAP_PATH to use date $TODAY"
+          sed -i "s|<lastmod>.*</lastmod>|<lastmod>$TODAY</lastmod>|g" "$SITEMAP_PATH"
 
-      - name: Commit and push updated sitemap.xml
+      - name: Commit and push changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
 
           git add public/sitemap.xml
-          git diff --cached --quiet || git commit -m "Auto-update sitemap.xml on push"
+          git diff --cached --quiet || git commit -m "update"
           git push
+
+# on:
+#   push:
+#     branches: [main]
+
+# permissions:
+#   contents: write
+
+# jobs:
+#   update-sitemap:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v3
+
+#       - name: Run sitemap update script
+#         run: bash scripts/update-sitemap.sh
+
+#       - name: Commit and push updated sitemap.xml
+#         run: |
+#           git config --global user.name "github-actions"
+#           git config --global user.email "github-actions@github.com"
+
+#           git add public/sitemap.xml
+#           git diff --cached --quiet || git commit -m "Auto-update sitemap.xml on push"
+#           git push

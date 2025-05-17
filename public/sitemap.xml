@@ -1,525 +1,471 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.resources.iitacademy.inLICENSE</loc>
-    <lastmod>2025-05-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.resources.iitacademy.inREADME.md</loc>
-    <lastmod>2025-05-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.resources.iitacademy.inpackage-lock.json</loc>
-    <lastmod>2025-05-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.resources.iitacademy.inpackage.json</loc>
-    <lastmod>2025-05-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.resources.iitacademy.inpostcss.config.js</loc>
-    <lastmod>2025-05-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.resources.iitacademy.inpublic</loc>
-    <lastmod>2025-05-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.resources.iitacademy.inscripts</loc>
-    <lastmod>2025-05-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.resources.iitacademy.insrc</loc>
-    <lastmod>2025-05-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.resources.iitacademy.intailwind.config.js</loc>
-    <lastmod>2025-05-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://www.resources.iitacademy.in</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/exams</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/syllabus,</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/books</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/books/cbse-sample-paper</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/books/foundation</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/books/jee</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/books/ncert</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/books/ncert/class-10</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/books/ncert/class-11</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/books/ncert/class-12</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/books/ncert/class-6</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/books/ncert/class-7</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/books/ncert/class-8</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/books/ncert/class-9</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/books/neet</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/contact-us</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/exam-schedule-2024</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/exams/ieo</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/exams/igko</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/exams/imo</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/exams/ipho</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/exams/isso</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/exams/jee-advanced</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/exams/jee-main</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/exams/neet</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/exams/nso</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/exams/nstse</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/exams/ntse</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/exams/sfo</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/cbse-board</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/cbse-board/2017</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/cbse-board/2018</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/cbse-board/2019</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/cbse-board/2020</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/cbse-board/2021</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/cbse-board/2022</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/cbse-board/2023</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/cbse-board/2024</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/cbse-board/2025</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-advanced</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-advanced/2017</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-advanced/2018</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-advanced/2019</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-advanced/2020</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-advanced/2021</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-advanced/2022</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-advanced/2023</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-advanced/2024</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-advanced/2025</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-main</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-main/2017</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-main/2018</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-main/2019</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-main/2020</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-main/2021</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-main/2022</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-main/2023</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-main/2024</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/jee-main/2025</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/kvpy</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/neet</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/neet/2017</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/neet/2018</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/neet/2019</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/neet/2020</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/neet/2021</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/neet/2022</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/neet/2023</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/neet/2024</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/neet/2025</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/pyq/ntse</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/syllabus-cbse-boards</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/syllabus/jee-advanced</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/syllabus/jee-main</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/syllabus/neet</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.resources.iitacademy.in/syllabus/ntse</loc>
     <lastmod>2025-05-17</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>1.0</priority>
   </url>
 </urlset>
