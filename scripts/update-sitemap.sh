@@ -1,6 +1,6 @@
 #!/bin/bash
 
-BASE_URL="https://www.astroswarg.com"
+BASE_URL="https://www.iitacademy.in"
 TODAY=$(date +%Y-%m-%d)
 APP_FILE="src/App.js"
 SITEMAP_FILE="public/sitemap.xml"
